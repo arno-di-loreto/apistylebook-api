@@ -1,0 +1,14 @@
+{
+  "id": "collection-sorting",
+  "category": "Collection Resources",
+  "name": "Sorting a collection",
+  "description": "How to sort a collection of resources",
+  "_links": {
+    "self": {
+      "href": "/design/topics/collection-sorting.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/collection-sorting/guidelines.json"
+    }
+  }
+}

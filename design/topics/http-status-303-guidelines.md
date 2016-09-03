@@ -1,0 +1,66 @@
+---
+layout: topic
+title: HTTP Status 303
+permalink: /design/topics/http-status-303
+data:
+  items:
+    - references:
+        - name: Redirections
+          url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide#redirection'
+      _embedded:
+        guideline:
+          id: cloud-foundy-cloud-controller-api-style-guide
+          title: Cloud Controller API v3 Style Guide (Proposal)
+          type: github
+          url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide'
+          company: Cloud Foundry
+          companyLogoUrl: /media/cloudfoundry.png
+          companyUrl: 'https://www.cloudfoundry.org/'
+          date: 2016-05-11T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide
+            guidelineTopics:
+              href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide
+    - references:
+        - name: Redirection Codes
+          url: 'http://zalando.github.io/restful-api-guidelines/http/Http.html#redirection-codes'
+      _embedded:
+        guideline:
+          id: zalando-restful-api-guidelines
+          title: RESTFul API Guidelines
+          type: website
+          url: 'http://zalando.github.io/restful-api-guidelines/'
+          company: Zalando
+          companyLogoUrl: /media/logos/zalando.png
+          companyUrl: 'https://tech.zalando.de/'
+          date: 2016-01-22T00:00:00.000Z
+          reviewDate: 2016-08-28T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/zalando-restful-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/zalando-restful-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/zalando-restful-api-guidelines
+  _embedded:
+    topic:
+      id: http-status-303
+      name: HTTP Status 303
+      description: When to use HTTP status 303
+      _links:
+        self:
+          href: /design/topics/http-status-303
+        topicGuidelines:
+          href: /design/topics/http-status-303/guidelines
+  _links:
+    self:
+      href: /design/topics/http-status-303/guidelines
+    topic:
+      href: /design/topics/http-status-303
+---

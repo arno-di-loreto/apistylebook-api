@@ -1,0 +1,14 @@
+{
+  "id": "api-chaining",
+  "category": "Miscellaneous",
+  "name": "API chaining",
+  "description": "How to chain API call in internal systems",
+  "_links": {
+    "self": {
+      "href": "/design/topics/api-chaining.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/api-chaining/guidelines.json"
+    }
+  }
+}

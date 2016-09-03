@@ -1,0 +1,9 @@
+id: naming-case
+category: Naming
+name: Case
+description: 'Which case (lowercase, camelCase, ...) to use and when'
+_links:
+  self:
+    href: /design/topics/naming-case.yaml
+  topicGuidelines:
+    href: /design/topics/naming-case/guidelines.yaml

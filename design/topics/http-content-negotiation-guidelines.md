@@ -1,0 +1,172 @@
+---
+layout: topic
+title: Content negociation and media types
+permalink: /design/topics/http-content-negotiation
+data:
+  items:
+    - references:
+        - name: Formats
+          url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#formats'
+        - name: API Payload format encoding
+          url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#api-payload-format-encoding'
+      _embedded:
+        guideline:
+          id: ausdto-api-design-guide
+          title: API Design Guide
+          type: website
+          url: 'https://apiguide.readthedocs.io/en/latest/index.html'
+          company: Australian Digital Transformation Office
+          companyLogoUrl: /media/logos/ausdto.png
+          companyUrl: 'https://www.dto.gov.au/'
+          date: 2015-10-20T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/ausdto-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/ausdto-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/ausdto-api-design-guide
+    - references:
+        - name: 3.3 Representations
+          url: 'https://github.com/CiscoDevNet/api-design-guide#33-representations'
+        - name: 3.5.1 Standard Headers
+          quote: 'Accept header, Content-Type header'
+          url: 'https://github.com/CiscoDevNet/api-design-guide#351-standard-headers'
+      _embedded:
+        guideline:
+          id: cisco-api-design-guide
+          title: API Design Guide
+          type: github
+          url: 'https://github.com/CiscoDevNet/api-design-guide'
+          company: Cisco
+          companyLogoUrl: /media/logos/cisco.png
+          companyUrl: 'http://developer.cisco.com/'
+          date: 2015-08-21T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/cisco-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/cisco-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/cisco-api-design-guide
+    - references:
+        - name: Standard request headers
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers'
+          quote: Accept Content Type
+        - name: Standard response headers
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#76-standard-response-headers'
+          quote: Content Type
+        - name: Clients-specified response format
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#7101-clients-specified-response-format'
+      _embedded:
+        guideline:
+          id: microsoft-rest-api-guidelines
+          title: Microsoft REST API Guidelines
+          type: github
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md'
+          company: Microsoft
+          companyLogoUrl: /media/logos/microsoft.png
+          companyUrl: 'https://opensource.microsoft.com/'
+          date: 2016-07-19T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/microsoft-rest-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/microsoft-rest-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/microsoft-rest-api-guidelines
+    - references:
+        - name: Representations
+          url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#representations'
+        - name: Content-Types
+          url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#content-types'
+      _embedded:
+        guideline:
+          id: redhat-thoughts-on-restful-api-design
+          title: Thoughts on RESTful API Design
+          type: website
+          url: 'http://restful-api-design.readthedocs.io/en/latest/'
+          company: Red Hat
+          companyLogoUrl: /media/logos/redhat.png
+          companyUrl: 'https://www.redhat.com/'
+          date: 2012-11-15T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/redhat-thoughts-on-restful-api-design
+            guidelineTopics:
+              href: /design/guidelines/redhat-thoughts-on-restful-api-design/topics
+      _links:
+        guideline:
+          href: /design/guidelines/redhat-thoughts-on-restful-api-design
+    - references:
+        - name: General guidelines for RESTful URLs
+          quote: 'Formats should be in the form of api/v2/resource/{id}.json'
+          url: 'https://github.com/WhiteHouse/api-standards/blob/master/README.md#general-guidelines-for-restful-urls'
+      _embedded:
+        guideline:
+          id: white-house-web-api-standards
+          title: White House Web API Standards
+          type: github
+          url: 'https://github.com/WhiteHouse/api-standards'
+          company: White House
+          companyLogoUrl: /media/logos/whitehouse.png
+          companyUrl: 'https://www.whitehouse.gov/developers'
+          date: 2015-02-24T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/white-house-web-api-standards
+            guidelineTopics:
+              href: /design/guidelines/white-house-web-api-standards/topics
+      _links:
+        guideline:
+          href: /design/guidelines/white-house-web-api-standards
+    - references:
+        - name: Use Media Type Versioning
+          url: 'http://zalando.github.io/restful-api-guidelines/compatibility/Compatibility.html#must-use-media-type-versioning'
+        - name: Modify the Content-Type for Embedded Resources
+          url: 'http://zalando.github.io/restful-api-guidelines/hyper-media/Hypermedia.html#must-modify-the-contenttype-for-embedded-resources'
+        - name: Use Application-Specific Content Types
+          url: 'http://zalando.github.io/restful-api-guidelines/data-formats/DataFormats.html#could-use-applicationspecific-content-types'
+      _embedded:
+        guideline:
+          id: zalando-restful-api-guidelines
+          title: RESTFul API Guidelines
+          type: website
+          url: 'http://zalando.github.io/restful-api-guidelines/'
+          company: Zalando
+          companyLogoUrl: /media/logos/zalando.png
+          companyUrl: 'https://tech.zalando.de/'
+          date: 2016-01-22T00:00:00.000Z
+          reviewDate: 2016-08-28T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/zalando-restful-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/zalando-restful-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/zalando-restful-api-guidelines
+  _embedded:
+    topic:
+      id: http-content-negotiation
+      name: Content negociation and media types
+      description: 'How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)'
+      _links:
+        self:
+          href: /design/topics/http-content-negotiation
+        topicGuidelines:
+          href: /design/topics/http-content-negotiation/guidelines
+  _links:
+    self:
+      href: /design/topics/http-content-negotiation/guidelines
+    topic:
+      href: /design/topics/http-content-negotiation
+---

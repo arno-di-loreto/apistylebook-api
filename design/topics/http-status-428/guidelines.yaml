@@ -1,0 +1,39 @@
+items:
+  - references:
+      - name: Client Side Error Codes
+        url: 'http://zalando.github.io/restful-api-guidelines/http/Http.html#client-side-error-codes'
+    _embedded:
+      guideline:
+        id: zalando-restful-api-guidelines
+        title: RESTFul API Guidelines
+        type: website
+        url: 'http://zalando.github.io/restful-api-guidelines/'
+        company: Zalando
+        companyLogoUrl: /media/logos/zalando.png
+        companyUrl: 'https://tech.zalando.de/'
+        date: 2016-01-22T00:00:00.000Z
+        reviewDate: 2016-08-28T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/zalando-restful-api-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/zalando-restful-api-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/zalando-restful-api-guidelines.yaml
+_embedded:
+  topic:
+    id: http-status-428
+    category: HTTP Status
+    name: HTTP Status 428
+    description: When to use HTTP status 428
+    _links:
+      self:
+        href: /design/topics/http-status-428.yaml
+      topicGuidelines:
+        href: /design/topics/http-status-428/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/http-status-428/guidelines.yaml
+  topic:
+    href: /design/topics/http-status-428.yaml

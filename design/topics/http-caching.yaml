@@ -1,0 +1,9 @@
+id: http-caching
+category: HTTP Protocol
+name: Caching
+description: How to use and provide relevant caching informations
+_links:
+  self:
+    href: /design/topics/http-caching.yaml
+  topicGuidelines:
+    href: /design/topics/http-caching/guidelines.yaml

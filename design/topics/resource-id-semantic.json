@@ -1,0 +1,14 @@
+{
+  "id": "resource-id-semantic",
+  "category": "Resources",
+  "name": "ID with semantic",
+  "description": "Using meaningful ids (like `me`)",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-id-semantic.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-id-semantic/guidelines.json"
+    }
+  }
+}

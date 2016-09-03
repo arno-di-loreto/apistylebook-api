@@ -1,0 +1,14 @@
+{
+  "id": "resource-change-tracking",
+  "category": "Resources",
+  "name": "Track change",
+  "description": "How to track change on resources",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-change-tracking.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-change-tracking/guidelines.json"
+    }
+  }
+}

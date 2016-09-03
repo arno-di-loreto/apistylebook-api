@@ -1,0 +1,9 @@
+id: resource-id
+category: Resources
+name: Resource ID
+description: What is a resource ID and/or how it's built
+_links:
+  self:
+    href: /design/topics/resource-id.yaml
+  topicGuidelines:
+    href: /design/topics/resource-id/guidelines.yaml

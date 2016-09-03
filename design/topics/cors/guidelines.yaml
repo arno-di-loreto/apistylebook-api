@@ -1,0 +1,83 @@
+items:
+  - references:
+      - name: Support cross-domain mashups with CORS
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/cors.html'
+    _embedded:
+      guideline:
+        id: ausdto-api-design-guide
+        title: API Design Guide
+        type: website
+        url: 'https://apiguide.readthedocs.io/en/latest/index.html'
+        company: Australian Digital Transformation Office
+        companyLogoUrl: /media/logos/ausdto.png
+        companyUrl: 'https://www.dto.gov.au/'
+        date: 2015-10-20T00:00:00.000Z
+        reviewDate: 2016-08-18T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/ausdto-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/ausdto-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/ausdto-api-design-guide.yaml
+  - references:
+      - name: CORS
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#8-cors'
+    _embedded:
+      guideline:
+        id: microsoft-rest-api-guidelines
+        title: Microsoft REST API Guidelines
+        type: github
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md'
+        company: Microsoft
+        companyLogoUrl: /media/logos/microsoft.png
+        companyUrl: 'https://opensource.microsoft.com/'
+        date: 2016-07-19T00:00:00.000Z
+        reviewDate: 2016-08-31T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/microsoft-rest-api-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/microsoft-rest-api-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/microsoft-rest-api-guidelines.yaml
+  - references:
+      - name: JSONP
+        url: 'https://github.com/WhiteHouse/api-standards/blob/master/README.md#jsonp'
+    _embedded:
+      guideline:
+        id: white-house-web-api-standards
+        title: White House Web API Standards
+        type: github
+        url: 'https://github.com/WhiteHouse/api-standards'
+        company: White House
+        companyLogoUrl: /media/logos/whitehouse.png
+        companyUrl: 'https://www.whitehouse.gov/developers'
+        date: 2015-02-24T00:00:00.000Z
+        reviewDate: 2016-08-18T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/white-house-web-api-standards.yaml
+          guidelineTopics:
+            href: /design/guidelines/white-house-web-api-standards/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/white-house-web-api-standards.yaml
+_embedded:
+  topic:
+    id: cors
+    category: Miscellaneous
+    name: CORS
+    description: How to deal with CORS
+    _links:
+      self:
+        href: /design/topics/cors.yaml
+      topicGuidelines:
+        href: /design/topics/cors/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/cors/guidelines.yaml
+  topic:
+    href: /design/topics/cors.yaml

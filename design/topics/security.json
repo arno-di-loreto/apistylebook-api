@@ -1,0 +1,14 @@
+{
+  "id": "security",
+  "category": "Security",
+  "name": "Security",
+  "description": "Security concerns",
+  "_links": {
+    "self": {
+      "href": "/design/topics/security.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/security/guidelines.json"
+    }
+  }
+}

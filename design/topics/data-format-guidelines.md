@@ -1,0 +1,226 @@
+---
+layout: topic
+title: Data format
+permalink: /design/topics/data-format
+data:
+  items:
+    - references:
+        - name: REST Resources
+          url: 'https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources'
+          quote: Representations (Content Types) of Entities
+        - name: 'Appendix B: Basic Data Types'
+          url: 'https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixB:BasicDataTypes'
+      _embedded:
+        guideline:
+          id: atlassian-rest-api-design-guidelines-version-1
+          title: Atlassian REST API Design Guidelines version 1
+          type: website
+          url: 'https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1'
+          company: Atlassian
+          companyLogoUrl: /media/logos/atlassian.png
+          companyUrl: 'https://developer.atlassian.com/'
+          date: 2016-01-22T00:00:00.000Z
+          reviewDate: 2016-09-01T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/atlassian-rest-api-design-guidelines-version-1
+            guidelineTopics:
+              href: /design/guidelines/atlassian-rest-api-design-guidelines-version-1/topics
+      _links:
+        guideline:
+          href: /design/guidelines/atlassian-rest-api-design-guidelines-version-1
+    - references:
+        - name: Compatibility policy
+          url: 'https://developer.atlassian.com/display/HOME/Atlassian+REST+API+policy#AtlassianRESTAPIpolicy-Compatibilitypolicy'
+        - name: Structured representations (application/json)
+          url: 'https://developer.atlassian.com/display/HOME/Atlassian+REST+API+policy#AtlassianRESTAPIpolicy-Structuredrepresentations(application/json)'
+        - name: Forward compatibility
+          url: 'https://developer.atlassian.com/display/HOME/Atlassian+REST+API+policy#AtlassianRESTAPIpolicy-Forwardcompatibility'
+      _embedded:
+        guideline:
+          id: atlassian-rest-api-policy
+          title: Atlassian REST API Policy
+          type: website
+          url: 'https://developer.atlassian.com/display/HOME/Atlassian+REST+API+policy'
+          company: Atlassian
+          companyLogoUrl: /media/logos/atlassian.png
+          companyUrl: 'https://developer.atlassian.com/'
+          date: 2015-01-15T00:00:00.000Z
+          reviewDate: 2016-09-01T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/atlassian-rest-api-policy
+            guidelineTopics:
+              href: /design/guidelines/atlassian-rest-api-policy/topics
+      _links:
+        guideline:
+          href: /design/guidelines/atlassian-rest-api-policy
+    - references:
+        - name: 3.3 Representations
+          quote: ... prefer the native JSON boolean type ...
+          url: 'https://github.com/CiscoDevNet/api-design-guide#33-representations'
+      _embedded:
+        guideline:
+          id: cisco-api-design-guide
+          title: API Design Guide
+          type: github
+          url: 'https://github.com/CiscoDevNet/api-design-guide'
+          company: Cisco
+          companyLogoUrl: /media/logos/cisco.png
+          companyUrl: 'http://developer.cisco.com/'
+          date: 2015-08-21T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/cisco-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/cisco-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/cisco-api-design-guide
+    - references:
+        - name: Hypermedia Response Format
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/response-format/response-format.md'
+        - name: Type Formatting
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md'
+        - name: Message Schema and Postel's Law
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md'
+      _embedded:
+        guideline:
+          id: haufe-api-styleguide
+          title: Haufe API style guide
+          type: github
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+          company: Haufe
+          companyLogoUrl: /media/logos/haufe.png
+          companyUrl: 'http://dev.haufe.com/'
+          date: 2015-01-15T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/haufe-api-styleguide
+            guidelineTopics:
+              href: /design/guidelines/haufe-api-styleguide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/haufe-api-styleguide
+    - references:
+        - name: Accept serialized JSON in request bodies
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/requests/accept-serialized-json-in-request-bodies.html'
+        - name: Provide standard timestamps
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/responses/provide-standard-timestamps.html'
+        - name: Nest foreign key relations
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/responses/nest-foreign-key-relations.html'
+        - name: Keep JSON minified in all responses
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/responses/keep-json-minified-in-all-responses.html'
+      _embedded:
+        guideline:
+          id: heroku-http-api-design-guide
+          title: HTTP API Design Guide
+          type: gitbook
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/'
+          company: Heroku
+          companyLogoUrl: /media/logos/heroku.png
+          companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+          date: 2016-07-05T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/heroku-http-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/heroku-http-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/heroku-http-api-design-guide
+    - references:
+        - name: Response Formats
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#710-response-formats'
+        - name: JSON standardizations
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#11-json-standardizations'
+      _embedded:
+        guideline:
+          id: microsoft-rest-api-guidelines
+          title: Microsoft REST API Guidelines
+          type: github
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md'
+          company: Microsoft
+          companyLogoUrl: /media/logos/microsoft.png
+          companyUrl: 'https://opensource.microsoft.com/'
+          date: 2016-07-19T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/microsoft-rest-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/microsoft-rest-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/microsoft-rest-api-guidelines
+    - references:
+        - name: Resource Data
+          url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#resource-data'
+      _embedded:
+        guideline:
+          id: redhat-thoughts-on-restful-api-design
+          title: Thoughts on RESTful API Design
+          type: website
+          url: 'http://restful-api-design.readthedocs.io/en/latest/'
+          company: Red Hat
+          companyLogoUrl: /media/logos/redhat.png
+          companyUrl: 'https://www.redhat.com/'
+          date: 2012-11-15T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/redhat-thoughts-on-restful-api-design
+            guidelineTopics:
+              href: /design/guidelines/redhat-thoughts-on-restful-api-design/topics
+      _links:
+        guideline:
+          href: /design/guidelines/redhat-thoughts-on-restful-api-design
+    - references:
+        - name: Property Values
+          url: 'http://zalando.github.io/restful-api-guidelines/json-guidelines/JsonGuidelines.html#property-values'
+        - name: Date property values should conform to RFC 3399
+          url: 'http://zalando.github.io/restful-api-guidelines/json-guidelines/JsonGuidelines.html#should-date-property-values-should-conform-to-rfc-3399'
+        - name: Time durations and intervals could conform to ISO 8601
+          url: 'http://zalando.github.io/restful-api-guidelines/json-guidelines/JsonGuidelines.html#could-time-durations-and-intervals-could-conform-to-iso-8601'
+        - name: Data Formats
+          url: 'http://zalando.github.io/restful-api-guidelines/data-formats/DataFormats.html'
+        - name: Common Data Objects
+          url: 'http://zalando.github.io/restful-api-guidelines/common-data-objects/CommonDataObjects.html'
+      _embedded:
+        guideline:
+          id: zalando-restful-api-guidelines
+          title: RESTFul API Guidelines
+          type: website
+          url: 'http://zalando.github.io/restful-api-guidelines/'
+          company: Zalando
+          companyLogoUrl: /media/logos/zalando.png
+          companyUrl: 'https://tech.zalando.de/'
+          date: 2016-01-22T00:00:00.000Z
+          reviewDate: 2016-08-28T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/zalando-restful-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/zalando-restful-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/zalando-restful-api-guidelines
+  _embedded:
+    topic:
+      id: data-format
+      name: Data format
+      description: which data format use
+      _links:
+        self:
+          href: /design/topics/data-format
+        topicGuidelines:
+          href: /design/topics/data-format/guidelines
+  _links:
+    self:
+      href: /design/topics/data-format/guidelines
+    topic:
+      href: /design/topics/data-format
+---

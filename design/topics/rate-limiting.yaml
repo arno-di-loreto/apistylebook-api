@@ -1,0 +1,9 @@
+id: rate-limiting
+category: Miscellaneous
+name: Rate limiting
+description: How to provide information about how many calls a consumer can do
+_links:
+  self:
+    href: /design/topics/rate-limiting.yaml
+  topicGuidelines:
+    href: /design/topics/rate-limiting/guidelines.yaml

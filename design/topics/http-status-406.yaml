@@ -1,0 +1,9 @@
+id: http-status-406
+category: HTTP Status
+name: HTTP Status 406
+description: When to use HTTP status 406
+_links:
+  self:
+    href: /design/topics/http-status-406.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-406/guidelines.yaml

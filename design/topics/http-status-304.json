@@ -1,0 +1,14 @@
+{
+  "id": "http-status-304",
+  "category": "HTTP Status",
+  "name": "HTTP Status 304",
+  "description": "When to use HTTP status 304",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-304.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-304/guidelines.json"
+    }
+  }
+}

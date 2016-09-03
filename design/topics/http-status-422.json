@@ -1,0 +1,14 @@
+{
+  "id": "http-status-422",
+  "category": "HTTP Status",
+  "name": "HTTP Status 422",
+  "description": "When to use HTTP status 422",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-422.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-422/guidelines.json"
+    }
+  }
+}

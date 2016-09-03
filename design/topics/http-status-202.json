@@ -1,0 +1,14 @@
+{
+  "id": "http-status-202",
+  "category": "HTTP Status",
+  "name": "HTTP Status 202",
+  "description": "When to use HTTP status 202",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-202.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-202/guidelines.json"
+    }
+  }
+}

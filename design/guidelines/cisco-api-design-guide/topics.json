@@ -1,0 +1,1370 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "3.1 Security",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#31-security"
+        },
+        {
+          "name": "3.2 Authentication and Representation",
+          "quote": "The REST API MUST use OAuth2 implementation for user authentication and authorization, exclusively",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#32-authentication-and-authorization"
+        },
+        {
+          "name": "3.6.8 Safe and Non-Safe Methods",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "security",
+          "category": "Security",
+          "name": "Security",
+          "description": "Security concerns",
+          "_links": {
+            "self": {
+              "href": "/design/topics/security.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/security/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/security.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "quote": "3.3.3 A resource identifier labeled \"url\" MUST be present in all RESTful API resource representations",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "quote": "3.3.3 A resource identifier labeled \"url\" MUST be present in all RESTful API resource representations",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-read",
+          "category": "Hypermedia",
+          "name": "Hypermedia (read)",
+          "description": "How to use hypermedia to read data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-read.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-read/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-read.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.5.2 TrackingID Header",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#352-trackingid-header"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "api-chaining",
+          "category": "Miscellaneous",
+          "name": "API chaining",
+          "description": "How to chain API call in internal systems",
+          "_links": {
+            "self": {
+              "href": "/design/topics/api-chaining.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/api-chaining/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/api-chaining.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.5.1 Standard Headers",
+          "quote": "ETag, If-Match, If-None-Match",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#351-standard-headers"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-caching",
+          "category": "HTTP Protocol",
+          "name": "Caching",
+          "description": "How to use and provide relevant caching informations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-caching.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-caching/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-caching.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        },
+        {
+          "name": "3.5.1 Standard Headers",
+          "quote": "Accept header, Content-Type header",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#351-standard-headers"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-content-negotiation",
+          "category": "HTTP Protocol",
+          "name": "Content negociation and media types",
+          "description": "How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-content-negotiation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-content-negotiation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-content-negotiation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.5 HTTP Headers",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#351-standard-headers"
+        },
+        {
+          "name": "3.6.1 POST",
+          "quote": "Location header",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#361-post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-headers",
+          "category": "HTTP Protocol",
+          "name": "HTTP Headers",
+          "description": "How to use standard or custom HTTP headers",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-headers.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-headers/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-headers.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6 HTTP Verbs",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        },
+        {
+          "name": "REST Methods",
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md#rest-methods"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods",
+          "category": "HTTP Methods",
+          "name": "HTTP methods",
+          "description": "General information about HTTP methods usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.3 GET",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#363-get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-get",
+          "category": "HTTP Methods",
+          "name": "GET",
+          "description": "When to use HTTP method GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-get.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-get/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-get.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.1 POST",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#361-post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-post",
+          "category": "HTTP Methods",
+          "name": "POST",
+          "description": "When to use HTTP method POST",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-post.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-post/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-post.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.2 PUT",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#362-put"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-put",
+          "category": "HTTP Methods",
+          "name": "PUT",
+          "description": "When to use HTTP method PUT",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-put.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-put/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-put.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.4 DELETE",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-delete",
+          "category": "HTTP Methods",
+          "name": "DELETE",
+          "description": "When to use HTTP method DELETE",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-delete.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-delete/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-delete.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.5 PATCH",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-patch",
+          "category": "HTTP Methods",
+          "name": "PATCH",
+          "description": "When to use HTTP method PATCH",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-patch.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-patch/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-patch.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.6 HEAD",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-head",
+          "category": "HTTP Methods",
+          "name": "HEAD",
+          "description": "When to use HTTP method HEAD",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-head.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-head/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-head.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.7 OPTIONS",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-options",
+          "category": "HTTP Methods",
+          "name": "OPTIONS",
+          "description": "When to use HTTP method OPTION",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-options.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-options/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-options.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.7 Alternative Forms",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#37-alternative-forms"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-alternative",
+          "category": "HTTP Methods",
+          "name": "Forbidden methods alternatives",
+          "description": "What to do when only possible HTTP methods are POST and GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-alternative.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-alternative/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-alternative.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.9 Status Codes",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#39-status-codes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status",
+          "category": "HTTP Status",
+          "name": "HTTP Statuses",
+          "description": "General information about HTTP statuses usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.9 Status Codes",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#39-status-codes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-standard-error",
+          "category": "Error handling",
+          "name": "Error format",
+          "description": "How to provide information about errors",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-standard-error.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-standard-error/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-standard-error.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.9 Status Codes",
+          "quote": "3.9.4 Documentation of response payloads MUST NOT reveal internal implementation details of the server.",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#39-status-codes"
+        },
+        {
+          "name": "API Documentation",
+          "document": null,
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md#api-documentation"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "documentation",
+          "category": "Miscellaneous",
+          "name": "Documentation",
+          "description": "How to produce and/or propose API documentation",
+          "_links": {
+            "self": {
+              "href": "/design/topics/documentation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/documentation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/documentation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3 Guidelines",
+          "quote": "Reference Representation, Narrow Representation, Wide Representation",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#3-guidelines"
+        },
+        {
+          "name": "3.3 Representations",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource",
+          "category": "Resources",
+          "name": "Resource",
+          "description": "General informations about resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.4 URL Format",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#34-url-format"
+        },
+        {
+          "name": "URL Paths",
+          "document": "REST API Design Principles",
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md#url-paths"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.4.2 User Scoped Endpoints",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#342-user-scoped-endpoints"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-id-semantic",
+          "category": "Resources",
+          "name": "ID with semantic",
+          "description": "Using meaningful ids (like `me`)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-id-semantic.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-id-semantic/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-id-semantic.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.3 GET",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#363-get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve",
+          "category": "Resources",
+          "name": "Retrieve resource",
+          "description": "How to retrieve a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.3.6 Services MAY support partial retrieval of resource state",
+          "quote": "RFC-3986",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#363-get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-partial",
+          "category": "Resources",
+          "name": "Retrieve resource partially",
+          "description": "How to retrieve partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": null,
+          "quote": "If a service supports the fields parameter, then a value of @reference, @narrow, or @wide SHOULD...",
+          "url": null
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-dereference",
+          "category": "Resources",
+          "name": "Dereference Relationships",
+          "description": "How to load a resource and its linked resources in one call",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-dereference.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-dereference.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.1 POST",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#361-post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation",
+          "category": "Resources",
+          "name": "Create resource",
+          "description": "How to create resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.2 PUT",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#362-put"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation-with-id",
+          "category": "Resources",
+          "name": "Create resource with a specific ID",
+          "description": "How to create resource with a provided id",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation-with-id.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation-with-id/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation-with-id.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.2 PUT",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#362-put"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-replacement",
+          "category": "Resources",
+          "name": "Replace resource",
+          "description": "How to replace (or update fully) a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-replacement.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-replacement/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-replacement.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.2 PUT",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#362-put"
+        },
+        {
+          "name": "3.6.5 PATCH",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update",
+          "category": "Resources",
+          "name": "Update resource",
+          "description": "How to update a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.5 PATCH",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update-partial",
+          "category": "Resources",
+          "name": "Update resource partially",
+          "description": "How to udate partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.4 DELETE",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-deletion",
+          "category": "Resources",
+          "name": "Delete resource",
+          "description": "How to delete resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-deletion.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-deletion/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-deletion.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.11 Bulk, Batch, and Multi-Result Operations",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#311-bulk-batch-and-multi-result-operations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-multiple",
+          "category": "Resources",
+          "name": "Batch Bulk",
+          "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-multiple.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-multiple/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-multiple.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.8 Action Resources",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#38-action-resources"
+        },
+        {
+          "name": "3.6.1 POST",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#361-post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-action",
+          "category": "Resources",
+          "name": "Action resource",
+          "description": "How to use action resource (e.g. resources like /cancel or /approve)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-action.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-action/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-action.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.3 GET",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#363-get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection",
+          "category": "Collection Resources",
+          "name": "Collection",
+          "description": "What is a collection (set) of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.3 GET",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#363-get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.6.3 GET",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#363-get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-filtering",
+          "category": "Collection Resources",
+          "name": "Filtering",
+          "description": "How to select some resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-filtering.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-filtering/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-filtering.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "quote": "3.3.11 With regard to JSON representation property names, and URL query parameters, services SHOULD...",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming",
+          "category": "Naming",
+          "name": "Naming",
+          "description": "How to name things",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        },
+        {
+          "name": "URL Paths",
+          "document": "REST API Design Principles",
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md#url-paths"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming-case",
+          "category": "Naming",
+          "name": "Case",
+          "description": "Which case (lowercase, camelCase, ...) to use and when",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming-case.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming-case/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming-case.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "quote": "... prefer the native JSON boolean type ...",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format",
+          "category": "Data",
+          "name": "Data format",
+          "description": "which data format use",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.3 Representations",
+          "quote": "RFC-3339",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format-date-time",
+          "category": "Data",
+          "name": "Date and Time",
+          "description": "How to deal with date and time data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format-date-time.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format-date-time/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format-date-time.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "JSON Attributes",
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md#json-attributes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format-null",
+          "category": "Data",
+          "name": "Null data",
+          "description": "How to deal with null data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format-null.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format-null/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format-null.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "*3.6.4.3 *The POST verb MAY be used to reverse the soft-delete of a resource, using an undelete parameter",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "undo",
+          "category": "Miscellaneous",
+          "name": "Undo",
+          "description": "How to undo things",
+          "_links": {
+            "self": {
+              "href": "/design/topics/undo.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/undo/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/undo.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "3.13 Versioning",
+          "url": "https://github.com/CiscoDevNet/api-design-guide#313-versioning"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "versioning",
+          "category": "API Lifecycle",
+          "name": "Versionning",
+          "description": "How to handle API versionning",
+          "_links": {
+            "self": {
+              "href": "/design/topics/versioning.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/versioning/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/versioning.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "cisco-api-design-guide",
+      "title": "API Design Guide",
+      "type": "github",
+      "url": "https://github.com/CiscoDevNet/api-design-guide",
+      "company": "Cisco",
+      "companyLogoUrl": "/media/logos/cisco.png",
+      "companyUrl": "http://developer.cisco.com/",
+      "date": "2015-08-21T00:00:00.000Z",
+      "reviewDate": "2016-08-18T00:00:00.000Z",
+      "attachedDocuments": [
+        {
+          "name": "REST API Design Principles",
+          "description": "A summary of common REST API design constraints and conventions",
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md",
+          "type": "github",
+          "referenced": [
+            {
+              "name": "Preface",
+              "url": "https://github.com/CiscoDevNet/api-design-guide#1-preface"
+            }
+          ]
+        },
+        {
+          "name": "Tracking ID flow",
+          "description": "A sequence diagram explaning",
+          "url": "https://github.com/CiscoDevNet/api-design-guide/blob/master/trackingid-flow.png",
+          "type": "github",
+          "referenced": [
+            {
+              "name": "TrackingID Header",
+              "description": "A sequence diagram explaning the use of the tracking ID",
+              "url": "https://github.com/CiscoDevNet/api-design-guide#352-trackingid-header"
+            }
+          ]
+        }
+      ],
+      "remarks": [
+        "broken links due to typo error in https://github.com/CiscoDevNet/api-design-guide#36-http-verbs"
+      ],
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/cisco-api-design-guide.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/cisco-api-design-guide/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/cisco-api-design-guide/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/cisco-api-design-guide.json"
+    }
+  }
+}

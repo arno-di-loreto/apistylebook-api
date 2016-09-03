@@ -1,0 +1,14 @@
+{
+  "id": "http-methods-put",
+  "category": "HTTP Methods",
+  "name": "PUT",
+  "description": "When to use HTTP method PUT",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods-put.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods-put/guidelines.json"
+    }
+  }
+}

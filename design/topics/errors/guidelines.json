@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Error handling",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/error-handling/error-handling.md"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "haufe-api-styleguide",
+          "title": "Haufe API style guide",
+          "type": "github",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md",
+          "company": "Haufe",
+          "companyLogoUrl": "/media/logos/haufe.png",
+          "companyUrl": "http://dev.haufe.com/",
+          "date": "2015-01-15T00:00:00.000Z",
+          "reviewDate": "2016-08-31T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/haufe-api-styleguide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/haufe-api-styleguide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/haufe-api-styleguide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Errors",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#51-errors"
+        },
+        {
+          "name": "Faults",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#52-faults"
+        },
+        {
+          "name": "Long running API faults",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#55-long-running-api-faults"
+        },
+        {
+          "name": "Silent Fail Rule",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#63-silent-fail-rule"
+        },
+        {
+          "name": "Unsupported requests",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#15-unsupported-requests"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "microsoft-rest-api-guidelines",
+          "title": "Microsoft REST API Guidelines",
+          "type": "github",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md",
+          "company": "Microsoft",
+          "companyLogoUrl": "/media/logos/microsoft.png",
+          "companyUrl": "https://opensource.microsoft.com/",
+          "date": "2016-07-19T00:00:00.000Z",
+          "reviewDate": "2016-08-31T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/microsoft-rest-api-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/microsoft-rest-api-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/microsoft-rest-api-guidelines.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "topic": {
+      "id": "errors",
+      "category": "Error handling",
+      "name": "Errors",
+      "description": "How to handle errors",
+      "_links": {
+        "self": {
+          "href": "/design/topics/errors.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/errors/guidelines.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/topics/errors/guidelines.json"
+    },
+    "topic": {
+      "href": "/design/topics/errors.json"
+    }
+  }
+}

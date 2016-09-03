@@ -1,0 +1,9 @@
+id: resource-retrieve-partial
+category: Resources
+name: Retrieve resource partially
+description: How to retrieve partially a resource
+_links:
+  self:
+    href: /design/topics/resource-retrieve-partial.yaml
+  topicGuidelines:
+    href: /design/topics/resource-retrieve-partial/guidelines.yaml

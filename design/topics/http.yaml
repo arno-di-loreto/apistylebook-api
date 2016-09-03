@@ -1,0 +1,9 @@
+id: http
+category: HTTP Protocol
+name: HTTP protocol
+description: General informations about HTTP protocol
+_links:
+  self:
+    href: /design/topics/http.yaml
+  topicGuidelines:
+    href: /design/topics/http/guidelines.yaml

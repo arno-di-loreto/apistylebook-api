@@ -1,0 +1,14 @@
+{
+  "id": "data-format-null",
+  "category": "Data",
+  "name": "Null data",
+  "description": "How to deal with null data",
+  "_links": {
+    "self": {
+      "href": "/design/topics/data-format-null.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/data-format-null/guidelines.json"
+    }
+  }
+}

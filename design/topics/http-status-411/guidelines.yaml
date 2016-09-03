@@ -1,0 +1,39 @@
+items:
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      guideline:
+        id: haufe-api-styleguide
+        title: Haufe API style guide
+        type: github
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+        company: Haufe
+        companyLogoUrl: /media/logos/haufe.png
+        companyUrl: 'http://dev.haufe.com/'
+        date: 2015-01-15T00:00:00.000Z
+        reviewDate: 2016-08-31T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/haufe-api-styleguide.yaml
+          guidelineTopics:
+            href: /design/guidelines/haufe-api-styleguide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/haufe-api-styleguide.yaml
+_embedded:
+  topic:
+    id: http-status-411
+    category: HTTP Status
+    name: HTTP Status 411
+    description: When to use HTTP status 411
+    _links:
+      self:
+        href: /design/topics/http-status-411.yaml
+      topicGuidelines:
+        href: /design/topics/http-status-411/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/http-status-411/guidelines.yaml
+  topic:
+    href: /design/topics/http-status-411.yaml

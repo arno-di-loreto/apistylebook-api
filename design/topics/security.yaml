@@ -1,0 +1,9 @@
+id: security
+category: Security
+name: Security
+description: Security concerns
+_links:
+  self:
+    href: /design/topics/security.yaml
+  topicGuidelines:
+    href: /design/topics/security/guidelines.yaml

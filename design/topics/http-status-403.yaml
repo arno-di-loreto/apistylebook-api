@@ -1,0 +1,9 @@
+id: http-status-403
+category: HTTP Status
+name: HTTP Status 403
+description: When to use HTTP status 403
+_links:
+  self:
+    href: /design/topics/http-status-403.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-403/guidelines.yaml

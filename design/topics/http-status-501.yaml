@@ -1,0 +1,9 @@
+id: http-status-501
+category: HTTP Status
+name: HTTP Status 501
+description: When to use HTTP status 501
+_links:
+  self:
+    href: /design/topics/http-status-501.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-501/guidelines.yaml

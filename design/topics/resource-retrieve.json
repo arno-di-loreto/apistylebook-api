@@ -1,0 +1,14 @@
+{
+  "id": "resource-retrieve",
+  "category": "Resources",
+  "name": "Retrieve resource",
+  "description": "How to retrieve a resource",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-retrieve.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-retrieve/guidelines.json"
+    }
+  }
+}

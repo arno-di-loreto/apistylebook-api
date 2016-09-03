@@ -1,0 +1,9 @@
+id: global-design
+category: API Design
+name: Global design
+description: General considerations on API design
+_links:
+  self:
+    href: /design/topics/global-design.yaml
+  topicGuidelines:
+    href: /design/topics/global-design/guidelines.yaml

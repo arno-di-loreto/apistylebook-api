@@ -1,0 +1,14 @@
+{
+  "id": "api-counts",
+  "category": "API Design",
+  "name": "API counts",
+  "description": "How many endpoints/resources in an API?",
+  "_links": {
+    "self": {
+      "href": "/design/topics/api-counts.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/api-counts/guidelines.json"
+    }
+  }
+}

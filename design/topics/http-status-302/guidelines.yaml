@@ -1,0 +1,61 @@
+items:
+  - references:
+      - name: Redirections
+        url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide#redirection'
+    _embedded:
+      guideline:
+        id: cloud-foundy-cloud-controller-api-style-guide
+        title: Cloud Controller API v3 Style Guide (Proposal)
+        type: github
+        url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide'
+        company: Cloud Foundry
+        companyLogoUrl: /media/logos/cloudfoundry.png
+        companyUrl: 'https://www.cloudfoundry.org/'
+        date: 2016-05-11T00:00:00.000Z
+        reviewDate: 2016-08-18T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
+  - references:
+      name: HTTP Status 302
+      description: When to use HTTP status 302
+    _embedded:
+      guideline:
+        id: zalando-restful-api-guidelines
+        title: RESTFul API Guidelines
+        type: website
+        url: 'http://zalando.github.io/restful-api-guidelines/'
+        company: Zalando
+        companyLogoUrl: /media/logos/zalando.png
+        companyUrl: 'https://tech.zalando.de/'
+        date: 2016-01-22T00:00:00.000Z
+        reviewDate: 2016-08-28T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/zalando-restful-api-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/zalando-restful-api-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/zalando-restful-api-guidelines.yaml
+_embedded:
+  topic:
+    id: http-status-302
+    category: HTTP Status
+    name: HTTP Status 302
+    description: When to use HTTP status 302
+    _links:
+      self:
+        href: /design/topics/http-status-302.yaml
+      topicGuidelines:
+        href: /design/topics/http-status-302/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/http-status-302/guidelines.yaml
+  topic:
+    href: /design/topics/http-status-302.yaml

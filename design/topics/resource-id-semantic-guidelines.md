@@ -1,0 +1,88 @@
+---
+layout: topic
+title: ID with semantic
+permalink: /design/topics/resource-id-semantic
+data:
+  items:
+    - references:
+        - name: 3.4.2 User Scoped Endpoints
+          url: 'https://github.com/CiscoDevNet/api-design-guide#342-user-scoped-endpoints'
+      _embedded:
+        guideline:
+          id: cisco-api-design-guide
+          title: API Design Guide
+          type: github
+          url: 'https://github.com/CiscoDevNet/api-design-guide'
+          company: Cisco
+          companyLogoUrl: /media/logos/cisco.png
+          companyUrl: 'http://developer.cisco.com/'
+          date: 2015-08-21T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/cisco-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/cisco-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/cisco-api-design-guide
+    - references:
+        - name: Support non-id dereferencing for convenience
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/requests/support-non-id-dereferencing-for-convenience.html'
+      _embedded:
+        guideline:
+          id: heroku-http-api-design-guide
+          title: HTTP API Design Guide
+          type: gitbook
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/'
+          company: Heroku
+          companyLogoUrl: /media/logos/heroku.png
+          companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+          date: 2016-07-05T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/heroku-http-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/heroku-http-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/heroku-http-api-design-guide
+    - references:
+        - name: Canonical identifier
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#73-canonical-identifier'
+      _embedded:
+        guideline:
+          id: microsoft-rest-api-guidelines
+          title: Microsoft REST API Guidelines
+          type: github
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md'
+          company: Microsoft
+          companyLogoUrl: /media/logos/microsoft.png
+          companyUrl: 'https://opensource.microsoft.com/'
+          date: 2016-07-19T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/microsoft-rest-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/microsoft-rest-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/microsoft-rest-api-guidelines
+  _embedded:
+    topic:
+      id: resource-id-semantic
+      name: ID with semantic
+      description: Using meaningful ids (like `me`)
+      _links:
+        self:
+          href: /design/topics/resource-id-semantic
+        topicGuidelines:
+          href: /design/topics/resource-id-semantic/guidelines
+  _links:
+    self:
+      href: /design/topics/resource-id-semantic/guidelines
+    topic:
+      href: /design/topics/resource-id-semantic
+---

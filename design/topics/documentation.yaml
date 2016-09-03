@@ -1,0 +1,9 @@
+id: documentation
+category: Miscellaneous
+name: Documentation
+description: How to produce and/or propose API documentation
+_links:
+  self:
+    href: /design/topics/documentation.yaml
+  topicGuidelines:
+    href: /design/topics/documentation/guidelines.yaml

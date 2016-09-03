@@ -1,0 +1,67 @@
+items:
+  - references:
+      - name: Currency
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#currency'
+        quote: 3-character ISO-4217
+      - name: Country
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#country'
+        quote: ISO 3166-1-alpha-2
+    _embedded:
+      guideline:
+        id: haufe-api-styleguide
+        title: Haufe API style guide
+        type: github
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+        company: Haufe
+        companyLogoUrl: /media/logos/haufe.png
+        companyUrl: 'http://dev.haufe.com/'
+        date: 2015-01-15T00:00:00.000Z
+        reviewDate: 2016-08-31T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/haufe-api-styleguide.yaml
+          guidelineTopics:
+            href: /design/guidelines/haufe-api-styleguide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/haufe-api-styleguide.yaml
+  - references:
+      - name: 'Standards could be used for Language, Country and Currency'
+        url: 'http://zalando.github.io/restful-api-guidelines/json-guidelines/JsonGuidelines.html#could-standards-could-be-used-for-language-country-and-currency'
+      - name: 'Use Standards for Country, Language and Currency Codes'
+        url: 'http://zalando.github.io/restful-api-guidelines/data-formats/DataFormats.html#could-use-standards-for-country-language-and-currency-codes'
+    _embedded:
+      guideline:
+        id: zalando-restful-api-guidelines
+        title: RESTFul API Guidelines
+        type: website
+        url: 'http://zalando.github.io/restful-api-guidelines/'
+        company: Zalando
+        companyLogoUrl: /media/logos/zalando.png
+        companyUrl: 'https://tech.zalando.de/'
+        date: 2016-01-22T00:00:00.000Z
+        reviewDate: 2016-08-28T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/zalando-restful-api-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/zalando-restful-api-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/zalando-restful-api-guidelines.yaml
+_embedded:
+  topic:
+    id: data-standards
+    category: Data
+    name: Standards data
+    description: 'Which standard use for values like languages, countries, currencies, ...'
+    _links:
+      self:
+        href: /design/topics/data-standards.yaml
+      topicGuidelines:
+        href: /design/topics/data-standards/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/data-standards/guidelines.yaml
+  topic:
+    href: /design/topics/data-standards.yaml

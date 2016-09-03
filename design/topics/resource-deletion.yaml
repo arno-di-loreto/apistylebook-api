@@ -1,0 +1,9 @@
+id: resource-deletion
+category: Resources
+name: Delete resource
+description: How to delete resources
+_links:
+  self:
+    href: /design/topics/resource-deletion.yaml
+  topicGuidelines:
+    href: /design/topics/resource-deletion/guidelines.yaml

@@ -1,0 +1,9 @@
+id: http-status-503
+category: HTTP Status
+name: HTTP Status 503
+description: When to use HTTP status 503
+_links:
+  self:
+    href: /design/topics/http-status-503.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-503/guidelines.yaml

@@ -1,0 +1,14 @@
+{
+  "id": "http-status-302",
+  "category": "HTTP Status",
+  "name": "HTTP Status 302",
+  "description": "When to use HTTP status 302",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-302.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-302/guidelines.json"
+    }
+  }
+}

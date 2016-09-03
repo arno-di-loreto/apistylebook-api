@@ -1,0 +1,9 @@
+id: http-status-429
+category: HTTP Status
+name: HTTP Status 429
+description: When to use HTTP status 429
+_links:
+  self:
+    href: /design/topics/http-status-429.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-429/guidelines.yaml

@@ -1,0 +1,9 @@
+id: collection
+category: Collection Resources
+name: Collection
+description: What is a collection (set) of resources
+_links:
+  self:
+    href: /design/topics/collection.yaml
+  topicGuidelines:
+    href: /design/topics/collection/guidelines.yaml

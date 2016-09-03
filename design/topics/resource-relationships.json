@@ -1,0 +1,14 @@
+{
+  "id": "resource-relationships",
+  "category": "Resources",
+  "name": "Relationships",
+  "description": "How to define and use relations between resources",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-relationships.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-relationships/guidelines.json"
+    }
+  }
+}

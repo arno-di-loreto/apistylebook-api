@@ -1,0 +1,1154 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Time Selection",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#time-selection"
+        },
+        {
+          "name": "Complex Operation - Search",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#complex-operation---search"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-filtering",
+          "category": "Collection Resources",
+          "name": "Filtering",
+          "description": "How to select some resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-filtering.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-filtering/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-filtering.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Paging",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#paging"
+        },
+        {
+          "name": "Paging (Complex Operation - Search)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#paging-1"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-retrieve",
+          "category": "Collection Resources",
+          "name": "Retrieve a collection",
+          "description": "How to get a collection or resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Sorting",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#sorting"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-sorting",
+          "category": "Collection Resources",
+          "name": "Sorting a collection",
+          "description": "How to sort a collection of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-sorting.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-sorting/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-sorting.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        },
+        {
+          "name": "Sub-Resource Collection",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#sub-resource-collection"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection",
+          "category": "Collection Resources",
+          "name": "Collection",
+          "description": "What is a collection (set) of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Read-only resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#read-only-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-caching",
+          "category": "HTTP Protocol",
+          "name": "Caching",
+          "description": "How to use and provide relevant caching informations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-caching.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-caching/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-caching.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Collections)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status"
+        },
+        {
+          "name": "HTTP Status (Read Single Resource)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status-1"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-200",
+          "category": "HTTP Status",
+          "name": "HTTP Status 200",
+          "description": "When to use HTTP status 200",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-200.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-200/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-200.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
+        },
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-partial-single-resource"
+        },
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#delete-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-204",
+          "category": "HTTP Status",
+          "name": "HTTP Status 204",
+          "description": "When to use HTTP status 204",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-204.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-204/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-204.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Collections)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-400",
+          "category": "HTTP Status",
+          "name": "HTTP Status 400",
+          "description": "When to use HTTP status 400",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-400.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-400/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-400.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Collections)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status"
+        },
+        {
+          "name": "HTTP Status (Read Single Resource)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status-1"
+        },
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
+        },
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#delete-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-404",
+          "category": "HTTP Status",
+          "name": "HTTP Status 404",
+          "description": "When to use HTTP status 404",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-404.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-404/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-404.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-422",
+          "category": "HTTP Status",
+          "name": "HTTP Status 422",
+          "description": "When to use HTTP status 422",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-422.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-422/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-422.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Collections)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status"
+        },
+        {
+          "name": "HTTP Status (Read Single Resource)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status-1"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status",
+          "category": "HTTP Status",
+          "name": "HTTP Statuses",
+          "description": "General information about HTTP statuses usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        },
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#delete-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-delete",
+          "category": "HTTP Methods",
+          "name": "DELETE",
+          "description": "When to use HTTP method DELETE",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-delete.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-delete/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-delete.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        },
+        {
+          "name": "HTTP Status (Read Single Resource)",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#http-status-1"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-get",
+          "category": "HTTP Methods",
+          "name": "GET",
+          "description": "When to use HTTP method GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-get.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-get/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-get.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        },
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-partial-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-patch",
+          "category": "HTTP Methods",
+          "name": "PATCH",
+          "description": "When to use HTTP method PATCH",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-patch.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-patch/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-patch.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        },
+        {
+          "name": "Create New Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#create-new-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-post",
+          "category": "HTTP Methods",
+          "name": "POST",
+          "description": "When to use HTTP method POST",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-post.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-post/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-post.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        },
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-put",
+          "category": "HTTP Methods",
+          "name": "PUT",
+          "description": "When to use HTTP method PUT",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-put.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-put/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-put.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods",
+          "category": "HTTP Methods",
+          "name": "HTTP methods",
+          "description": "General information about HTTP methods usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Paging Hypermedia Links",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#hypermedia-links"
+        },
+        {
+          "name": "Create New Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#create-new-resource",
+          "quote": "Hypermedia links provide an easy way to get the URL of the newly created resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-read",
+          "category": "Hypermedia",
+          "name": "Hypermedia (read)",
+          "description": "How to use hypermedia to read data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-read.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-read/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-read.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Paging Hypermedia Links",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#hypermedia-links"
+        },
+        {
+          "name": "Create New Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#create-new-resource",
+          "quote": "Hypermedia links provide an easy way to get the URL of the newly created resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources",
+          "quote": "Collection resource names should be plural nouns"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming",
+          "category": "Naming",
+          "name": "Naming",
+          "description": "How to name things",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Filtering",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#filtering"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "query-parameter",
+          "category": "Miscellaneous",
+          "name": "Query parameters",
+          "description": "How to use query parameters",
+          "_links": {
+            "self": {
+              "href": "/design/topics/query-parameter.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/query-parameter/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/query-parameter.json"
+        }
+      }
+    },
+    {
+      "references": {
+        "name": "Performance and bandwidth",
+        "description": "How to deal with high traffic or consumers with low bandwith"
+      },
+      "_embedded": {
+        "topic": {
+          "id": "performance",
+          "category": "Miscellaneous",
+          "name": "Performance and bandwidth",
+          "description": "How to deal with high traffic or consumers with low bandwith",
+          "_links": {
+            "self": {
+              "href": "/design/topics/performance.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/performance/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/performance.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Complex Operation",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#complex-operation"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-action",
+          "category": "Resources",
+          "name": "Action resource",
+          "description": "How to use action resource (e.g. resources like /cancel or /approve)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-action.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-action/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-action.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Create New Resource - Consumer Supplied Identifier",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#create-new-resource---consumer-supplied-identifier"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation-with-id",
+          "category": "Resources",
+          "name": "Create resource with a specific ID",
+          "description": "How to create resource with a provided id",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation-with-id.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation-with-id/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation-with-id.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Create New Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#create-new-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation",
+          "category": "Resources",
+          "name": "Create resource",
+          "description": "How to create resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#delete-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-deletion",
+          "category": "Resources",
+          "name": "Delete resource",
+          "description": "How to delete resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-deletion.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-deletion/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-deletion.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Complex Operation - Composite",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#complex-operation---composite"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-multiple",
+          "category": "Resources",
+          "name": "Batch Bulk",
+          "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-multiple.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-multiple/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-multiple.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-replacement",
+          "category": "Resources",
+          "name": "Replace resource",
+          "description": "How to replace (or update fully) a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-replacement.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-replacement/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-replacement.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Read Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#read-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve",
+          "category": "Resources",
+          "name": "Retrieve resource",
+          "description": "How to retrieve a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Complex Operation - Transient",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#complex-operation---transient"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-state",
+          "category": "Resources",
+          "name": "Resource's state",
+          "description": "How to change a resource's state/status (like processed/sent/paid/...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-state.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-state/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-state.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-partial-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update-partial",
+          "category": "Resources",
+          "name": "Update resource partially",
+          "description": "How to udate partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update",
+          "category": "Resources",
+          "name": "Update resource",
+          "description": "How to update a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "URL Components",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#uri-components"
+        },
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-partial-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Read Single Resource",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#read-single-resource"
+        },
+        {
+          "name": "Sub-Resource Singleton",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#sub-resource-singleton"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource",
+          "category": "Resources",
+          "name": "Resource",
+          "description": "General informations about resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Version",
+          "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#version"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "versioning",
+          "category": "API Lifecycle",
+          "name": "Versionning",
+          "description": "How to handle API versionning",
+          "_links": {
+            "self": {
+              "href": "/design/topics/versioning.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/versioning/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/versioning.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "paypal-api-style-guide",
+      "title": "API Style Guide",
+      "type": "github",
+      "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md",
+      "company": "PayPal",
+      "companyLogoUrl": "/media/logos/paypal.png",
+      "companyUrl": "https://developer.paypal.com/",
+      "date": "2016-08-11T00:00:00.000Z",
+      "reviewDate": "2016-08-31T00:00:00.000Z",
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/paypal-api-style-guide.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/paypal-api-style-guide/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/paypal-api-style-guide/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/paypal-api-style-guide.json"
+    }
+  }
+}

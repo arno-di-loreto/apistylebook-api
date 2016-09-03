@@ -1,0 +1,14 @@
+{
+  "id": "resource-deletion",
+  "category": "Resources",
+  "name": "Delete resource",
+  "description": "How to delete resources",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-deletion.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-deletion/guidelines.json"
+    }
+  }
+}

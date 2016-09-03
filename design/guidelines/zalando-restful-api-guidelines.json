@@ -1,0 +1,19 @@
+{
+  "id": "zalando-restful-api-guidelines",
+  "title": "RESTFul API Guidelines",
+  "type": "website",
+  "url": "http://zalando.github.io/restful-api-guidelines/",
+  "company": "Zalando",
+  "companyLogoUrl": "/media/logos/zalando.png",
+  "companyUrl": "https://tech.zalando.de/",
+  "date": "2016-01-22T00:00:00.000Z",
+  "reviewDate": "2016-08-28T00:00:00.000Z",
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/zalando-restful-api-guidelines.json"
+    },
+    "guidelineTopics": {
+      "href": "/design/guidelines/zalando-restful-api-guidelines/topics.json"
+    }
+  }
+}

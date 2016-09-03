@@ -1,0 +1,9 @@
+id: hypermedia-read
+category: Hypermedia
+name: Hypermedia (read)
+description: How to use hypermedia to read data
+_links:
+  self:
+    href: /design/topics/hypermedia-read.yaml
+  topicGuidelines:
+    href: /design/topics/hypermedia-read/guidelines.yaml

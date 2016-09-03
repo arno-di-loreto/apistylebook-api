@@ -1,0 +1,9 @@
+id: data-format-date-time
+category: Data
+name: Date and Time
+description: How to deal with date and time data
+_links:
+  self:
+    href: /design/topics/data-format-date-time.yaml
+  topicGuidelines:
+    href: /design/topics/data-format-date-time/guidelines.yaml

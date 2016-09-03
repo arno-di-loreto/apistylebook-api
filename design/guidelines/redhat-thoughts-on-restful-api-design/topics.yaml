@@ -1,0 +1,599 @@
+items:
+  - references:
+      - name: Asynchronous Requests
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#asynchronous-requests'
+    _embedded:
+      topic:
+        id: asynchronicity
+        category: Asynchronicity
+        name: Asynchronicity
+        description: How to handle long operations
+        _links:
+          self:
+            href: /design/topics/asynchronicity.yaml
+          topicGuidelines:
+            href: /design/topics/asynchronicity/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/asynchronicity.yaml
+  - references: null
+    _embedded:
+      topic:
+        id: collection-filtering
+        category: Collection Resources
+        name: Filtering
+        description: How to select some resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-filtering.yaml
+          topicGuidelines:
+            href: /design/topics/collection-filtering/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-filtering.yaml
+  - references:
+      - name: Ranges Pagination
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#ranges-pagination'
+    _embedded:
+      topic:
+        id: collection-pagination
+        category: Collection Resources
+        name: Pagination
+        description: How to retrieve a range of resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-pagination.yaml
+          topicGuidelines:
+            href: /design/topics/collection-pagination/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-pagination.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: collection-retrieve
+        category: Collection Resources
+        name: Retrieve a collection
+        description: How to get a collection or resources
+        _links:
+          self:
+            href: /design/topics/collection-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/collection-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-retrieve.yaml
+  - references:
+      - name: URLs
+        url: 'http://restful-api-design.readthedocs.io/en/latest/urls.html'
+    _embedded:
+      topic:
+        id: collection
+        category: Collection Resources
+        name: Collection
+        description: What is a collection (set) of resources
+        _links:
+          self:
+            href: /design/topics/collection.yaml
+          topicGuidelines:
+            href: /design/topics/collection/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection.yaml
+  - references:
+      - name: Resource Data
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#resource-data'
+    _embedded:
+      topic:
+        id: data-format
+        category: Data
+        name: Data format
+        description: which data format use
+        _links:
+          self:
+            href: /design/topics/data-format.yaml
+          topicGuidelines:
+            href: /design/topics/data-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format.yaml
+  - references:
+      - name: Forms
+        quote: '... without referring to external documentation, an API user does not know what data to provide to operations that take input.'
+        url: 'http://restful-api-design.readthedocs.io/en/latest/forms.html'
+    _embedded:
+      topic:
+        id: documentation
+        category: Miscellaneous
+        name: Documentation
+        description: How to produce and/or propose API documentation
+        _links:
+          self:
+            href: /design/topics/documentation.yaml
+          topicGuidelines:
+            href: /design/topics/documentation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/documentation.yaml
+  - references:
+      - name: Forms
+        quote: '... without referring to external documentation, an API user does not know what data to provide to operations that take input.'
+        url: 'http://restful-api-design.readthedocs.io/en/latest/forms.html'
+    _embedded:
+      topic:
+        id: guiding-input
+        category: Miscellaneous
+        name: Guiding inputs
+        description: How to help consumers or end user to input relevant data
+        _links:
+          self:
+            href: /design/topics/guiding-input.yaml
+          topicGuidelines:
+            href: /design/topics/guiding-input/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/guiding-input.yaml
+  - references:
+      - name: Representations
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#representations'
+      - name: Content-Types
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#content-types'
+    _embedded:
+      topic:
+        id: http-content-negotiation
+        category: HTTP Protocol
+        name: Content negociation and media types
+        description: 'How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)'
+        _links:
+          self:
+            href: /design/topics/http-content-negotiation.yaml
+          topicGuidelines:
+            href: /design/topics/http-content-negotiation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-content-negotiation.yaml
+  - references:
+      - name: Link Headers
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#link-headers'
+    _embedded:
+      topic:
+        id: http-headers
+        category: HTTP Protocol
+        name: HTTP Headers
+        description: How to use standard or custom HTTP headers
+        _links:
+          self:
+            href: /design/topics/http-headers.yaml
+          topicGuidelines:
+            href: /design/topics/http-headers/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-headers.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-status-405
+        category: HTTP Status
+        name: HTTP Status 405
+        description: When to use HTTP status 405
+        _links:
+          self:
+            href: /design/topics/http-status-405.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-405/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-405.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-delete
+        category: HTTP Methods
+        name: DELETE
+        description: When to use HTTP method DELETE
+        _links:
+          self:
+            href: /design/topics/http-methods-delete.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-delete/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-delete.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-get
+        category: HTTP Methods
+        name: GET
+        description: When to use HTTP method GET
+        _links:
+          self:
+            href: /design/topics/http-methods-get.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-get/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-get.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-head
+        category: HTTP Methods
+        name: HEAD
+        description: When to use HTTP method HEAD
+        _links:
+          self:
+            href: /design/topics/http-methods-head.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-head/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-head.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-options
+        category: HTTP Methods
+        name: OPTIONS
+        description: When to use HTTP method OPTION
+        _links:
+          self:
+            href: /design/topics/http-methods-options.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-options/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-options.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-patch
+        category: HTTP Methods
+        name: PATCH
+        description: When to use HTTP method PATCH
+        _links:
+          self:
+            href: /design/topics/http-methods-patch.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-patch/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-patch.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-post
+        category: HTTP Methods
+        name: POST
+        description: When to use HTTP method POST
+        _links:
+          self:
+            href: /design/topics/http-methods-post.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-post/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-post.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods-put
+        category: HTTP Methods
+        name: PUT
+        description: When to use HTTP method PUT
+        _links:
+          self:
+            href: /design/topics/http-methods-put.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-put/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-put.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: http-methods
+        category: HTTP Methods
+        name: HTTP methods
+        description: General information about HTTP methods usage
+        _links:
+          self:
+            href: /design/topics/http-methods.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods.yaml
+  - references:
+      - name: REST Metadata
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#rest-metadata'
+      - name: Link Headers
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#link-headers'
+      - name: Relationships
+        url: 'http://restful-api-design.readthedocs.io/en/latest/relationships.html'
+    _embedded:
+      topic:
+        id: hypermedia-read
+        category: Hypermedia
+        name: Hypermedia (read)
+        description: How to use hypermedia to read data
+        _links:
+          self:
+            href: /design/topics/hypermedia-read.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia-read/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia-read.yaml
+  - references:
+      - name: Forms
+        quote: '... without referring to external documentation, an API user does not know what data to provide to operations that take input.'
+        url: 'http://restful-api-design.readthedocs.io/en/latest/forms.html'
+    _embedded:
+      topic:
+        id: hypermedia-write
+        category: Hypermedia
+        name: Hypermedia (write)
+        description: How to use hypermedia to write data
+        _links:
+          self:
+            href: /design/topics/hypermedia-write.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia-write/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia-write.yaml
+  - references:
+      - name: REST Metadata
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#rest-metadata'
+      - name: Link Headers
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#link-headers'
+      - name: Relationships
+        url: 'http://restful-api-design.readthedocs.io/en/latest/relationships.html'
+    _embedded:
+      topic:
+        id: hypermedia
+        category: Hypermedia
+        name: Hypermedia
+        description: How to use hypermedia
+        _links:
+          self:
+            href: /design/topics/hypermedia.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia.yaml
+  - references:
+      - name: Notifications
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#notifications'
+    _embedded:
+      topic:
+        id: notifications-server-events
+        category: Asynchronicity
+        name: Notifying API consumers
+        description: How to send events or notifications to API consumers
+        _links:
+          self:
+            href: /design/topics/notifications-server-events.yaml
+          topicGuidelines:
+            href: /design/topics/notifications-server-events/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/notifications-server-events.yaml
+  - references:
+      - name: Actions
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#actions'
+    _embedded:
+      topic:
+        id: resource-action
+        category: Resources
+        name: Action resource
+        description: How to use action resource (e.g. resources like /cancel or /approve)
+        _links:
+          self:
+            href: /design/topics/resource-action.yaml
+          topicGuidelines:
+            href: /design/topics/resource-action/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-action.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: resource-creation
+        category: Resources
+        name: Create resource
+        description: How to create resources
+        _links:
+          self:
+            href: /design/topics/resource-creation.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: resource-deletion
+        category: Resources
+        name: Delete resource
+        description: How to delete resources
+        _links:
+          self:
+            href: /design/topics/resource-deletion.yaml
+          topicGuidelines:
+            href: /design/topics/resource-deletion/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-deletion.yaml
+  - references:
+      - name: REST Metadata
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html#rest-metadata'
+    _embedded:
+      topic:
+        id: resource-id
+        category: Resources
+        name: Resource ID
+        description: What is a resource ID and/or how it's built
+        _links:
+          self:
+            href: /design/topics/resource-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-id.yaml
+  - references:
+      - name: PATCH vs PUT
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html#patch-vs-put'
+    _embedded:
+      topic:
+        id: resource-update-partial
+        category: Resources
+        name: Update resource partially
+        description: How to udate partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-update-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update-partial.yaml
+  - references:
+      - name: Relationships
+        url: 'http://restful-api-design.readthedocs.io/en/latest/relationships.html'
+    _embedded:
+      topic:
+        id: resource-relationships
+        category: Resources
+        name: Relationships
+        description: How to define and use relations between resources
+        _links:
+          self:
+            href: /design/topics/resource-relationships.yaml
+          topicGuidelines:
+            href: /design/topics/resource-relationships/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-relationships.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: resource-retrieve
+        category: Resources
+        name: Retrieve resource
+        description: How to retrieve a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve.yaml
+  - references:
+      - name: Methods
+        url: 'http://restful-api-design.readthedocs.io/en/latest/methods.html'
+    _embedded:
+      topic:
+        id: resource-update
+        category: Resources
+        name: Update resource
+        description: How to update a resource
+        _links:
+          self:
+            href: /design/topics/resource-update.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update.yaml
+  - references:
+      - name: URLs
+        url: 'http://restful-api-design.readthedocs.io/en/latest/urls.html'
+    _embedded:
+      topic:
+        id: resource-url-format
+        category: Resources
+        name: URL format
+        description: How to design URLs
+        _links:
+          self:
+            href: /design/topics/resource-url-format.yaml
+          topicGuidelines:
+            href: /design/topics/resource-url-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-url-format.yaml
+  - references:
+      - name: Resources
+        url: 'http://restful-api-design.readthedocs.io/en/latest/resources.html'
+      - name: URLs
+        url: 'http://restful-api-design.readthedocs.io/en/latest/urls.html'
+    _embedded:
+      topic:
+        id: resource
+        category: Resources
+        name: Resource
+        description: General informations about resources
+        _links:
+          self:
+            href: /design/topics/resource.yaml
+          topicGuidelines:
+            href: /design/topics/resource/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource.yaml
+_embedded:
+  guideline:
+    id: redhat-thoughts-on-restful-api-design
+    title: Thoughts on RESTful API Design
+    type: website
+    url: 'http://restful-api-design.readthedocs.io/en/latest/'
+    company: Red Hat
+    companyLogoUrl: /media/logos/redhat.png
+    companyUrl: 'https://www.redhat.com/'
+    authors:
+      - name: Geert Jansen
+        twitter: 1geertj
+    date: 2012-11-15T00:00:00.000Z
+    reviewDate: 2016-08-18T00:00:00.000Z
+    _links:
+      self:
+        href: /design/guidelines/redhat-thoughts-on-restful-api-design.yaml
+      guidelineTopics:
+        href: /design/guidelines/redhat-thoughts-on-restful-api-design/topics.yaml
+_links:
+  self:
+    href: /design/guidelines/redhat-thoughts-on-restful-api-design/topics.yaml
+  guideline:
+    href: /design/guidelines/redhat-thoughts-on-restful-api-design.yaml

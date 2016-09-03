@@ -1,0 +1,9 @@
+id: http-status-405
+category: HTTP Status
+name: HTTP Status 405
+description: When to use HTTP status 405
+_links:
+  self:
+    href: /design/topics/http-status-405.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-405/guidelines.yaml

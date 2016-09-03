@@ -1,0 +1,39 @@
+items:
+  - references:
+      - name: Write APIs in U.S. English
+        url: 'http://zalando.github.io/restful-api-guidelines/general-guidelines/GeneralGuidelines.html#must-write-apis-in-us-english'
+    _embedded:
+      guideline:
+        id: zalando-restful-api-guidelines
+        title: RESTFul API Guidelines
+        type: website
+        url: 'http://zalando.github.io/restful-api-guidelines/'
+        company: Zalando
+        companyLogoUrl: /media/logos/zalando.png
+        companyUrl: 'https://tech.zalando.de/'
+        date: 2016-01-22T00:00:00.000Z
+        reviewDate: 2016-08-28T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/zalando-restful-api-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/zalando-restful-api-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/zalando-restful-api-guidelines.yaml
+_embedded:
+  topic:
+    id: naming-language
+    category: Naming
+    name: Language
+    description: Which language(s) use when designing an API
+    _links:
+      self:
+        href: /design/topics/naming-language.yaml
+      topicGuidelines:
+        href: /design/topics/naming-language/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/naming-language/guidelines.yaml
+  topic:
+    href: /design/topics/naming-language.yaml

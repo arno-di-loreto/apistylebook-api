@@ -1,0 +1,9 @@
+id: security-data
+category: Security
+name: Data privacy
+description: Data privacy concerns
+_links:
+  self:
+    href: /design/topics/security-data.yaml
+  topicGuidelines:
+    href: /design/topics/security-data/guidelines.yaml

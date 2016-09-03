@@ -1,0 +1,9 @@
+id: debug-diagnose
+category: Miscellaneous
+name: Debug and diagnose
+description: How to provide informations to debug and diagnose
+_links:
+  self:
+    href: /design/topics/debug-diagnose.yaml
+  topicGuidelines:
+    href: /design/topics/debug-diagnose/guidelines.yaml

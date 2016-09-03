@@ -1,0 +1,14 @@
+{
+  "id": "http-headers",
+  "category": "HTTP Protocol",
+  "name": "HTTP Headers",
+  "description": "How to use standard or custom HTTP headers",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-headers.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-headers/guidelines.json"
+    }
+  }
+}

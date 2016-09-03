@@ -1,0 +1,9 @@
+id: http-status-412
+category: HTTP Status
+name: HTTP Status 412
+description: When to use HTTP status 412
+_links:
+  self:
+    href: /design/topics/http-status-412.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-412/guidelines.yaml

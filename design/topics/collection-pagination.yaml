@@ -1,0 +1,9 @@
+id: collection-pagination
+category: Collection Resources
+name: Pagination
+description: How to retrieve a range of resources in a collection
+_links:
+  self:
+    href: /design/topics/collection-pagination.yaml
+  topicGuidelines:
+    href: /design/topics/collection-pagination/guidelines.yaml

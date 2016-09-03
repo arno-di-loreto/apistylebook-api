@@ -1,0 +1,14 @@
+{
+  "id": "http-status-301",
+  "category": "HTTP Status",
+  "name": "HTTP Status 301",
+  "description": "When to use HTTP status 301",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-301.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-301/guidelines.json"
+    }
+  }
+}

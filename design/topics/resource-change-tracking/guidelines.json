@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Delta queries",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#10-delta-queries"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "microsoft-rest-api-guidelines",
+          "title": "Microsoft REST API Guidelines",
+          "type": "github",
+          "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md",
+          "company": "Microsoft",
+          "companyLogoUrl": "/media/logos/microsoft.png",
+          "companyUrl": "https://opensource.microsoft.com/",
+          "date": "2016-07-19T00:00:00.000Z",
+          "reviewDate": "2016-08-31T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/microsoft-rest-api-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/microsoft-rest-api-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/microsoft-rest-api-guidelines.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "topic": {
+      "id": "resource-change-tracking",
+      "category": "Resources",
+      "name": "Track change",
+      "description": "How to track change on resources",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-change-tracking.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-change-tracking/guidelines.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-change-tracking/guidelines.json"
+    },
+    "topic": {
+      "href": "/design/topics/resource-change-tracking.json"
+    }
+  }
+}

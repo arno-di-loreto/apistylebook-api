@@ -1,0 +1,1985 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Filtering",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#filtering"
+        },
+        {
+          "name": "Time selection",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#time-selection"
+        },
+        {
+          "name": "Search",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/search/search.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-filtering",
+          "category": "Collection Resources",
+          "name": "Filtering",
+          "description": "How to select some resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-filtering.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-filtering/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-filtering.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Paging",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#paging"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Get List of resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#get-list-of-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-retrieve",
+          "category": "Collection Resources",
+          "name": "Retrieve a collection",
+          "description": "How to get a collection or resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Sorting",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#sorting"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-sorting",
+          "category": "Collection Resources",
+          "name": "Sorting a collection",
+          "description": "How to sort a collection of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-sorting.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-sorting/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-sorting.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collection Resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection",
+          "category": "Collection Resources",
+          "name": "Collection",
+          "description": "What is a collection (set) of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Currency",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#currency",
+          "quote": "3-character ISO-4217"
+        },
+        {
+          "name": "Country",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#country",
+          "quote": "ISO 3166-1-alpha-2"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-standards",
+          "category": "Data",
+          "name": "Standards data",
+          "description": "Which standard use for values like languages, countries, currencies, ...",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-standards.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-standards/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-standards.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Dates and Times",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#dates-and-times"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format-date-time",
+          "category": "Data",
+          "name": "Date and Time",
+          "description": "How to deal with date and time data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format-date-time.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format-date-time/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format-date-time.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Hypermedia Response Format",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/response-format/response-format.md"
+        },
+        {
+          "name": "Type Formatting",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md"
+        },
+        {
+          "name": "Message Schema and Postel's Law",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format",
+          "category": "Data",
+          "name": "Data format",
+          "description": "which data format use",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Documentation",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/documentation/documentation.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "developer-experience",
+          "category": "Miscellaneous",
+          "name": "Developer experience",
+          "description": "How to take care of developer experience (DX)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/developer-experience.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/developer-experience/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/developer-experience.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Every API MUST be described using a formal API description language",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md#every-api-must-be-described-using-a-formal-api-description-language"
+        },
+        {
+          "name": "Documentation",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/documentation/documentation.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "documentation",
+          "category": "Miscellaneous",
+          "name": "Documentation",
+          "description": "How to produce and/or propose API documentation",
+          "_links": {
+            "self": {
+              "href": "/design/topics/documentation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/documentation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/documentation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Error handling",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/error-handling/error-handling.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "errors",
+          "category": "Error handling",
+          "name": "Errors",
+          "description": "How to handle errors",
+          "_links": {
+            "self": {
+              "href": "/design/topics/errors.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/errors/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/errors.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Introduction",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/introduction/introduction.md"
+        },
+        {
+          "name": "General Guidelines",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md"
+        },
+        {
+          "name": "Message Schema and Postel's Law",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "global-design",
+          "category": "API Design",
+          "name": "Global design",
+          "description": "General considerations on API design",
+          "_links": {
+            "self": {
+              "href": "/design/topics/global-design.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/global-design/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/global-design.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "API Modelling and Design Process",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#api-modelling-and-design-process"
+        },
+        {
+          "name": "API Design Review Process",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-review-process/api-design-review-process.md"
+        },
+        {
+          "name": "Message Schema and Postel's Law",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "governance",
+          "category": "API Lifecycle",
+          "name": "Governance",
+          "description": "How to ensure API governance (advertise, consistency, ...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/governance.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/governance/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/governance.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Caching",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-caching",
+          "category": "HTTP Protocol",
+          "name": "Caching",
+          "description": "How to use and provide relevant caching informations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-caching.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-caching/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-caching.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Expires HTTP Header",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#expires-http-header"
+        },
+        {
+          "name": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#cache-control-header",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#cache-control-header"
+        },
+        {
+          "name": "ETag",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#etag"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-headers",
+          "category": "HTTP Protocol",
+          "name": "HTTP Headers",
+          "description": "How to use standard or custom HTTP headers",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-headers.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-headers/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-headers.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Get List of resources)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status"
+        },
+        {
+          "name": "HTTP Status (Read Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-1"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-200",
+          "category": "HTTP Status",
+          "name": "HTTP Status 200",
+          "description": "When to use HTTP status 200",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-200.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-200/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-200.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-201",
+          "category": "HTTP Status",
+          "name": "HTTP Status 201",
+          "description": "When to use HTTP status 201",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-201.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-201/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-201.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Update Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2"
+        },
+        {
+          "name": "HTTP Status (Update Partial Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3"
+        },
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#delete-single-resource"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-204",
+          "category": "HTTP Status",
+          "name": "HTTP Status 204",
+          "description": "When to use HTTP status 204",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-204.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-204/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-204.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-304",
+          "category": "HTTP Status",
+          "name": "HTTP Status 304",
+          "description": "When to use HTTP status 304",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-304.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-304/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-304.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Get List of resources)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status"
+        },
+        {
+          "name": "HTTP Status (Update Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2"
+        },
+        {
+          "name": "HTTP Status (Update Partial Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-400",
+          "category": "HTTP Status",
+          "name": "HTTP Status 400",
+          "description": "When to use HTTP status 400",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-400.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-400/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-400.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-401",
+          "category": "HTTP Status",
+          "name": "HTTP Status 401",
+          "description": "When to use HTTP status 401",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-401.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-401/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-401.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-403",
+          "category": "HTTP Status",
+          "name": "HTTP Status 403",
+          "description": "When to use HTTP status 403",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-403.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-403/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-403.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Get List of resources)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status"
+        },
+        {
+          "name": "HTTP Status (Read Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-1"
+        },
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#delete-single-resource",
+          "quote": "404 Not Found HTTP status should not be utilized"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-404",
+          "category": "HTTP Status",
+          "name": "HTTP Status 404",
+          "description": "When to use HTTP status 404",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-404.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-404/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-404.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-405",
+          "category": "HTTP Status",
+          "name": "HTTP Status 405",
+          "description": "When to use HTTP status 405",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-405.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-405/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-405.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-406",
+          "category": "HTTP Status",
+          "name": "HTTP Status 406",
+          "description": "When to use HTTP status 406",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-406.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-406/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-406.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-408",
+          "category": "HTTP Status",
+          "name": "HTTP Status 408",
+          "description": "When to use HTTP status 408",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-408.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-408/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-408.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-409",
+          "category": "HTTP Status",
+          "name": "HTTP Status 409",
+          "description": "When to use HTTP status 409",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-409.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-409/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-409.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-411",
+          "category": "HTTP Status",
+          "name": "HTTP Status 411",
+          "description": "When to use HTTP status 411",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-411.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-411/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-411.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-412",
+          "category": "HTTP Status",
+          "name": "HTTP Status 412",
+          "description": "When to use HTTP status 412",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-412.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-412/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-412.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-415",
+          "category": "HTTP Status",
+          "name": "HTTP Status 415",
+          "description": "When to use HTTP status 415",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-415.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-415/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-415.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status (Update Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2"
+        },
+        {
+          "name": "HTTP Status (Update Partial Single Resource)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-422",
+          "category": "HTTP Status",
+          "name": "HTTP Status 422",
+          "description": "When to use HTTP status 422",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-422.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-422/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-422.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-500",
+          "category": "HTTP Status",
+          "name": "HTTP Status 500",
+          "description": "When to use HTTP status 500",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-500.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-500/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-500.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-501",
+          "category": "HTTP Status",
+          "name": "HTTP Status 501",
+          "description": "When to use HTTP status 501",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-501.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-501/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-501.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Error handling",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/error-handling/error-handling.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-standard-error",
+          "category": "Error handling",
+          "name": "Error format",
+          "description": "How to provide information about errors",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-standard-error.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-standard-error/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-standard-error.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Mapping Response Codes For Success and Failure",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#mapping-response-codes-for-success-and-failure"
+        },
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status",
+          "category": "HTTP Status",
+          "name": "HTTP Statuses",
+          "description": "General information about HTTP statuses usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Verbs",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-delete",
+          "category": "HTTP Methods",
+          "name": "DELETE",
+          "description": "When to use HTTP method DELETE",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-delete.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-delete/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-delete.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Verbs",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
+        },
+        {
+          "name": "Get List of resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#get-list-of-resources"
+        },
+        {
+          "name": "Read Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#read-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-get",
+          "category": "HTTP Methods",
+          "name": "GET",
+          "description": "When to use HTTP method GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-get.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-get/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-get.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Verbs",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
+        },
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-partial-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-patch",
+          "category": "HTTP Methods",
+          "name": "PATCH",
+          "description": "When to use HTTP method PATCH",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-patch.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-patch/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-patch.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Verbs",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
+        },
+        {
+          "name": "Create New Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource"
+        },
+        {
+          "name": "Using POST (Search)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/search/search.md#using-post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-post",
+          "category": "HTTP Methods",
+          "name": "POST",
+          "description": "When to use HTTP method POST",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-post.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-post/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-post.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Verbs",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
+        },
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource"
+        },
+        {
+          "name": "Create New Resource - Consumer Supplied Identifier",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource---consumer-supplied-identifier"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-put",
+          "category": "HTTP Methods",
+          "name": "PUT",
+          "description": "When to use HTTP method PUT",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-put.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-put/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-put.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Verbs",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods",
+          "category": "HTTP Methods",
+          "name": "HTTP methods",
+          "description": "General information about HTTP methods usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Expanding Resources Through Hypermedia Linking",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#expanding-resources-through-hypermedia-linking"
+        },
+        {
+          "name": "Hypermedia and REST",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/hypermedia-and-rest/hypermedia-and-rest.md"
+        },
+        {
+          "name": "Relationships and Sub-Resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/relationships-and-sub-resources/relationships-and-sub-resources.md"
+        },
+        {
+          "name": "Hypermedia Links (Pagination)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#hypermedia-links"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-read",
+          "category": "Hypermedia",
+          "name": "Hypermedia (read)",
+          "description": "How to use hypermedia to read data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-read.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-read/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-read.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Expanding Resources Through Hypermedia Linking",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#expanding-resources-through-hypermedia-linking"
+        },
+        {
+          "name": "Support Hypermedia",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/rest-principles/rest-principles.md#support-hypermedia"
+        },
+        {
+          "name": "Hypermedia and REST",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/hypermedia-and-rest/hypermedia-and-rest.md"
+        },
+        {
+          "name": "Relationships and Sub-Resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/relationships-and-sub-resources/relationships-and-sub-resources.md"
+        },
+        {
+          "name": "Hypermedia Links (Pagination)",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#hypermedia-links"
+        },
+        {
+          "name": "Hypermedia Response Format",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/response-format/response-format.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Building Your Resource Taxonomy",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#building-your-resource-taxonomy"
+        },
+        {
+          "name": "Resource naming",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#resource-naming"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming",
+          "category": "Naming",
+          "name": "Naming",
+          "description": "How to name things",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Create New Resource - Consumer Supplied Identifier",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource---consumer-supplied-identifier"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation-with-id",
+          "category": "Resources",
+          "name": "Create resource with a specific ID",
+          "description": "How to create resource with a provided id",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation-with-id.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation-with-id/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation-with-id.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Create New Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation",
+          "category": "Resources",
+          "name": "Create resource",
+          "description": "How to create resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Delete Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#delete-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-deletion",
+          "category": "Resources",
+          "name": "Delete resource",
+          "description": "How to delete resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-deletion.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-deletion/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-deletion.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Composite Keys",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/faq/faq.md#composite-keys"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-id",
+          "category": "Resources",
+          "name": "Resource ID",
+          "description": "What is a resource ID and/or how it's built",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-id.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-id/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-id.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "How to Handle Resource Relationships and Composition",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#how-to-handle-resource-relationships-and-composition"
+        },
+        {
+          "name": "Relationships and Sub-Resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/relationships-and-sub-resources/relationships-and-sub-resources.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-relationships",
+          "category": "Resources",
+          "name": "Relationships",
+          "description": "How to define and use relations between resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-relationships.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-relationships/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-relationships.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-replacement",
+          "category": "Resources",
+          "name": "Replace resource",
+          "description": "How to replace (or update fully) a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-replacement.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-replacement/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-replacement.json"
+        }
+      }
+    },
+    {
+      "references": {
+        "name": "Dereference Relationships",
+        "description": "How to load a resource and its linked resources in one call"
+      },
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-dereference",
+          "category": "Resources",
+          "name": "Dereference Relationships",
+          "description": "How to load a resource and its linked resources in one call",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-dereference.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-dereference.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Field selection",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#field-selection"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-partial",
+          "category": "Resources",
+          "name": "Retrieve resource partially",
+          "description": "How to retrieve partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Read Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#read-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve",
+          "category": "Resources",
+          "name": "Retrieve resource",
+          "description": "How to retrieve a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": {
+        "name": "Resource's state",
+        "description": "How to change a resource's state/status (like processed/sent/paid/...)"
+      },
+      "_embedded": {
+        "topic": {
+          "id": "resource-state",
+          "category": "Resources",
+          "name": "Resource's state",
+          "description": "How to change a resource's state/status (like processed/sent/paid/...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-state.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-state/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-state.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-partial-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update-partial",
+          "category": "Resources",
+          "name": "Update resource partially",
+          "description": "How to udate partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Update Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource"
+        },
+        {
+          "name": "Update Partial Single Resource",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-partial-single-resource"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update",
+          "category": "Resources",
+          "name": "Update resource",
+          "description": "How to update a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "URI Components",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/uri-components/uri-components.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Building Your Resource Taxonomy",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#building-your-resource-taxonomy"
+        },
+        {
+          "name": "Defining Resource Lifecycles",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#defining-resource-lifecycles"
+        },
+        {
+          "name": "Resources",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/resources/resources.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource",
+          "category": "Resources",
+          "name": "Resource",
+          "description": "General informations about resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "API clients MUST use an API Key",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md#api-clients-must-use-an-api-key"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "security",
+          "category": "Security",
+          "name": "Security",
+          "description": "Security concerns",
+          "_links": {
+            "self": {
+              "href": "/design/topics/security.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/security/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/security.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security and Authentication",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/security-and-authentication/security-and-authentication.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "security-data",
+          "category": "Security",
+          "name": "Data privacy",
+          "description": "Data privacy concerns",
+          "_links": {
+            "self": {
+              "href": "/design/topics/security-data.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/security-data/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/security-data.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Version",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/uri-components/uri-components.md#version"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "versioning",
+          "category": "API Lifecycle",
+          "name": "Versionning",
+          "description": "How to handle API versionning",
+          "_links": {
+            "self": {
+              "href": "/design/topics/versioning.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/versioning/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/versioning.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "haufe-api-styleguide",
+      "title": "Haufe API style guide",
+      "type": "github",
+      "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md",
+      "company": "Haufe",
+      "companyLogoUrl": "/media/logos/haufe.png",
+      "companyUrl": "http://dev.haufe.com/",
+      "date": "2015-01-15T00:00:00.000Z",
+      "reviewDate": "2016-08-31T00:00:00.000Z",
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/haufe-api-styleguide.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/haufe-api-styleguide/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/haufe-api-styleguide/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/haufe-api-styleguide.json"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cors",
+  "category": "Miscellaneous",
+  "name": "CORS",
+  "description": "How to deal with CORS",
+  "_links": {
+    "self": {
+      "href": "/design/topics/cors.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/cors/guidelines.json"
+    }
+  }
+}

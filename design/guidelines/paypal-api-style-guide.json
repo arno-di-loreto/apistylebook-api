@@ -1,0 +1,19 @@
+{
+  "id": "paypal-api-style-guide",
+  "title": "API Style Guide",
+  "type": "github",
+  "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md",
+  "company": "PayPal",
+  "companyLogoUrl": "/media/logos/paypal.png",
+  "companyUrl": "https://developer.paypal.com/",
+  "date": "2016-08-11T00:00:00.000Z",
+  "reviewDate": "2016-08-31T00:00:00.000Z",
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/paypal-api-style-guide.json"
+    },
+    "guidelineTopics": {
+      "href": "/design/guidelines/paypal-api-style-guide/topics.json"
+    }
+  }
+}

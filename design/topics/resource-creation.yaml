@@ -1,0 +1,9 @@
+id: resource-creation
+category: Resources
+name: Create resource
+description: How to create resources
+_links:
+  self:
+    href: /design/topics/resource-creation.yaml
+  topicGuidelines:
+    href: /design/topics/resource-creation/guidelines.yaml

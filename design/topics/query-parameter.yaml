@@ -1,0 +1,9 @@
+id: query-parameter
+category: Miscellaneous
+name: Query parameters
+description: How to use query parameters
+_links:
+  self:
+    href: /design/topics/query-parameter.yaml
+  topicGuidelines:
+    href: /design/topics/query-parameter/guidelines.yaml

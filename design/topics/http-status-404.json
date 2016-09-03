@@ -1,0 +1,14 @@
+{
+  "id": "http-status-404",
+  "category": "HTTP Status",
+  "name": "HTTP Status 404",
+  "description": "When to use HTTP status 404",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-404.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-404/guidelines.json"
+    }
+  }
+}

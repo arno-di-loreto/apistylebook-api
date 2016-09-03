@@ -1,0 +1,14 @@
+{
+  "id": "http-content-negotiation",
+  "category": "HTTP Protocol",
+  "name": "Content negociation and media types",
+  "description": "How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-content-negotiation.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-content-negotiation/guidelines.json"
+    }
+  }
+}

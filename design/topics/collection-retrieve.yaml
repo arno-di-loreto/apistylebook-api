@@ -1,0 +1,9 @@
+id: collection-retrieve
+category: Collection Resources
+name: Retrieve a collection
+description: How to get a collection or resources
+_links:
+  self:
+    href: /design/topics/collection-retrieve.yaml
+  topicGuidelines:
+    href: /design/topics/collection-retrieve/guidelines.yaml

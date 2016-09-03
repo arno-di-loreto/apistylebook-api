@@ -1,0 +1,19 @@
+{
+  "id": "atlassian-rest-api-policy",
+  "title": "Atlassian REST API Policy",
+  "type": "website",
+  "url": "https://developer.atlassian.com/display/HOME/Atlassian+REST+API+policy",
+  "company": "Atlassian",
+  "companyLogoUrl": "/media/logos/atlassian.png",
+  "companyUrl": "https://developer.atlassian.com/",
+  "date": "2015-01-15T00:00:00.000Z",
+  "reviewDate": "2016-09-01T00:00:00.000Z",
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/atlassian-rest-api-policy.json"
+    },
+    "guidelineTopics": {
+      "href": "/design/guidelines/atlassian-rest-api-policy/topics.json"
+    }
+  }
+}

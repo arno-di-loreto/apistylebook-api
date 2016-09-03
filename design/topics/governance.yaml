@@ -1,0 +1,9 @@
+id: governance
+category: API Lifecycle
+name: Governance
+description: 'How to ensure API governance (advertise, consistency, ...)'
+_links:
+  self:
+    href: /design/topics/governance.yaml
+  topicGuidelines:
+    href: /design/topics/governance/guidelines.yaml

@@ -1,0 +1,9 @@
+id: resource-creation-with-id
+category: Resources
+name: Create resource with a specific ID
+description: How to create resource with a provided id
+_links:
+  self:
+    href: /design/topics/resource-creation-with-id.yaml
+  topicGuidelines:
+    href: /design/topics/resource-creation-with-id/guidelines.yaml

@@ -1,0 +1,14 @@
+{
+  "id": "http-methods-get",
+  "category": "HTTP Methods",
+  "name": "GET",
+  "description": "When to use HTTP method GET",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods-get.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods-get/guidelines.json"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "heroku-http-api-design-guide",
+  "title": "HTTP API Design Guide",
+  "type": "gitbook",
+  "url": "https://geemus.gitbooks.io/http-api-design/content/en/",
+  "company": "Heroku",
+  "companyLogoUrl": "/media/logos/heroku.png",
+  "companyUrl": "https://devcenter.heroku.com/articles/platform-api-reference",
+  "date": "2016-07-05T00:00:00.000Z",
+  "reviewDate": "2016-08-31T00:00:00.000Z",
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/heroku-http-api-design-guide.json"
+    },
+    "guidelineTopics": {
+      "href": "/design/guidelines/heroku-http-api-design-guide/topics.json"
+    }
+  }
+}

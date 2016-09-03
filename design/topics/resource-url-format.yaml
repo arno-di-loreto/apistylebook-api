@@ -1,0 +1,9 @@
+id: resource-url-format
+category: Resources
+name: URL format
+description: How to design URLs
+_links:
+  self:
+    href: /design/topics/resource-url-format.yaml
+  topicGuidelines:
+    href: /design/topics/resource-url-format/guidelines.yaml

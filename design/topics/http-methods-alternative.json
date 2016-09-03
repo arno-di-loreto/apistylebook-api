@@ -1,0 +1,14 @@
+{
+  "id": "http-methods-alternative",
+  "category": "HTTP Methods",
+  "name": "Forbidden methods alternatives",
+  "description": "What to do when only possible HTTP methods are POST and GET",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods-alternative.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods-alternative/guidelines.json"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "resource-state",
+  "category": "Resources",
+  "name": "Resource's state",
+  "description": "How to change a resource's state/status (like processed/sent/paid/...)",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-state.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-state/guidelines.json"
+    }
+  }
+}

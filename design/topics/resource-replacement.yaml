@@ -1,0 +1,9 @@
+id: resource-replacement
+category: Resources
+name: Replace resource
+description: How to replace (or update fully) a resource
+_links:
+  self:
+    href: /design/topics/resource-replacement.yaml
+  topicGuidelines:
+    href: /design/topics/resource-replacement/guidelines.yaml

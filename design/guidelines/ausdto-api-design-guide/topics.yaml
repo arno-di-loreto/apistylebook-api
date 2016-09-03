@@ -1,0 +1,496 @@
+items:
+  - references:
+      - name: Batching results
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/batching_results.html'
+    _embedded:
+      topic:
+        id: collection-pagination
+        category: Collection Resources
+        name: Pagination
+        description: How to retrieve a range of resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-pagination.yaml
+          topicGuidelines:
+            href: /design/topics/collection-pagination/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-pagination.yaml
+  - references:
+      - name: Support cross-domain mashups with CORS
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/cors.html'
+    _embedded:
+      topic:
+        id: cors
+        category: Miscellaneous
+        name: CORS
+        description: How to deal with CORS
+        _links:
+          self:
+            href: /design/topics/cors.yaml
+          topicGuidelines:
+            href: /design/topics/cors/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/cors.yaml
+  - references:
+      - name: Empathy
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/empathy.html'
+      - name: Errors
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/errors.html'
+      - name: Endpoint Stability
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/availability.html'
+    _embedded:
+      topic:
+        id: developer-experience
+        category: Miscellaneous
+        name: Developer experience
+        description: How to take care of developer experience (DX)
+        _links:
+          self:
+            href: /design/topics/developer-experience.yaml
+          topicGuidelines:
+            href: /design/topics/developer-experience/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/developer-experience.yaml
+  - references:
+      - name: Discoverability
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/discoverability.html'
+      - name: Document your API
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/documentation.html'
+    _embedded:
+      topic:
+        id: documentation
+        category: Miscellaneous
+        name: Documentation
+        description: How to produce and/or propose API documentation
+        _links:
+          self:
+            href: /design/topics/documentation.yaml
+          topicGuidelines:
+            href: /design/topics/documentation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/documentation.yaml
+  - references:
+      - name: Register your API
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/advertise.html'
+    _embedded:
+      topic:
+        id: governance
+        category: API Lifecycle
+        name: Governance
+        description: 'How to ensure API governance (advertise, consistency, ...)'
+        _links:
+          self:
+            href: /design/topics/governance.yaml
+          topicGuidelines:
+            href: /design/topics/governance/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/governance.yaml
+  - references:
+      - name: Formats
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#formats'
+      - name: API Payload format encoding
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#api-payload-format-encoding'
+    _embedded:
+      topic:
+        id: http-content-negotiation
+        category: HTTP Protocol
+        name: Content negociation and media types
+        description: 'How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)'
+        _links:
+          self:
+            href: /design/topics/http-content-negotiation.yaml
+          topicGuidelines:
+            href: /design/topics/http-content-negotiation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-content-negotiation.yaml
+  - references:
+      - name: GET /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#get--magazines'
+      - name: PUT /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#put--magazines'
+      - name: DELETE /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#delete--magazines'
+      - name: DELETE /magazines/1234
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#delete--magazines-1234'
+      - name: HEAD /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#head--magazines'
+      - name: HEAD /magazines/1234
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#head--magazines-1234'
+    _embedded:
+      topic:
+        id: http-status-200
+        category: HTTP Status
+        name: HTTP Status 200
+        description: When to use HTTP status 200
+        _links:
+          self:
+            href: /design/topics/http-status-200.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-200/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-200.yaml
+  - references:
+      - name: Use HTTP methods and status codes
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#use-http-methods-and-status-codes'
+      - name: PUT /magazines/1234
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#put--magazines-1234'
+    _embedded:
+      topic:
+        id: http-status-201
+        category: HTTP Status
+        name: HTTP Status 201
+        description: When to use HTTP status 201
+        _links:
+          self:
+            href: /design/topics/http-status-201.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-201/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-201.yaml
+  - references:
+      - name: GET /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#get--magazines'
+    _embedded:
+      topic:
+        id: http-status-404
+        category: HTTP Status
+        name: HTTP Status 404
+        description: When to use HTTP status 404
+        _links:
+          self:
+            href: /design/topics/http-status-404.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-404/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-404.yaml
+  - references:
+      - name: Use HTTP methods and status codes
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#use-http-methods-and-status-codes'
+    _embedded:
+      topic:
+        id: http-status-405
+        category: HTTP Status
+        name: HTTP Status 405
+        description: When to use HTTP status 405
+        _links:
+          self:
+            href: /design/topics/http-status-405.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-405/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-405.yaml
+  - references:
+      - name: HTTP response principles
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#http-response-principles'
+    _embedded:
+      topic:
+        id: http-status-standard-error
+        category: Error handling
+        name: Error format
+        description: How to provide information about errors
+        _links:
+          self:
+            href: /design/topics/http-status-standard-error.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-standard-error/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-standard-error.yaml
+  - references:
+      - name: DELETE /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#delete--magazines'
+      - name: DELETE /magazines/1234
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#delete--magazines-1234'
+    _embedded:
+      topic:
+        id: http-methods-delete
+        category: HTTP Methods
+        name: DELETE
+        description: When to use HTTP method DELETE
+        _links:
+          self:
+            href: /design/topics/http-methods-delete.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-delete/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-delete.yaml
+  - references:
+      - name: GET /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#get--magazines'
+    _embedded:
+      topic:
+        id: http-methods-get
+        category: HTTP Methods
+        name: GET
+        description: When to use HTTP method GET
+        _links:
+          self:
+            href: /design/topics/http-methods-get.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-get/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-get.yaml
+  - references:
+      - name: HEAD /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#head--magazines'
+      - name: HEAD /magazines/1234
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#head--magazines-1234'
+    _embedded:
+      topic:
+        id: http-methods-head
+        category: HTTP Methods
+        name: HEAD
+        description: When to use HTTP method HEAD
+        _links:
+          self:
+            href: /design/topics/http-methods-head.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-head/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-head.yaml
+  - references:
+      - name: POST /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#post--magazines'
+    _embedded:
+      topic:
+        id: http-methods-post
+        category: HTTP Methods
+        name: POST
+        description: When to use HTTP method POST
+        _links:
+          self:
+            href: /design/topics/http-methods-post.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-post/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-post.yaml
+  - references:
+      - name: PUT /magazines
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#put--magazines'
+      - name: PUT /magazines/1234
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#put--magazines-1234'
+    _embedded:
+      topic:
+        id: http-methods-put
+        category: HTTP Methods
+        name: PUT
+        description: When to use HTTP method PUT
+        _links:
+          self:
+            href: /design/topics/http-methods-put.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-put/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-put.yaml
+  - references:
+      - name: Use HTTP methods and status codes
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#use-http-methods-and-status-codes'
+    _embedded:
+      topic:
+        id: http-methods
+        category: HTTP Methods
+        name: HTTP methods
+        description: General information about HTTP methods usage
+        _links:
+          self:
+            href: /design/topics/http-methods.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods.yaml
+  - references:
+      - name: Management state with HATEOAS
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/hateos.html'
+    _embedded:
+      topic:
+        id: hypermedia-read
+        category: Hypermedia
+        name: Hypermedia (read)
+        description: How to use hypermedia to read data
+        _links:
+          self:
+            href: /design/topics/hypermedia-read.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia-read/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia-read.yaml
+  - references:
+      - name: Management state with HATEOAS
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/hateos.html'
+    _embedded:
+      topic:
+        id: hypermedia-write
+        category: Hypermedia
+        name: Hypermedia (write)
+        description: How to use hypermedia to write data
+        _links:
+          self:
+            href: /design/topics/hypermedia-write.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia-write/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia-write.yaml
+  - references:
+      - name: Management state with HATEOAS
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/hateos.html'
+    _embedded:
+      topic:
+        id: hypermedia
+        category: Hypermedia
+        name: Hypermedia
+        description: How to use hypermedia
+        _links:
+          self:
+            href: /design/topics/hypermedia.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia.yaml
+  - references:
+      - name: Granularity
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/granularity.html'
+      - name: Functionality
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/coverage.html'
+    _embedded:
+      topic:
+        id: global-design
+        category: API Design
+        name: Global design
+        description: General considerations on API design
+        _links:
+          self:
+            href: /design/topics/global-design.yaml
+          topicGuidelines:
+            href: /design/topics/global-design/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/global-design.yaml
+  - references:
+      - name: Management state with HATEOAS
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/hateos.html'
+    _embedded:
+      topic:
+        id: resource-relationships
+        category: Resources
+        name: Relationships
+        description: How to define and use relations between resources
+        _links:
+          self:
+            href: /design/topics/resource-relationships.yaml
+          topicGuidelines:
+            href: /design/topics/resource-relationships/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-relationships.yaml
+  - references:
+      - name: URL Depth
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#url-depth'
+      - name: Good RESTful URL examples
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#good-restful-url-examples'
+    _embedded:
+      topic:
+        id: resource-url-format
+        category: Resources
+        name: URL format
+        description: How to design URLs
+        _links:
+          self:
+            href: /design/topics/resource-url-format.yaml
+          topicGuidelines:
+            href: /design/topics/resource-url-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-url-format.yaml
+  - references:
+      - name: Privacy and security
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/security.html'
+    _embedded:
+      topic:
+        id: security
+        category: Security
+        name: Security
+        description: Security concerns
+        _links:
+          self:
+            href: /design/topics/security.yaml
+          topicGuidelines:
+            href: /design/topics/security/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security.yaml
+  - references:
+      - name: Privacy and security
+        url: 'https://apiguide.readthedocs.io/en/latest/principles/security.html'
+    _embedded:
+      topic:
+        id: security-data
+        category: Security
+        name: Data privacy
+        description: Data privacy concerns
+        _links:
+          self:
+            href: /design/topics/security-data.yaml
+          topicGuidelines:
+            href: /design/topics/security-data/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security-data.yaml
+  - references:
+      - name: Versioning
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/use_RESTful_urls.html#versioning'
+      - name: Use versions
+        url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/versioning.html'
+    _embedded:
+      topic:
+        id: versioning
+        category: API Lifecycle
+        name: Versionning
+        description: How to handle API versionning
+        _links:
+          self:
+            href: /design/topics/versioning.yaml
+          topicGuidelines:
+            href: /design/topics/versioning/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/versioning.yaml
+_embedded:
+  guideline:
+    id: ausdto-api-design-guide
+    title: API Design Guide
+    type: website
+    url: 'https://apiguide.readthedocs.io/en/latest/index.html'
+    company: Australian Digital Transformation Office
+    companyLogoUrl: /media/logos/ausdto.png
+    companyUrl: 'https://www.dto.gov.au/'
+    date: 2015-10-20T00:00:00.000Z
+    reviewDate: 2016-08-18T00:00:00.000Z
+    _links:
+      self:
+        href: /design/guidelines/ausdto-api-design-guide.yaml
+      guidelineTopics:
+        href: /design/guidelines/ausdto-api-design-guide/topics.yaml
+_links:
+  self:
+    href: /design/guidelines/ausdto-api-design-guide/topics.yaml
+  guideline:
+    href: /design/guidelines/ausdto-api-design-guide.yaml

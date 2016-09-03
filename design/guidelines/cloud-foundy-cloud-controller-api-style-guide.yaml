@@ -1,0 +1,14 @@
+id: cloud-foundy-cloud-controller-api-style-guide
+title: Cloud Controller API v3 Style Guide (Proposal)
+type: github
+url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide'
+company: Cloud Foundry
+companyLogoUrl: /media/logos/cloudfoundry.png
+companyUrl: 'https://www.cloudfoundry.org/'
+date: 2016-05-11T00:00:00.000Z
+reviewDate: 2016-08-18T00:00:00.000Z
+_links:
+  self:
+    href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
+  guidelineTopics:
+    href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics.yaml

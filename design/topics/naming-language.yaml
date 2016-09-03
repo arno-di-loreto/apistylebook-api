@@ -1,0 +1,9 @@
+id: naming-language
+category: Naming
+name: Language
+description: Which language(s) use when designing an API
+_links:
+  self:
+    href: /design/topics/naming-language.yaml
+  topicGuidelines:
+    href: /design/topics/naming-language/guidelines.yaml

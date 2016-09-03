@@ -1,0 +1,14 @@
+{
+  "id": "http-status-408",
+  "category": "HTTP Status",
+  "name": "HTTP Status 408",
+  "description": "When to use HTTP status 408",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-408.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-408/guidelines.json"
+    }
+  }
+}

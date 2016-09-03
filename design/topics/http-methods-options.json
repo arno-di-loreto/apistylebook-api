@@ -1,0 +1,14 @@
+{
+  "id": "http-methods-options",
+  "category": "HTTP Methods",
+  "name": "OPTIONS",
+  "description": "When to use HTTP method OPTION",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods-options.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods-options/guidelines.json"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ausdto-api-design-guide",
+  "title": "API Design Guide",
+  "type": "website",
+  "url": "https://apiguide.readthedocs.io/en/latest/index.html",
+  "company": "Australian Digital Transformation Office",
+  "companyLogoUrl": "/media/logos/ausdto.png",
+  "companyUrl": "https://www.dto.gov.au/",
+  "date": "2015-10-20T00:00:00.000Z",
+  "reviewDate": "2016-08-18T00:00:00.000Z",
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/ausdto-api-design-guide.json"
+    },
+    "guidelineTopics": {
+      "href": "/design/guidelines/ausdto-api-design-guide/topics.json"
+    }
+  }
+}

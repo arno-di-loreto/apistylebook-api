@@ -1,0 +1,9 @@
+id: http-status-standard-error
+category: Error handling
+name: Error format
+description: How to provide information about errors
+_links:
+  self:
+    href: /design/topics/http-status-standard-error.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-standard-error/guidelines.yaml

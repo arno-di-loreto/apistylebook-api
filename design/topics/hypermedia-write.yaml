@@ -1,0 +1,9 @@
+id: hypermedia-write
+category: Hypermedia
+name: Hypermedia (write)
+description: How to use hypermedia to write data
+_links:
+  self:
+    href: /design/topics/hypermedia-write.yaml
+  topicGuidelines:
+    href: /design/topics/hypermedia-write/guidelines.yaml

@@ -1,0 +1,1018 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Asynchronous Requests",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#asynchronous-requests"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "asynchronicity",
+          "category": "Asynchronicity",
+          "name": "Asynchronicity",
+          "description": "How to handle long operations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/asynchronicity.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/asynchronicity/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/asynchronicity.json"
+        }
+      }
+    },
+    {
+      "references": null,
+      "_embedded": {
+        "topic": {
+          "id": "collection-filtering",
+          "category": "Collection Resources",
+          "name": "Filtering",
+          "description": "How to select some resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-filtering.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-filtering/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-filtering.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Ranges Pagination",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#ranges-pagination"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-retrieve",
+          "category": "Collection Resources",
+          "name": "Retrieve a collection",
+          "description": "How to get a collection or resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "URLs",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/urls.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection",
+          "category": "Collection Resources",
+          "name": "Collection",
+          "description": "What is a collection (set) of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Resource Data",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html#resource-data"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format",
+          "category": "Data",
+          "name": "Data format",
+          "description": "which data format use",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Forms",
+          "quote": "... without referring to external documentation, an API user does not know what data to provide to operations that take input.",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/forms.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "documentation",
+          "category": "Miscellaneous",
+          "name": "Documentation",
+          "description": "How to produce and/or propose API documentation",
+          "_links": {
+            "self": {
+              "href": "/design/topics/documentation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/documentation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/documentation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Forms",
+          "quote": "... without referring to external documentation, an API user does not know what data to provide to operations that take input.",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/forms.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "guiding-input",
+          "category": "Miscellaneous",
+          "name": "Guiding inputs",
+          "description": "How to help consumers or end user to input relevant data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/guiding-input.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/guiding-input/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/guiding-input.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Representations",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html#representations"
+        },
+        {
+          "name": "Content-Types",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html#content-types"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-content-negotiation",
+          "category": "HTTP Protocol",
+          "name": "Content negociation and media types",
+          "description": "How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-content-negotiation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-content-negotiation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-content-negotiation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Link Headers",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#link-headers"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-headers",
+          "category": "HTTP Protocol",
+          "name": "HTTP Headers",
+          "description": "How to use standard or custom HTTP headers",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-headers.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-headers/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-headers.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-405",
+          "category": "HTTP Status",
+          "name": "HTTP Status 405",
+          "description": "When to use HTTP status 405",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-405.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-405/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-405.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-delete",
+          "category": "HTTP Methods",
+          "name": "DELETE",
+          "description": "When to use HTTP method DELETE",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-delete.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-delete/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-delete.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-get",
+          "category": "HTTP Methods",
+          "name": "GET",
+          "description": "When to use HTTP method GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-get.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-get/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-get.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-head",
+          "category": "HTTP Methods",
+          "name": "HEAD",
+          "description": "When to use HTTP method HEAD",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-head.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-head/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-head.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-options",
+          "category": "HTTP Methods",
+          "name": "OPTIONS",
+          "description": "When to use HTTP method OPTION",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-options.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-options/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-options.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-patch",
+          "category": "HTTP Methods",
+          "name": "PATCH",
+          "description": "When to use HTTP method PATCH",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-patch.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-patch/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-patch.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-post",
+          "category": "HTTP Methods",
+          "name": "POST",
+          "description": "When to use HTTP method POST",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-post.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-post/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-post.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-put",
+          "category": "HTTP Methods",
+          "name": "PUT",
+          "description": "When to use HTTP method PUT",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-put.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-put/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-put.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods",
+          "category": "HTTP Methods",
+          "name": "HTTP methods",
+          "description": "General information about HTTP methods usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Metadata",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html#rest-metadata"
+        },
+        {
+          "name": "Link Headers",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#link-headers"
+        },
+        {
+          "name": "Relationships",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/relationships.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-read",
+          "category": "Hypermedia",
+          "name": "Hypermedia (read)",
+          "description": "How to use hypermedia to read data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-read.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-read/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-read.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Forms",
+          "quote": "... without referring to external documentation, an API user does not know what data to provide to operations that take input.",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/forms.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-write",
+          "category": "Hypermedia",
+          "name": "Hypermedia (write)",
+          "description": "How to use hypermedia to write data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-write.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-write/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-write.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Metadata",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html#rest-metadata"
+        },
+        {
+          "name": "Link Headers",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#link-headers"
+        },
+        {
+          "name": "Relationships",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/relationships.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Notifications",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#notifications"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "notifications-server-events",
+          "category": "Asynchronicity",
+          "name": "Notifying API consumers",
+          "description": "How to send events or notifications to API consumers",
+          "_links": {
+            "self": {
+              "href": "/design/topics/notifications-server-events.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/notifications-server-events/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/notifications-server-events.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Actions",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#actions"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-action",
+          "category": "Resources",
+          "name": "Action resource",
+          "description": "How to use action resource (e.g. resources like /cancel or /approve)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-action.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-action/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-action.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation",
+          "category": "Resources",
+          "name": "Create resource",
+          "description": "How to create resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-deletion",
+          "category": "Resources",
+          "name": "Delete resource",
+          "description": "How to delete resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-deletion.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-deletion/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-deletion.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Metadata",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html#rest-metadata"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-id",
+          "category": "Resources",
+          "name": "Resource ID",
+          "description": "What is a resource ID and/or how it's built",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-id.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-id/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-id.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "PATCH vs PUT",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html#patch-vs-put"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update-partial",
+          "category": "Resources",
+          "name": "Update resource partially",
+          "description": "How to udate partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Relationships",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/relationships.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-relationships",
+          "category": "Resources",
+          "name": "Relationships",
+          "description": "How to define and use relations between resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-relationships.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-relationships/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-relationships.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve",
+          "category": "Resources",
+          "name": "Retrieve resource",
+          "description": "How to retrieve a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Methods",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update",
+          "category": "Resources",
+          "name": "Update resource",
+          "description": "How to update a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "URLs",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/urls.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Resources",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/resources.html"
+        },
+        {
+          "name": "URLs",
+          "url": "http://restful-api-design.readthedocs.io/en/latest/urls.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource",
+          "category": "Resources",
+          "name": "Resource",
+          "description": "General informations about resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "redhat-thoughts-on-restful-api-design",
+      "title": "Thoughts on RESTful API Design",
+      "type": "website",
+      "url": "http://restful-api-design.readthedocs.io/en/latest/",
+      "company": "Red Hat",
+      "companyLogoUrl": "/media/logos/redhat.png",
+      "companyUrl": "https://www.redhat.com/",
+      "authors": [
+        {
+          "name": "Geert Jansen",
+          "twitter": "1geertj"
+        }
+      ],
+      "date": "2012-11-15T00:00:00.000Z",
+      "reviewDate": "2016-08-18T00:00:00.000Z",
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/redhat-thoughts-on-restful-api-design.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/redhat-thoughts-on-restful-api-design/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/redhat-thoughts-on-restful-api-design/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/redhat-thoughts-on-restful-api-design.json"
+    }
+  }
+}

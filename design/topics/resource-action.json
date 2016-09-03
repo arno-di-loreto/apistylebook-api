@@ -1,0 +1,14 @@
+{
+  "id": "resource-action",
+  "category": "Resources",
+  "name": "Action resource",
+  "description": "How to use action resource (e.g. resources like /cancel or /approve)",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-action.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-action/guidelines.json"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+id: http-headers
+category: HTTP Protocol
+name: HTTP Headers
+description: How to use standard or custom HTTP headers
+_links:
+  self:
+    href: /design/topics/http-headers.yaml
+  topicGuidelines:
+    href: /design/topics/http-headers/guidelines.yaml

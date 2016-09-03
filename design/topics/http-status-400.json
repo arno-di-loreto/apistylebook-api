@@ -1,0 +1,14 @@
+{
+  "id": "http-status-400",
+  "category": "HTTP Status",
+  "name": "HTTP Status 400",
+  "description": "When to use HTTP status 400",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-400.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-400/guidelines.json"
+    }
+  }
+}

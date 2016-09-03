@@ -1,0 +1,14 @@
+{
+  "id": "http-methods-post",
+  "category": "HTTP Methods",
+  "name": "POST",
+  "description": "When to use HTTP method POST",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods-post.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods-post/guidelines.json"
+    }
+  }
+}

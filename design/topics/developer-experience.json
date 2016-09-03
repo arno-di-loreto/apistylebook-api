@@ -1,0 +1,14 @@
+{
+  "id": "developer-experience",
+  "category": "Miscellaneous",
+  "name": "Developer experience",
+  "description": "How to take care of developer experience (DX)",
+  "_links": {
+    "self": {
+      "href": "/design/topics/developer-experience.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/developer-experience/guidelines.json"
+    }
+  }
+}

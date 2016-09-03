@@ -1,0 +1,9 @@
+id: http-status-415
+category: HTTP Status
+name: HTTP Status 415
+description: When to use HTTP status 415
+_links:
+  self:
+    href: /design/topics/http-status-415.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-415/guidelines.yaml

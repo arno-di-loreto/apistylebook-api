@@ -1,0 +1,14 @@
+{
+  "id": "notifications-server-events",
+  "category": "Asynchronicity",
+  "name": "Notifying API consumers",
+  "description": "How to send events or notifications to API consumers",
+  "_links": {
+    "self": {
+      "href": "/design/topics/notifications-server-events.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/notifications-server-events/guidelines.json"
+    }
+  }
+}

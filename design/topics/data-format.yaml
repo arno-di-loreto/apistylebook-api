@@ -1,0 +1,9 @@
+id: data-format
+category: Data
+name: Data format
+description: which data format use
+_links:
+  self:
+    href: /design/topics/data-format.yaml
+  topicGuidelines:
+    href: /design/topics/data-format/guidelines.yaml

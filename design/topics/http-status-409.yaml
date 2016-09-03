@@ -1,0 +1,9 @@
+id: http-status-409
+category: HTTP Status
+name: HTTP Status 409
+description: When to use HTTP status 409
+_links:
+  self:
+    href: /design/topics/http-status-409.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-409/guidelines.yaml

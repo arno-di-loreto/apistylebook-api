@@ -1,0 +1,114 @@
+---
+layout: topic
+title: HTTP Status 422
+permalink: /design/topics/http-status-422
+data:
+  items:
+    - references:
+        - name: Client Errors
+          url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide#client-errors'
+      _embedded:
+        guideline:
+          id: cloud-foundy-cloud-controller-api-style-guide
+          title: Cloud Controller API v3 Style Guide (Proposal)
+          type: github
+          url: 'https://github.com/cloudfoundry/cc-api-v3-style-guide'
+          company: Cloud Foundry
+          companyLogoUrl: /media/cloudfoundry.png
+          companyUrl: 'https://www.cloudfoundry.org/'
+          date: 2016-05-11T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide
+            guidelineTopics:
+              href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide
+    - references:
+        - name: HTTP Status (Update Single Resource)
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2'
+        - name: HTTP Status (Update Partial Single Resource)
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3'
+        - name: HTTP Status Codes
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+      _embedded:
+        guideline:
+          id: haufe-api-styleguide
+          title: Haufe API style guide
+          type: github
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+          company: Haufe
+          companyLogoUrl: /media/logos/haufe.png
+          companyUrl: 'http://dev.haufe.com/'
+          date: 2015-01-15T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/haufe-api-styleguide
+            guidelineTopics:
+              href: /design/guidelines/haufe-api-styleguide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/haufe-api-styleguide
+    - references:
+        - name: Return appropriate status codes
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/responses/return-appropriate-status-codes.html'
+      _embedded:
+        guideline:
+          id: heroku-http-api-design-guide
+          title: HTTP API Design Guide
+          type: gitbook
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/'
+          company: Heroku
+          companyLogoUrl: /media/logos/heroku.png
+          companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+          date: 2016-07-05T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/heroku-http-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/heroku-http-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/heroku-http-api-design-guide
+    - references:
+        - name: Update Single Resource
+          url: 'https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource'
+      _embedded:
+        guideline:
+          id: paypal-api-style-guide
+          title: API Style Guide
+          type: github
+          url: 'https://github.com/paypal/api-standards/blob/master/api-style-guide.md'
+          company: PayPal
+          companyLogoUrl: /media/logos/paypal.png
+          companyUrl: 'https://developer.paypal.com/'
+          date: 2016-08-11T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/paypal-api-style-guide
+            guidelineTopics:
+              href: /design/guidelines/paypal-api-style-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/paypal-api-style-guide
+  _embedded:
+    topic:
+      id: http-status-422
+      name: HTTP Status 422
+      description: When to use HTTP status 422
+      _links:
+        self:
+          href: /design/topics/http-status-422
+        topicGuidelines:
+          href: /design/topics/http-status-422/guidelines
+  _links:
+    self:
+      href: /design/topics/http-status-422/guidelines
+    topic:
+      href: /design/topics/http-status-422
+---

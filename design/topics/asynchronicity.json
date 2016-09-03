@@ -1,0 +1,14 @@
+{
+  "id": "asynchronicity",
+  "category": "Asynchronicity",
+  "name": "Asynchronicity",
+  "description": "How to handle long operations",
+  "_links": {
+    "self": {
+      "href": "/design/topics/asynchronicity.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/asynchronicity/guidelines.json"
+    }
+  }
+}

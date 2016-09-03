@@ -1,0 +1,9 @@
+id: guiding-input
+category: Miscellaneous
+name: Guiding inputs
+description: How to help consumers or end user to input relevant data
+_links:
+  self:
+    href: /design/topics/guiding-input.yaml
+  topicGuidelines:
+    href: /design/topics/guiding-input/guidelines.yaml

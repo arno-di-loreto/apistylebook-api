@@ -1,0 +1,14 @@
+{
+  "id": "http-status-500",
+  "category": "HTTP Status",
+  "name": "HTTP Status 500",
+  "description": "When to use HTTP status 500",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-500.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-500/guidelines.json"
+    }
+  }
+}

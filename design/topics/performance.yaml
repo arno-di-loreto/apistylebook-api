@@ -1,0 +1,9 @@
+id: performance
+category: Miscellaneous
+name: Performance and bandwidth
+description: How to deal with high traffic or consumers with low bandwith
+_links:
+  self:
+    href: /design/topics/performance.yaml
+  topicGuidelines:
+    href: /design/topics/performance/guidelines.yaml

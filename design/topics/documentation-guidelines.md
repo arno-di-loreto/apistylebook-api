@@ -1,0 +1,192 @@
+---
+layout: topic
+title: Documentation
+permalink: /design/topics/documentation
+data:
+  items:
+    - references:
+        - name: Discoverability
+          url: 'https://apiguide.readthedocs.io/en/latest/principles/discoverability.html'
+        - name: Document your API
+          url: 'https://apiguide.readthedocs.io/en/latest/build_and_publish/documentation.html'
+      _embedded:
+        guideline:
+          id: ausdto-api-design-guide
+          title: API Design Guide
+          type: website
+          url: 'https://apiguide.readthedocs.io/en/latest/index.html'
+          company: Australian Digital Transformation Office
+          companyLogoUrl: /media/logos/ausdto.png
+          companyUrl: 'https://www.dto.gov.au/'
+          date: 2015-10-20T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/ausdto-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/ausdto-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/ausdto-api-design-guide
+    - references:
+        - name: 3.9 Status Codes
+          quote: 3.9.4 Documentation of response payloads MUST NOT reveal internal implementation details of the server.
+          url: 'https://github.com/CiscoDevNet/api-design-guide#39-status-codes'
+        - name: API Documentation
+          document: null
+          url: 'https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md#api-documentation'
+      _embedded:
+        guideline:
+          id: cisco-api-design-guide
+          title: API Design Guide
+          type: github
+          url: 'https://github.com/CiscoDevNet/api-design-guide'
+          company: Cisco
+          companyLogoUrl: /media/logos/cisco.png
+          companyUrl: 'http://developer.cisco.com/'
+          date: 2015-08-21T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/cisco-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/cisco-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/cisco-api-design-guide
+    - references:
+        - name: Every API MUST be described using a formal API description language
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md#every-api-must-be-described-using-a-formal-api-description-language'
+        - name: Documentation
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/documentation/documentation.md'
+      _embedded:
+        guideline:
+          id: haufe-api-styleguide
+          title: Haufe API style guide
+          type: github
+          url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+          company: Haufe
+          companyLogoUrl: /media/logos/haufe.png
+          companyUrl: 'http://dev.haufe.com/'
+          date: 2015-01-15T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/haufe-api-styleguide
+            guidelineTopics:
+              href: /design/guidelines/haufe-api-styleguide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/haufe-api-styleguide
+    - references:
+        - name: Provide machine-readable JSON schema
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/artifacts/provide-machine-readable-json-schema.html'
+        - name: Provide human-readable docs
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/artifacts/provide-human-readable-docs.html'
+        - name: Provide executable examples
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/artifacts/provide-executable-examples.html'
+      _embedded:
+        guideline:
+          id: heroku-http-api-design-guide
+          title: HTTP API Design Guide
+          type: gitbook
+          url: 'https://geemus.gitbooks.io/http-api-design/content/en/'
+          company: Heroku
+          companyLogoUrl: /media/logos/heroku.png
+          companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+          date: 2016-07-05T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/heroku-http-api-design-guide
+            guidelineTopics:
+              href: /design/guidelines/heroku-http-api-design-guide/topics
+      _links:
+        guideline:
+          href: /design/guidelines/heroku-http-api-design-guide
+    - references:
+        - name: Options and link headers
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#744-options-and-link-headers'
+          quote: 'In addition, services SHOULD include a Link header (see RFC 5988) to point to documentation for the resource'
+      _embedded:
+        guideline:
+          id: microsoft-rest-api-guidelines
+          title: Microsoft REST API Guidelines
+          type: github
+          url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md'
+          company: Microsoft
+          companyLogoUrl: /media/logos/microsoft.png
+          companyUrl: 'https://opensource.microsoft.com/'
+          date: 2016-07-19T00:00:00.000Z
+          reviewDate: 2016-08-31T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/microsoft-rest-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/microsoft-rest-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/microsoft-rest-api-guidelines
+    - references:
+        - name: Forms
+          quote: '... without referring to external documentation, an API user does not know what data to provide to operations that take input.'
+          url: 'http://restful-api-design.readthedocs.io/en/latest/forms.html'
+      _embedded:
+        guideline:
+          id: redhat-thoughts-on-restful-api-design
+          title: Thoughts on RESTful API Design
+          type: website
+          url: 'http://restful-api-design.readthedocs.io/en/latest/'
+          company: Red Hat
+          companyLogoUrl: /media/logos/redhat.png
+          companyUrl: 'https://www.redhat.com/'
+          date: 2012-11-15T00:00:00.000Z
+          reviewDate: 2016-08-18T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/redhat-thoughts-on-restful-api-design
+            guidelineTopics:
+              href: /design/guidelines/redhat-thoughts-on-restful-api-design/topics
+      _links:
+        guideline:
+          href: /design/guidelines/redhat-thoughts-on-restful-api-design
+    - references:
+        - name: Provide External Documentation
+          url: 'http://zalando.github.io/restful-api-guidelines/general-guidelines/GeneralGuidelines.html#should-provide-external-documentation'
+        - name: Reflect Deprecation in API Definition
+          url: 'http://zalando.github.io/restful-api-guidelines/deprecation/Deprecation.html#must-reflect-deprecation-in-api-definition'
+      _embedded:
+        guideline:
+          id: zalando-restful-api-guidelines
+          title: RESTFul API Guidelines
+          type: website
+          url: 'http://zalando.github.io/restful-api-guidelines/'
+          company: Zalando
+          companyLogoUrl: /media/logos/zalando.png
+          companyUrl: 'https://tech.zalando.de/'
+          date: 2016-01-22T00:00:00.000Z
+          reviewDate: 2016-08-28T00:00:00.000Z
+          _links:
+            self:
+              href: /design/guidelines/zalando-restful-api-guidelines
+            guidelineTopics:
+              href: /design/guidelines/zalando-restful-api-guidelines/topics
+      _links:
+        guideline:
+          href: /design/guidelines/zalando-restful-api-guidelines
+  _embedded:
+    topic:
+      id: documentation
+      name: Documentation
+      description: How to produce and/or propose API documentation
+      _links:
+        self:
+          href: /design/topics/documentation
+        topicGuidelines:
+          href: /design/topics/documentation/guidelines
+  _links:
+    self:
+      href: /design/topics/documentation/guidelines
+    topic:
+      href: /design/topics/documentation
+---

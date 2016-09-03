@@ -1,0 +1,9 @@
+id: resource-update
+category: Resources
+name: Update resource
+description: How to update a resource
+_links:
+  self:
+    href: /design/topics/resource-update.yaml
+  topicGuidelines:
+    href: /design/topics/resource-update/guidelines.yaml

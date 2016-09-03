@@ -1,0 +1,9 @@
+id: http-status-303
+category: HTTP Status
+name: HTTP Status 303
+description: When to use HTTP status 303
+_links:
+  self:
+    href: /design/topics/http-status-303.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-303/guidelines.yaml

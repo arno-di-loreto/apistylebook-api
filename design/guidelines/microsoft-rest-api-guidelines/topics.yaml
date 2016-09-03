@@ -1,0 +1,872 @@
+items:
+  - references:
+      - name: Long running API faults
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#55-long-running-api-faults'
+      - name: Long running operations
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#13-long-running-operations'
+      - name: Operations resource
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1324-operations-resource'
+      - name: Operation resource
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1325----operation-resource'
+      - name: Operation tombstones
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1326-operation-tombstones'
+      - name: 'The typical flow, polling'
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1327-the-typical-flow-polling'
+      - name: 'The typical flow, push notifications'
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1328-the-typical-flow-push-notifications'
+      - name: Retry-After
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1329-retry-after'
+    _embedded:
+      topic:
+        id: asynchronicity
+        category: Asynchronicity
+        name: Asynchronicity
+        description: How to handle long operations
+        _links:
+          self:
+            href: /design/topics/asynchronicity.yaml
+          topicGuidelines:
+            href: /design/topics/asynchronicity/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/asynchronicity.yaml
+  - references:
+      - name: Filtering
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#97-filtering'
+    _embedded:
+      topic:
+        id: collection-filtering
+        category: Collection Resources
+        name: Filtering
+        description: How to select some resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-filtering.yaml
+          topicGuidelines:
+            href: /design/topics/collection-filtering/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-filtering.yaml
+  - references:
+      - name: Big collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#94-big-collections'
+      - name: Pagination
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#98-pagination'
+    _embedded:
+      topic:
+        id: collection-pagination
+        category: Collection Resources
+        name: Pagination
+        description: How to retrieve a range of resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-pagination.yaml
+          topicGuidelines:
+            href: /design/topics/collection-pagination/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-pagination.yaml
+  - references:
+      - name: Variable order rule
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#62-variable-order-rule'
+      - name: Sorting collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#96-sorting-collections'
+    _embedded:
+      topic:
+        id: collection-sorting
+        category: Collection Resources
+        name: Sorting a collection
+        description: How to sort a collection of resources
+        _links:
+          self:
+            href: /design/topics/collection-sorting.yaml
+          topicGuidelines:
+            href: /design/topics/collection-sorting/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-sorting.yaml
+  - references:
+      - name: Collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#9-collections'
+    _embedded:
+      topic:
+        id: collection
+        category: Collection Resources
+        name: Collection
+        description: What is a collection (set) of resources
+        _links:
+          self:
+            href: /design/topics/collection.yaml
+          topicGuidelines:
+            href: /design/topics/collection/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection.yaml
+  - references:
+      - name: CORS
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#8-cors'
+    _embedded:
+      topic:
+        id: cors
+        category: Miscellaneous
+        name: CORS
+        description: How to deal with CORS
+        _links:
+          self:
+            href: /design/topics/cors.yaml
+          topicGuidelines:
+            href: /design/topics/cors/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/cors.yaml
+  - references:
+      - name: Guidelines for dates and times
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#112-guidelines-for-dates-and-times'
+      - name: JSON serialization of dates and times
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#113-json-serialization-of-dates-and-times'
+      - name: Durations
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#114-durations'
+      - name: Intervals
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#115-intervals'
+      - name: Repeating intervals
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#116-repeating-intervals'
+    _embedded:
+      topic:
+        id: data-format-date-time
+        category: Data
+        name: Date and Time
+        description: How to deal with date and time data
+        _links:
+          self:
+            href: /design/topics/data-format-date-time.yaml
+          topicGuidelines:
+            href: /design/topics/data-format-date-time/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format-date-time.yaml
+  - references:
+      - name: Response Formats
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#710-response-formats'
+      - name: JSON standardizations
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#11-json-standardizations'
+    _embedded:
+      topic:
+        id: data-format
+        category: Data
+        name: Data format
+        description: which data format use
+        _links:
+          self:
+            href: /design/topics/data-format.yaml
+          topicGuidelines:
+            href: /design/topics/data-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format.yaml
+  - references:
+      - name: Client Guidance
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#6-client-guidance'
+      - name: Client library optional
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#712-client-library-optional'
+    _embedded:
+      topic:
+        id: developer-experience
+        category: Miscellaneous
+        name: Developer experience
+        description: How to take care of developer experience (DX)
+        _links:
+          self:
+            href: /design/topics/developer-experience.yaml
+          topicGuidelines:
+            href: /design/topics/developer-experience/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/developer-experience.yaml
+  - references:
+      - name: Options and link headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#744-options-and-link-headers'
+        quote: 'In addition, services SHOULD include a Link header (see RFC 5988) to point to documentation for the resource'
+    _embedded:
+      topic:
+        id: documentation
+        category: Miscellaneous
+        name: Documentation
+        description: How to produce and/or propose API documentation
+        _links:
+          self:
+            href: /design/topics/documentation.yaml
+          topicGuidelines:
+            href: /design/topics/documentation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/documentation.yaml
+  - references:
+      - name: Errors
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#51-errors'
+      - name: Faults
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#52-faults'
+      - name: Long running API faults
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#55-long-running-api-faults'
+      - name: Silent Fail Rule
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#63-silent-fail-rule'
+      - name: Unsupported requests
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#15-unsupported-requests'
+    _embedded:
+      topic:
+        id: errors
+        category: Error handling
+        name: Errors
+        description: How to handle errors
+        _links:
+          self:
+            href: /design/topics/errors.yaml
+          topicGuidelines:
+            href: /design/topics/errors/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/errors.yaml
+  - references:
+      - name: Introduction
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#3-introduction'
+    _embedded:
+      topic:
+        id: global-design
+        category: API Design
+        name: Global design
+        description: General considerations on API design
+        _links:
+          self:
+            href: /design/topics/global-design.yaml
+          topicGuidelines:
+            href: /design/topics/global-design/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/global-design.yaml
+  - references:
+      - name: Interpreting The Guidelines
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#4-interpreting-the-guidelines'
+      - name: When to version
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#122-when-to-version'
+      - name: Definition of a breaking change
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#123-definition-of-a-breaking-change'
+    _embedded:
+      topic:
+        id: governance
+        category: API Lifecycle
+        name: Governance
+        description: 'How to ensure API governance (advertise, consistency, ...)'
+        _links:
+          self:
+            href: /design/topics/governance.yaml
+          topicGuidelines:
+            href: /design/topics/governance/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/governance.yaml
+  - references:
+      - name: Standard request headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers'
+        quote: 'If-Match, If-None-Match, If-Range'
+      - name: Standard response headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#76-standard-response-headers'
+        quote: ETag
+      - name: Retention policy for operation results
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#133-retention-policy-for-operation-results'
+    _embedded:
+      topic:
+        id: http-caching
+        category: HTTP Protocol
+        name: Caching
+        description: How to use and provide relevant caching informations
+        _links:
+          self:
+            href: /design/topics/http-caching.yaml
+          topicGuidelines:
+            href: /design/topics/http-caching/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-caching.yaml
+  - references:
+      - name: Standard request headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers'
+        quote: Accept Content Type
+      - name: Standard response headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#76-standard-response-headers'
+        quote: Content Type
+      - name: Clients-specified response format
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#7101-clients-specified-response-format'
+    _embedded:
+      topic:
+        id: http-content-negotiation
+        category: HTTP Protocol
+        name: Content negociation and media types
+        description: 'How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)'
+        _links:
+          self:
+            href: /design/topics/http-content-negotiation.yaml
+          topicGuidelines:
+            href: /design/topics/http-content-negotiation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-content-negotiation.yaml
+  - references:
+      - name: POST
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#741-post'
+        quote: POST operations SHOULD support the Location response header
+      - name: Options and link headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#744-options-and-link-headers'
+      - name: Standard request headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers'
+      - name: Standard response headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#76-standard-response-headers'
+      - name: Custom Headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#77-custom-headers'
+      - name: Specifying headers as query parameters
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#78-specifying-headers-as-query-parameters'
+    _embedded:
+      topic:
+        id: http-headers
+        category: HTTP Protocol
+        name: HTTP Headers
+        description: How to use standard or custom HTTP headers
+        _links:
+          self:
+            href: /design/topics/http-headers.yaml
+          topicGuidelines:
+            href: /design/topics/http-headers/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-headers.yaml
+  - references:
+      - name: Error condition responses
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#7102-error-condition-responses'
+    _embedded:
+      topic:
+        id: http-status-standard-error
+        category: Error handling
+        name: Error format
+        description: How to provide information about errors
+        _links:
+          self:
+            href: /design/topics/http-status-standard-error.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-standard-error/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-standard-error.yaml
+  - references:
+      - name: Errors
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#51-errors'
+      - name: Faults
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#52-faults'
+      - name: HTTP Status Codes
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#711-http-status-codes'
+    _embedded:
+      topic:
+        id: http-status
+        category: HTTP Status
+        name: HTTP Statuses
+        description: General information about HTTP statuses usage
+        _links:
+          self:
+            href: /design/topics/http-status.yaml
+          topicGuidelines:
+            href: /design/topics/http-status/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+    _embedded:
+      topic:
+        id: http-methods-delete
+        category: HTTP Methods
+        name: DELETE
+        description: When to use HTTP method DELETE
+        _links:
+          self:
+            href: /design/topics/http-methods-delete.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-delete/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-delete.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+    _embedded:
+      topic:
+        id: http-methods-get
+        category: HTTP Methods
+        name: GET
+        description: When to use HTTP method GET
+        _links:
+          self:
+            href: /design/topics/http-methods-get.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-get/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-get.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+    _embedded:
+      topic:
+        id: http-methods-head
+        category: HTTP Methods
+        name: HEAD
+        description: When to use HTTP method HEAD
+        _links:
+          self:
+            href: /design/topics/http-methods-head.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-head/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-head.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+      - name: Options and link headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#744-options-and-link-headers'
+    _embedded:
+      topic:
+        id: http-methods-options
+        category: HTTP Methods
+        name: OPTIONS
+        description: When to use HTTP method OPTION
+        _links:
+          self:
+            href: /design/topics/http-methods-options.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-options/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-options.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+      - name: PATCH
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#742-patch'
+      - name: Creating resources via PATCH (UPSERT semantics)
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#743-creating-resources-via-patch-upsert-semantics'
+    _embedded:
+      topic:
+        id: http-methods-patch
+        category: HTTP Methods
+        name: PATCH
+        description: When to use HTTP method PATCH
+        _links:
+          self:
+            href: /design/topics/http-methods-patch.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-patch/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-patch.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+      - name: POST
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#741-post'
+      - name: Changing collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#95-changing-collections'
+      - name: POST (Long running operations)
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1322-post'
+      - name: 'POST, hybrid model (Long running operations)'
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1323-post-hybrid-model'
+    _embedded:
+      topic:
+        id: http-methods-post
+        category: HTTP Methods
+        name: POST
+        description: When to use HTTP method POST
+        _links:
+          self:
+            href: /design/topics/http-methods-post.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-post/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-post.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+      - name: Changing collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#95-changing-collections'
+      - name: PUT (Long running operations)
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1321-put'
+    _embedded:
+      topic:
+        id: http-methods-put
+        category: HTTP Methods
+        name: PUT
+        description: When to use HTTP method PUT
+        _links:
+          self:
+            href: /design/topics/http-methods-put.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-put/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-put.yaml
+  - references:
+      - name: Supported Methods
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#74-supported-methods'
+    _embedded:
+      topic:
+        id: http-methods
+        category: HTTP Methods
+        name: HTTP methods
+        description: General information about HTTP methods usage
+        _links:
+          self:
+            href: /design/topics/http-methods.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods.yaml
+  - references:
+      name: HTTP protocol
+      description: General informations about HTTP protocol
+    _embedded:
+      topic:
+        id: http
+        category: HTTP Protocol
+        name: HTTP protocol
+        description: General informations about HTTP protocol
+        _links:
+          self:
+            href: /design/topics/http.yaml
+          topicGuidelines:
+            href: /design/topics/http/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http.yaml
+  - references:
+      - name: Options and link headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#744-options-and-link-headers'
+      - name: Big collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#94-big-collections'
+        quote: the serialization payload MUST contain the opaque URL for the next page
+    _embedded:
+      topic:
+        id: hypermedia-read
+        category: Hypermedia
+        name: Hypermedia (read)
+        description: How to use hypermedia to read data
+        _links:
+          self:
+            href: /design/topics/hypermedia-read.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia-read/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia-read.yaml
+  - references:
+      - name: 'The typical flow, push notifications'
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1328-the-typical-flow-push-notifications'
+      - name: Push notifications via webhooks
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#14-push-notifications-via-webhooks'
+    _embedded:
+      topic:
+        id: notifications-server-events
+        category: Asynchronicity
+        name: Notifying API consumers
+        description: How to send events or notifications to API consumers
+        _links:
+          self:
+            href: /design/topics/notifications-server-events.yaml
+          topicGuidelines:
+            href: /design/topics/notifications-server-events/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/notifications-server-events.yaml
+  - references:
+      - name: Operations resource
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1324-operations-resource'
+      - name: Operation resource
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1325----operation-resource'
+      - name: Operation tombstones
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1326-operation-tombstones'
+      - name: 'The typical flow, polling'
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1327-the-typical-flow-polling'
+      - name: 'The typical flow, push notifications'
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1328-the-typical-flow-push-notifications'
+      - name: Retry-After
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#1329-retry-after'
+    _embedded:
+      topic:
+        id: resource-action
+        category: Resources
+        name: Action resource
+        description: How to use action resource (e.g. resources like /cancel or /approve)
+        _links:
+          self:
+            href: /design/topics/resource-action.yaml
+          topicGuidelines:
+            href: /design/topics/resource-action/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-action.yaml
+  - references:
+      - name: Delta queries
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#10-delta-queries'
+    _embedded:
+      topic:
+        id: resource-change-tracking
+        category: Resources
+        name: Track change
+        description: How to track change on resources
+        _links:
+          self:
+            href: /design/topics/resource-change-tracking.yaml
+          topicGuidelines:
+            href: /design/topics/resource-change-tracking/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-change-tracking.yaml
+  - references:
+      - name: Creating resources via PATCH (UPSERT semantics)
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#743-creating-resources-via-patch-upsert-semantics'
+    _embedded:
+      topic:
+        id: resource-creation-with-id
+        category: Resources
+        name: Create resource with a specific ID
+        description: How to create resource with a provided id
+        _links:
+          self:
+            href: /design/topics/resource-creation-with-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation-with-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation-with-id.yaml
+  - references:
+      - name: POST
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#741-post'
+      - name: Changing collections
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#95-changing-collections'
+    _embedded:
+      topic:
+        id: resource-creation
+        category: Resources
+        name: Create resource
+        description: How to create resources
+        _links:
+          self:
+            href: /design/topics/resource-creation.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation.yaml
+  - references:
+      - name: Canonical identifier
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#73-canonical-identifier'
+    _embedded:
+      topic:
+        id: resource-id-semantic
+        category: Resources
+        name: ID with semantic
+        description: Using meaningful ids (like `me`)
+        _links:
+          self:
+            href: /design/topics/resource-id-semantic.yaml
+          topicGuidelines:
+            href: /design/topics/resource-id-semantic/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-id-semantic.yaml
+  - references:
+      - name: Canonical identifier
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#73-canonical-identifier'
+    _embedded:
+      topic:
+        id: resource-id
+        category: Resources
+        name: Resource ID
+        description: What is a resource ID and/or how it's built
+        _links:
+          self:
+            href: /design/topics/resource-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-id.yaml
+  - references:
+      name: Batch Bulk
+      description: How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)
+    _embedded:
+      topic:
+        id: resource-multiple
+        category: Resources
+        name: Batch Bulk
+        description: How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)
+        _links:
+          self:
+            href: /design/topics/resource-multiple.yaml
+          topicGuidelines:
+            href: /design/topics/resource-multiple/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-multiple.yaml
+  - references:
+      - name: Standard request headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers'
+        quote: 'Prefer return=minimal, return=representation'
+      - name: Standard response headers
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#76-standard-response-headers'
+        quote: Preference-Applied
+    _embedded:
+      topic:
+        id: resource-retrieve-partial
+        category: Resources
+        name: Retrieve resource partially
+        description: How to retrieve partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve-partial.yaml
+  - references:
+      - name: PATCH
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#742-patch'
+      - name: Creating resources via PATCH (UPSERT semantics)
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#743-creating-resources-via-patch-upsert-semantics'
+    _embedded:
+      topic:
+        id: resource-update-partial
+        category: Resources
+        name: Update resource partially
+        description: How to udate partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-update-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update-partial.yaml
+  - references:
+      - name: PATCH
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#742-patch'
+      - name: Creating resources via PATCH (UPSERT semantics)
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#743-creating-resources-via-patch-upsert-semantics'
+    _embedded:
+      topic:
+        id: resource-update
+        category: Resources
+        name: Update resource
+        description: How to update a resource
+        _links:
+          self:
+            href: /design/topics/resource-update.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update.yaml
+  - references:
+      - name: URL Structure
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#71-url-structure'
+      - name: URL Length
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#72-url-length'
+      - name: Collection URL patterns
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#93-collection-url-patterns'
+    _embedded:
+      topic:
+        id: resource-url-format
+        category: Resources
+        name: URL format
+        description: How to design URLs
+        _links:
+          self:
+            href: /design/topics/resource-url-format.yaml
+          topicGuidelines:
+            href: /design/topics/resource-url-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-url-format.yaml
+  - references:
+      - name: Security
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#148-security'
+    _embedded:
+      topic:
+        id: security
+        category: Security
+        name: Security
+        description: Security concerns
+        _links:
+          self:
+            href: /design/topics/security.yaml
+          topicGuidelines:
+            href: /design/topics/security/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security.yaml
+  - references:
+      - name: PII parameters
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#79-pii-parameters'
+    _embedded:
+      topic:
+        id: security-data
+        category: Security
+        name: Data privacy
+        description: Data privacy concerns
+        _links:
+          self:
+            href: /design/topics/security-data.yaml
+          topicGuidelines:
+            href: /design/topics/security-data/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security-data.yaml
+  - references:
+      - name: Guidelines for existing services and versioning of services
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#42-guidelines-for-existing-services-and-versioning-of-services'
+      - name: Versioning
+        url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#12-versioning'
+    _embedded:
+      topic:
+        id: versioning
+        category: API Lifecycle
+        name: Versionning
+        description: How to handle API versionning
+        _links:
+          self:
+            href: /design/topics/versioning.yaml
+          topicGuidelines:
+            href: /design/topics/versioning/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/versioning.yaml
+_embedded:
+  guideline:
+    id: microsoft-rest-api-guidelines
+    title: Microsoft REST API Guidelines
+    type: github
+    url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md'
+    company: Microsoft
+    companyLogoUrl: /media/logos/microsoft.png
+    companyUrl: 'https://opensource.microsoft.com/'
+    date: 2016-07-19T00:00:00.000Z
+    reviewDate: 2016-08-31T00:00:00.000Z
+    _links:
+      self:
+        href: /design/guidelines/microsoft-rest-api-guidelines.yaml
+      guidelineTopics:
+        href: /design/guidelines/microsoft-rest-api-guidelines/topics.yaml
+_links:
+  self:
+    href: /design/guidelines/microsoft-rest-api-guidelines/topics.yaml
+  guideline:
+    href: /design/guidelines/microsoft-rest-api-guidelines.yaml

@@ -1,0 +1,14 @@
+{
+  "id": "http-methods-patch",
+  "category": "HTTP Methods",
+  "name": "PATCH",
+  "description": "When to use HTTP method PATCH",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods-patch.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods-patch/guidelines.json"
+    }
+  }
+}

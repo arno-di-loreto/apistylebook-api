@@ -1,0 +1,1154 @@
+items:
+  - references:
+      - name: Filtering
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#filtering'
+      - name: Time selection
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#time-selection'
+      - name: Search
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/search/search.md'
+    _embedded:
+      topic:
+        id: collection-filtering
+        category: Collection Resources
+        name: Filtering
+        description: How to select some resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-filtering.yaml
+          topicGuidelines:
+            href: /design/topics/collection-filtering/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-filtering.yaml
+  - references:
+      - name: Paging
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#paging'
+    _embedded:
+      topic:
+        id: collection-pagination
+        category: Collection Resources
+        name: Pagination
+        description: How to retrieve a range of resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-pagination.yaml
+          topicGuidelines:
+            href: /design/topics/collection-pagination/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-pagination.yaml
+  - references:
+      - name: Get List of resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#get-list-of-resources'
+    _embedded:
+      topic:
+        id: collection-retrieve
+        category: Collection Resources
+        name: Retrieve a collection
+        description: How to get a collection or resources
+        _links:
+          self:
+            href: /design/topics/collection-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/collection-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-retrieve.yaml
+  - references:
+      - name: Sorting
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#sorting'
+    _embedded:
+      topic:
+        id: collection-sorting
+        category: Collection Resources
+        name: Sorting a collection
+        description: How to sort a collection of resources
+        _links:
+          self:
+            href: /design/topics/collection-sorting.yaml
+          topicGuidelines:
+            href: /design/topics/collection-sorting/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-sorting.yaml
+  - references:
+      - name: Collection Resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md'
+    _embedded:
+      topic:
+        id: collection
+        category: Collection Resources
+        name: Collection
+        description: What is a collection (set) of resources
+        _links:
+          self:
+            href: /design/topics/collection.yaml
+          topicGuidelines:
+            href: /design/topics/collection/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection.yaml
+  - references:
+      - name: Currency
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#currency'
+        quote: 3-character ISO-4217
+      - name: Country
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#country'
+        quote: ISO 3166-1-alpha-2
+    _embedded:
+      topic:
+        id: data-standards
+        category: Data
+        name: Standards data
+        description: 'Which standard use for values like languages, countries, currencies, ...'
+        _links:
+          self:
+            href: /design/topics/data-standards.yaml
+          topicGuidelines:
+            href: /design/topics/data-standards/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-standards.yaml
+  - references:
+      - name: Dates and Times
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#dates-and-times'
+    _embedded:
+      topic:
+        id: data-format-date-time
+        category: Data
+        name: Date and Time
+        description: How to deal with date and time data
+        _links:
+          self:
+            href: /design/topics/data-format-date-time.yaml
+          topicGuidelines:
+            href: /design/topics/data-format-date-time/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format-date-time.yaml
+  - references:
+      - name: Hypermedia Response Format
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/response-format/response-format.md'
+      - name: Type Formatting
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md'
+      - name: Message Schema and Postel's Law
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md'
+    _embedded:
+      topic:
+        id: data-format
+        category: Data
+        name: Data format
+        description: which data format use
+        _links:
+          self:
+            href: /design/topics/data-format.yaml
+          topicGuidelines:
+            href: /design/topics/data-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format.yaml
+  - references:
+      - name: Documentation
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/documentation/documentation.md'
+    _embedded:
+      topic:
+        id: developer-experience
+        category: Miscellaneous
+        name: Developer experience
+        description: How to take care of developer experience (DX)
+        _links:
+          self:
+            href: /design/topics/developer-experience.yaml
+          topicGuidelines:
+            href: /design/topics/developer-experience/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/developer-experience.yaml
+  - references:
+      - name: Every API MUST be described using a formal API description language
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md#every-api-must-be-described-using-a-formal-api-description-language'
+      - name: Documentation
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/documentation/documentation.md'
+    _embedded:
+      topic:
+        id: documentation
+        category: Miscellaneous
+        name: Documentation
+        description: How to produce and/or propose API documentation
+        _links:
+          self:
+            href: /design/topics/documentation.yaml
+          topicGuidelines:
+            href: /design/topics/documentation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/documentation.yaml
+  - references:
+      - name: Error handling
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/error-handling/error-handling.md'
+    _embedded:
+      topic:
+        id: errors
+        category: Error handling
+        name: Errors
+        description: How to handle errors
+        _links:
+          self:
+            href: /design/topics/errors.yaml
+          topicGuidelines:
+            href: /design/topics/errors/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/errors.yaml
+  - references:
+      - name: Introduction
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/introduction/introduction.md'
+      - name: General Guidelines
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md'
+      - name: Message Schema and Postel's Law
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md'
+    _embedded:
+      topic:
+        id: global-design
+        category: API Design
+        name: Global design
+        description: General considerations on API design
+        _links:
+          self:
+            href: /design/topics/global-design.yaml
+          topicGuidelines:
+            href: /design/topics/global-design/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/global-design.yaml
+  - references:
+      - name: API Modelling and Design Process
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#api-modelling-and-design-process'
+      - name: API Design Review Process
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-review-process/api-design-review-process.md'
+      - name: Message Schema and Postel's Law
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/message-schema/message-schema.md'
+    _embedded:
+      topic:
+        id: governance
+        category: API Lifecycle
+        name: Governance
+        description: 'How to ensure API governance (advertise, consistency, ...)'
+        _links:
+          self:
+            href: /design/topics/governance.yaml
+          topicGuidelines:
+            href: /design/topics/governance/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/governance.yaml
+  - references:
+      - name: Caching
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md'
+    _embedded:
+      topic:
+        id: http-caching
+        category: HTTP Protocol
+        name: Caching
+        description: How to use and provide relevant caching informations
+        _links:
+          self:
+            href: /design/topics/http-caching.yaml
+          topicGuidelines:
+            href: /design/topics/http-caching/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-caching.yaml
+  - references:
+      - name: Expires HTTP Header
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#expires-http-header'
+      - name: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#cache-control-header'
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#cache-control-header'
+      - name: ETag
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/caching/caching.md#etag'
+    _embedded:
+      topic:
+        id: http-headers
+        category: HTTP Protocol
+        name: HTTP Headers
+        description: How to use standard or custom HTTP headers
+        _links:
+          self:
+            href: /design/topics/http-headers.yaml
+          topicGuidelines:
+            href: /design/topics/http-headers/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-headers.yaml
+  - references:
+      - name: HTTP Status (Get List of resources)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status'
+      - name: HTTP Status (Read Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-1'
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-200
+        category: HTTP Status
+        name: HTTP Status 200
+        description: When to use HTTP status 200
+        _links:
+          self:
+            href: /design/topics/http-status-200.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-200/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-200.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-201
+        category: HTTP Status
+        name: HTTP Status 201
+        description: When to use HTTP status 201
+        _links:
+          self:
+            href: /design/topics/http-status-201.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-201/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-201.yaml
+  - references:
+      - name: HTTP Status (Update Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2'
+      - name: HTTP Status (Update Partial Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3'
+      - name: Delete Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#delete-single-resource'
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-204
+        category: HTTP Status
+        name: HTTP Status 204
+        description: When to use HTTP status 204
+        _links:
+          self:
+            href: /design/topics/http-status-204.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-204/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-204.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-304
+        category: HTTP Status
+        name: HTTP Status 304
+        description: When to use HTTP status 304
+        _links:
+          self:
+            href: /design/topics/http-status-304.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-304/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-304.yaml
+  - references:
+      - name: HTTP Status (Get List of resources)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status'
+      - name: HTTP Status (Update Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2'
+      - name: HTTP Status (Update Partial Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3'
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-400
+        category: HTTP Status
+        name: HTTP Status 400
+        description: When to use HTTP status 400
+        _links:
+          self:
+            href: /design/topics/http-status-400.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-400/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-400.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-401
+        category: HTTP Status
+        name: HTTP Status 401
+        description: When to use HTTP status 401
+        _links:
+          self:
+            href: /design/topics/http-status-401.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-401/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-401.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-403
+        category: HTTP Status
+        name: HTTP Status 403
+        description: When to use HTTP status 403
+        _links:
+          self:
+            href: /design/topics/http-status-403.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-403/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-403.yaml
+  - references:
+      - name: HTTP Status (Get List of resources)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status'
+      - name: HTTP Status (Read Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-1'
+      - name: Delete Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#delete-single-resource'
+        quote: 404 Not Found HTTP status should not be utilized
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-404
+        category: HTTP Status
+        name: HTTP Status 404
+        description: When to use HTTP status 404
+        _links:
+          self:
+            href: /design/topics/http-status-404.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-404/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-404.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-405
+        category: HTTP Status
+        name: HTTP Status 405
+        description: When to use HTTP status 405
+        _links:
+          self:
+            href: /design/topics/http-status-405.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-405/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-405.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-406
+        category: HTTP Status
+        name: HTTP Status 406
+        description: When to use HTTP status 406
+        _links:
+          self:
+            href: /design/topics/http-status-406.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-406/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-406.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-408
+        category: HTTP Status
+        name: HTTP Status 408
+        description: When to use HTTP status 408
+        _links:
+          self:
+            href: /design/topics/http-status-408.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-408/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-408.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-409
+        category: HTTP Status
+        name: HTTP Status 409
+        description: When to use HTTP status 409
+        _links:
+          self:
+            href: /design/topics/http-status-409.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-409/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-409.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-411
+        category: HTTP Status
+        name: HTTP Status 411
+        description: When to use HTTP status 411
+        _links:
+          self:
+            href: /design/topics/http-status-411.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-411/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-411.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-412
+        category: HTTP Status
+        name: HTTP Status 412
+        description: When to use HTTP status 412
+        _links:
+          self:
+            href: /design/topics/http-status-412.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-412/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-412.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-415
+        category: HTTP Status
+        name: HTTP Status 415
+        description: When to use HTTP status 415
+        _links:
+          self:
+            href: /design/topics/http-status-415.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-415/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-415.yaml
+  - references:
+      - name: HTTP Status (Update Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-2'
+      - name: HTTP Status (Update Partial Single Resource)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status-3'
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-422
+        category: HTTP Status
+        name: HTTP Status 422
+        description: When to use HTTP status 422
+        _links:
+          self:
+            href: /design/topics/http-status-422.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-422/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-422.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-500
+        category: HTTP Status
+        name: HTTP Status 500
+        description: When to use HTTP status 500
+        _links:
+          self:
+            href: /design/topics/http-status-500.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-500/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-500.yaml
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status-501
+        category: HTTP Status
+        name: HTTP Status 501
+        description: When to use HTTP status 501
+        _links:
+          self:
+            href: /design/topics/http-status-501.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-501/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-501.yaml
+  - references:
+      - name: Error handling
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/error-handling/error-handling.md'
+    _embedded:
+      topic:
+        id: http-status-standard-error
+        category: Error handling
+        name: Error format
+        description: How to provide information about errors
+        _links:
+          self:
+            href: /design/topics/http-status-standard-error.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-standard-error/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-standard-error.yaml
+  - references:
+      - name: Mapping Response Codes For Success and Failure
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#mapping-response-codes-for-success-and-failure'
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      topic:
+        id: http-status
+        category: HTTP Status
+        name: HTTP Statuses
+        description: General information about HTTP statuses usage
+        _links:
+          self:
+            href: /design/topics/http-status.yaml
+          topicGuidelines:
+            href: /design/topics/http-status/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status.yaml
+  - references:
+      - name: HTTP Verbs
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md'
+    _embedded:
+      topic:
+        id: http-methods-delete
+        category: HTTP Methods
+        name: DELETE
+        description: When to use HTTP method DELETE
+        _links:
+          self:
+            href: /design/topics/http-methods-delete.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-delete/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-delete.yaml
+  - references:
+      - name: HTTP Verbs
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md'
+      - name: Get List of resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#get-list-of-resources'
+      - name: Read Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#read-single-resource'
+    _embedded:
+      topic:
+        id: http-methods-get
+        category: HTTP Methods
+        name: GET
+        description: When to use HTTP method GET
+        _links:
+          self:
+            href: /design/topics/http-methods-get.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-get/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-get.yaml
+  - references:
+      - name: HTTP Verbs
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md'
+      - name: Update Partial Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-partial-single-resource'
+    _embedded:
+      topic:
+        id: http-methods-patch
+        category: HTTP Methods
+        name: PATCH
+        description: When to use HTTP method PATCH
+        _links:
+          self:
+            href: /design/topics/http-methods-patch.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-patch/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-patch.yaml
+  - references:
+      - name: HTTP Verbs
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md'
+      - name: Create New Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource'
+      - name: Using POST (Search)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/search/search.md#using-post'
+    _embedded:
+      topic:
+        id: http-methods-post
+        category: HTTP Methods
+        name: POST
+        description: When to use HTTP method POST
+        _links:
+          self:
+            href: /design/topics/http-methods-post.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-post/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-post.yaml
+  - references:
+      - name: HTTP Verbs
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md'
+      - name: Update Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource'
+      - name: Create New Resource - Consumer Supplied Identifier
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource---consumer-supplied-identifier'
+    _embedded:
+      topic:
+        id: http-methods-put
+        category: HTTP Methods
+        name: PUT
+        description: When to use HTTP method PUT
+        _links:
+          self:
+            href: /design/topics/http-methods-put.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-put/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-put.yaml
+  - references:
+      - name: HTTP Verbs
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md'
+    _embedded:
+      topic:
+        id: http-methods
+        category: HTTP Methods
+        name: HTTP methods
+        description: General information about HTTP methods usage
+        _links:
+          self:
+            href: /design/topics/http-methods.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods.yaml
+  - references:
+      - name: Expanding Resources Through Hypermedia Linking
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#expanding-resources-through-hypermedia-linking'
+      - name: Hypermedia and REST
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/hypermedia-and-rest/hypermedia-and-rest.md'
+      - name: Relationships and Sub-Resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/relationships-and-sub-resources/relationships-and-sub-resources.md'
+      - name: Hypermedia Links (Pagination)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#hypermedia-links'
+    _embedded:
+      topic:
+        id: hypermedia-read
+        category: Hypermedia
+        name: Hypermedia (read)
+        description: How to use hypermedia to read data
+        _links:
+          self:
+            href: /design/topics/hypermedia-read.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia-read/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia-read.yaml
+  - references:
+      - name: Expanding Resources Through Hypermedia Linking
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#expanding-resources-through-hypermedia-linking'
+      - name: Support Hypermedia
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/rest-principles/rest-principles.md#support-hypermedia'
+      - name: Hypermedia and REST
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/hypermedia-and-rest/hypermedia-and-rest.md'
+      - name: Relationships and Sub-Resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/relationships-and-sub-resources/relationships-and-sub-resources.md'
+      - name: Hypermedia Links (Pagination)
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#hypermedia-links'
+      - name: Hypermedia Response Format
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/response-format/response-format.md'
+    _embedded:
+      topic:
+        id: hypermedia
+        category: Hypermedia
+        name: Hypermedia
+        description: How to use hypermedia
+        _links:
+          self:
+            href: /design/topics/hypermedia.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia.yaml
+  - references:
+      - name: Building Your Resource Taxonomy
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#building-your-resource-taxonomy'
+      - name: Resource naming
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#resource-naming'
+    _embedded:
+      topic:
+        id: naming
+        category: Naming
+        name: Naming
+        description: How to name things
+        _links:
+          self:
+            href: /design/topics/naming.yaml
+          topicGuidelines:
+            href: /design/topics/naming/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/naming.yaml
+  - references:
+      - name: Create New Resource - Consumer Supplied Identifier
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource---consumer-supplied-identifier'
+    _embedded:
+      topic:
+        id: resource-creation-with-id
+        category: Resources
+        name: Create resource with a specific ID
+        description: How to create resource with a provided id
+        _links:
+          self:
+            href: /design/topics/resource-creation-with-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation-with-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation-with-id.yaml
+  - references:
+      - name: Create New Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource'
+    _embedded:
+      topic:
+        id: resource-creation
+        category: Resources
+        name: Create resource
+        description: How to create resources
+        _links:
+          self:
+            href: /design/topics/resource-creation.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation.yaml
+  - references:
+      - name: Delete Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#delete-single-resource'
+    _embedded:
+      topic:
+        id: resource-deletion
+        category: Resources
+        name: Delete resource
+        description: How to delete resources
+        _links:
+          self:
+            href: /design/topics/resource-deletion.yaml
+          topicGuidelines:
+            href: /design/topics/resource-deletion/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-deletion.yaml
+  - references:
+      - name: Composite Keys
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/faq/faq.md#composite-keys'
+    _embedded:
+      topic:
+        id: resource-id
+        category: Resources
+        name: Resource ID
+        description: What is a resource ID and/or how it's built
+        _links:
+          self:
+            href: /design/topics/resource-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-id.yaml
+  - references:
+      - name: How to Handle Resource Relationships and Composition
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#how-to-handle-resource-relationships-and-composition'
+      - name: Relationships and Sub-Resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/relationships-and-sub-resources/relationships-and-sub-resources.md'
+    _embedded:
+      topic:
+        id: resource-relationships
+        category: Resources
+        name: Relationships
+        description: How to define and use relations between resources
+        _links:
+          self:
+            href: /design/topics/resource-relationships.yaml
+          topicGuidelines:
+            href: /design/topics/resource-relationships/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-relationships.yaml
+  - references:
+      - name: Update Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource'
+    _embedded:
+      topic:
+        id: resource-replacement
+        category: Resources
+        name: Replace resource
+        description: How to replace (or update fully) a resource
+        _links:
+          self:
+            href: /design/topics/resource-replacement.yaml
+          topicGuidelines:
+            href: /design/topics/resource-replacement/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-replacement.yaml
+  - references:
+      name: Dereference Relationships
+      description: How to load a resource and its linked resources in one call
+    _embedded:
+      topic:
+        id: resource-retrieve-dereference
+        category: Resources
+        name: Dereference Relationships
+        description: How to load a resource and its linked resources in one call
+        _links:
+          self:
+            href: /design/topics/resource-retrieve-dereference.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve-dereference/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve-dereference.yaml
+  - references:
+      - name: Field selection
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#field-selection'
+    _embedded:
+      topic:
+        id: resource-retrieve-partial
+        category: Resources
+        name: Retrieve resource partially
+        description: How to retrieve partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve-partial.yaml
+  - references:
+      - name: Read Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#read-single-resource'
+    _embedded:
+      topic:
+        id: resource-retrieve
+        category: Resources
+        name: Retrieve resource
+        description: How to retrieve a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve.yaml
+  - references:
+      name: Resource's state
+      description: How to change a resource's state/status (like processed/sent/paid/...)
+    _embedded:
+      topic:
+        id: resource-state
+        category: Resources
+        name: Resource's state
+        description: How to change a resource's state/status (like processed/sent/paid/...)
+        _links:
+          self:
+            href: /design/topics/resource-state.yaml
+          topicGuidelines:
+            href: /design/topics/resource-state/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-state.yaml
+  - references:
+      - name: Update Partial Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-partial-single-resource'
+    _embedded:
+      topic:
+        id: resource-update-partial
+        category: Resources
+        name: Update resource partially
+        description: How to udate partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-update-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update-partial.yaml
+  - references:
+      - name: Update Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource'
+      - name: Update Partial Single Resource
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-partial-single-resource'
+    _embedded:
+      topic:
+        id: resource-update
+        category: Resources
+        name: Update resource
+        description: How to update a resource
+        _links:
+          self:
+            href: /design/topics/resource-update.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update.yaml
+  - references:
+      - name: URI Components
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/uri-components/uri-components.md'
+    _embedded:
+      topic:
+        id: resource-url-format
+        category: Resources
+        name: URL format
+        description: How to design URLs
+        _links:
+          self:
+            href: /design/topics/resource-url-format.yaml
+          topicGuidelines:
+            href: /design/topics/resource-url-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-url-format.yaml
+  - references:
+      - name: Building Your Resource Taxonomy
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#building-your-resource-taxonomy'
+      - name: Defining Resource Lifecycles
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#defining-resource-lifecycles'
+      - name: Resources
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/resources/resources.md'
+    _embedded:
+      topic:
+        id: resource
+        category: Resources
+        name: Resource
+        description: General informations about resources
+        _links:
+          self:
+            href: /design/topics/resource.yaml
+          topicGuidelines:
+            href: /design/topics/resource/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource.yaml
+  - references:
+      - name: API clients MUST use an API Key
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/general-guidelines/general-guidelines.md#api-clients-must-use-an-api-key'
+    _embedded:
+      topic:
+        id: security
+        category: Security
+        name: Security
+        description: Security concerns
+        _links:
+          self:
+            href: /design/topics/security.yaml
+          topicGuidelines:
+            href: /design/topics/security/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security.yaml
+  - references:
+      - name: Security and Authentication
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/security-and-authentication/security-and-authentication.md'
+    _embedded:
+      topic:
+        id: security-data
+        category: Security
+        name: Data privacy
+        description: Data privacy concerns
+        _links:
+          self:
+            href: /design/topics/security-data.yaml
+          topicGuidelines:
+            href: /design/topics/security-data/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security-data.yaml
+  - references:
+      - name: Version
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/uri-components/uri-components.md#version'
+    _embedded:
+      topic:
+        id: versioning
+        category: API Lifecycle
+        name: Versionning
+        description: How to handle API versionning
+        _links:
+          self:
+            href: /design/topics/versioning.yaml
+          topicGuidelines:
+            href: /design/topics/versioning/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/versioning.yaml
+_embedded:
+  guideline:
+    id: haufe-api-styleguide
+    title: Haufe API style guide
+    type: github
+    url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+    company: Haufe
+    companyLogoUrl: /media/logos/haufe.png
+    companyUrl: 'http://dev.haufe.com/'
+    date: 2015-01-15T00:00:00.000Z
+    reviewDate: 2016-08-31T00:00:00.000Z
+    _links:
+      self:
+        href: /design/guidelines/haufe-api-styleguide.yaml
+      guidelineTopics:
+        href: /design/guidelines/haufe-api-styleguide/topics.yaml
+_links:
+  self:
+    href: /design/guidelines/haufe-api-styleguide/topics.yaml
+  guideline:
+    href: /design/guidelines/haufe-api-styleguide.yaml

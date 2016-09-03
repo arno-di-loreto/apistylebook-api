@@ -1,0 +1,14 @@
+{
+  "id": "http-status-401",
+  "category": "HTTP Status",
+  "name": "HTTP Status 401",
+  "description": "When to use HTTP status 401",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-401.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-401/guidelines.json"
+    }
+  }
+}

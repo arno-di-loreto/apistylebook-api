@@ -1,0 +1,14 @@
+{
+  "id": "query-parameter",
+  "category": "Miscellaneous",
+  "name": "Query parameters",
+  "description": "How to use query parameters",
+  "_links": {
+    "self": {
+      "href": "/design/topics/query-parameter.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/query-parameter/guidelines.json"
+    }
+  }
+}

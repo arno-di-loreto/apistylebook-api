@@ -1,0 +1,14 @@
+{
+  "id": "resource-update-partial",
+  "category": "Resources",
+  "name": "Update resource partially",
+  "description": "How to udate partially a resource",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-update-partial.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-update-partial/guidelines.json"
+    }
+  }
+}

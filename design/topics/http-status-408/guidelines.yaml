@@ -1,0 +1,61 @@
+items:
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      guideline:
+        id: haufe-api-styleguide
+        title: Haufe API style guide
+        type: github
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+        company: Haufe
+        companyLogoUrl: /media/logos/haufe.png
+        companyUrl: 'http://dev.haufe.com/'
+        date: 2015-01-15T00:00:00.000Z
+        reviewDate: 2016-08-31T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/haufe-api-styleguide.yaml
+          guidelineTopics:
+            href: /design/guidelines/haufe-api-styleguide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/haufe-api-styleguide.yaml
+  - references:
+      - name: Client Side Error Codes
+        url: 'http://zalando.github.io/restful-api-guidelines/http/Http.html#client-side-error-codes'
+    _embedded:
+      guideline:
+        id: zalando-restful-api-guidelines
+        title: RESTFul API Guidelines
+        type: website
+        url: 'http://zalando.github.io/restful-api-guidelines/'
+        company: Zalando
+        companyLogoUrl: /media/logos/zalando.png
+        companyUrl: 'https://tech.zalando.de/'
+        date: 2016-01-22T00:00:00.000Z
+        reviewDate: 2016-08-28T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/zalando-restful-api-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/zalando-restful-api-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/zalando-restful-api-guidelines.yaml
+_embedded:
+  topic:
+    id: http-status-408
+    category: HTTP Status
+    name: HTTP Status 408
+    description: When to use HTTP status 408
+    _links:
+      self:
+        href: /design/topics/http-status-408.yaml
+      topicGuidelines:
+        href: /design/topics/http-status-408/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/http-status-408/guidelines.yaml
+  topic:
+    href: /design/topics/http-status-408.yaml

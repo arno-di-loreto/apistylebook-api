@@ -1,0 +1,14 @@
+{
+  "id": "http-status",
+  "category": "HTTP Status",
+  "name": "HTTP Statuses",
+  "description": "General information about HTTP statuses usage",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status/guidelines.json"
+    }
+  }
+}

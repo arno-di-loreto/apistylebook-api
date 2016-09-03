@@ -1,0 +1,14 @@
+{
+  "id": "hypermedia",
+  "category": "Hypermedia",
+  "name": "Hypermedia",
+  "description": "How to use hypermedia",
+  "_links": {
+    "self": {
+      "href": "/design/topics/hypermedia.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/hypermedia/guidelines.json"
+    }
+  }
+}

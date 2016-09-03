@@ -1,0 +1,1373 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#resources"
+        },
+        {
+          "name": "Links",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#links"
+        },
+        {
+          "name": "Includind Related Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#including-related-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#resources"
+        },
+        {
+          "name": "Links",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#links"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-read",
+          "category": "Hypermedia",
+          "name": "Hypermedia (read)",
+          "description": "How to use hypermedia to read data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-read.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-read/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-read.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Links",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#links"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-write",
+          "category": "Hypermedia",
+          "name": "Hypermedia (write)",
+          "description": "How to use hypermedia to write data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-write.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-write/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-write.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Requests",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#requests"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods",
+          "category": "HTTP Methods",
+          "name": "HTTP methods",
+          "description": "General information about HTTP methods usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "GET",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-get",
+          "category": "HTTP Methods",
+          "name": "GET",
+          "description": "When to use HTTP method GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-get.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-get/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-get.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "POST",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-post",
+          "category": "HTTP Methods",
+          "name": "POST",
+          "description": "When to use HTTP method POST",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-post.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-post/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-post.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "PUT",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#put"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-put",
+          "category": "HTTP Methods",
+          "name": "PUT",
+          "description": "When to use HTTP method PUT",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-put.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-put/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-put.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "DELETE",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#delete"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-delete",
+          "category": "HTTP Methods",
+          "name": "DELETE",
+          "description": "When to use HTTP method DELETE",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-delete.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-delete/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-delete.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "PATCH",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#patch"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-patch",
+          "category": "HTTP Methods",
+          "name": "PATCH",
+          "description": "When to use HTTP method PATCH",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-patch.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-patch/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-patch.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Responses Codes",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#response-codes"
+        },
+        {
+          "name": "GET responses (Resource)",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#responses-resource"
+        },
+        {
+          "name": "GET responses (Collection)",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#responses-collection"
+        },
+        {
+          "name": "POST responses",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#responses"
+        },
+        {
+          "name": "PUT responses",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#responses-1"
+        },
+        {
+          "name": "PATCH responses",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#responses-2"
+        },
+        {
+          "name": "DELETE responses",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#responses-3"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status",
+          "category": "HTTP Status",
+          "name": "HTTP Statuses",
+          "description": "General information about HTTP statuses usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Successful Requests",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#successful-requests"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-200",
+          "category": "HTTP Status",
+          "name": "HTTP Status 200",
+          "description": "When to use HTTP status 200",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-200.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-200/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-200.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Successful Requests",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#successful-requests"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-201",
+          "category": "HTTP Status",
+          "name": "HTTP Status 201",
+          "description": "When to use HTTP status 201",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-201.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-201/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-201.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Successful Requests",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#successful-requests"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-202",
+          "category": "HTTP Status",
+          "name": "HTTP Status 202",
+          "description": "When to use HTTP status 202",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-202.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-202/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-202.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Successful Requests",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#successful-requests"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-204",
+          "category": "HTTP Status",
+          "name": "HTTP Status 204",
+          "description": "When to use HTTP status 204",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-204.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-204/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-204.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Redirections",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#redirection"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-302",
+          "category": "HTTP Status",
+          "name": "HTTP Status 302",
+          "description": "When to use HTTP status 302",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-302.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-302/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-302.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Redirections",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#redirection"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-303",
+          "category": "HTTP Status",
+          "name": "HTTP Status 303",
+          "description": "When to use HTTP status 303",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-303.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-303/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-303.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Client Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#client-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-400",
+          "category": "HTTP Status",
+          "name": "HTTP Status 400",
+          "description": "When to use HTTP status 400",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-400.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-400/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-400.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Client Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#client-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-401",
+          "category": "HTTP Status",
+          "name": "HTTP Status 401",
+          "description": "When to use HTTP status 401",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-401.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-401/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-401.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Client Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#client-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-403",
+          "category": "HTTP Status",
+          "name": "HTTP Status 403",
+          "description": "When to use HTTP status 403",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-403.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-403/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-403.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Client Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#client-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-404",
+          "category": "HTTP Status",
+          "name": "HTTP Status 404",
+          "description": "When to use HTTP status 404",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-404.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-404/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-404.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Client Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#client-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-422",
+          "category": "HTTP Status",
+          "name": "HTTP Status 422",
+          "description": "When to use HTTP status 422",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-422.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-422/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-422.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Server Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#server-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-500",
+          "category": "HTTP Status",
+          "name": "HTTP Status 500",
+          "description": "When to use HTTP status 500",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-500.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-500/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-500.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Server Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#server-errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-503",
+          "category": "HTTP Status",
+          "name": "HTTP Status 503",
+          "description": "When to use HTTP status 503",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-503.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-503/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-503.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Errors",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#errors"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-standard-error",
+          "category": "Error handling",
+          "name": "Error format",
+          "description": "How to provide information about errors",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-standard-error.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-standard-error/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-standard-error.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource",
+          "category": "Resources",
+          "name": "Resource",
+          "description": "General informations about resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-id",
+          "category": "Resources",
+          "name": "Resource ID",
+          "description": "What is a resource ID and/or how it's built",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-id.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-id/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-id.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "URL Structure",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#url-structure"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "GET",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve",
+          "category": "Resources",
+          "name": "Retrieve resource",
+          "description": "How to retrieve a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Requesting Partiel Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#requesting-partial-resources"
+        },
+        {
+          "name": "Nested Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#nested-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-partial",
+          "category": "Resources",
+          "name": "Retrieve resource partially",
+          "description": "How to retrieve partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Includind Related Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#including-related-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-dereference",
+          "category": "Resources",
+          "name": "Dereference Relationships",
+          "description": "How to load a resource and its linked resources in one call",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-dereference.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-dereference.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "POST",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#post"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-creation",
+          "category": "Resources",
+          "name": "Create resource",
+          "description": "How to create resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-creation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-creation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-creation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "PATCH",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#patch"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update",
+          "category": "Resources",
+          "name": "Update resource",
+          "description": "How to update a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "PATCH",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#patch"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update-partial",
+          "category": "Resources",
+          "name": "Update resource partially",
+          "description": "How to udate partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "DELETE",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#delete"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-deletion",
+          "category": "Resources",
+          "name": "Delete resource",
+          "description": "How to delete resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-deletion.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-deletion/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-deletion.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "PUT",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#put"
+        },
+        {
+          "name": "Actions",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#actions"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-action",
+          "category": "Resources",
+          "name": "Action resource",
+          "description": "How to use action resource (e.g. resources like /cancel or /approve)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-action.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-action/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-action.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Relationships",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#relationships"
+        },
+        {
+          "name": "Links",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#links"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-relationships",
+          "category": "Resources",
+          "name": "Relationships",
+          "description": "How to define and use relations between resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-relationships.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-relationships/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-relationships.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Collections",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#collections"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection",
+          "category": "Collection Resources",
+          "name": "Collection",
+          "description": "What is a collection (set) of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "GET",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#get"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-retrieve",
+          "category": "Collection Resources",
+          "name": "Retrieve a collection",
+          "description": "How to get a collection or resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-retrieve.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-retrieve/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-retrieve.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Pagination",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#pagination"
+        },
+        {
+          "name": "Pagination of Related Resources",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#pagination-of-related-resources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Filtering",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#filtering"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-filtering",
+          "category": "Collection Resources",
+          "name": "Filtering",
+          "description": "How to select some resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-filtering.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-filtering/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-filtering.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Query Parameters",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#query-parameters"
+        },
+        {
+          "name": "Field Names",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#field-names"
+        },
+        {
+          "name": "URL Structure",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#url-structure"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming",
+          "category": "Naming",
+          "name": "Naming",
+          "description": "How to name things",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Query Parameters",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#query-parameters"
+        },
+        {
+          "name": "Field Names",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#field-names"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming-case",
+          "category": "Naming",
+          "name": "Case",
+          "description": "Which case (lowercase, camelCase, ...) to use and when",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming-case.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming-case/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming-case.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Query Parameters",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#query-parameters"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "query-parameter",
+          "category": "Miscellaneous",
+          "name": "Query parameters",
+          "description": "How to use query parameters",
+          "_links": {
+            "self": {
+              "href": "/design/topics/query-parameter.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/query-parameter/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/query-parameter.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Asynchronicity",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#asynchronicity"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "asynchronicity",
+          "category": "Asynchronicity",
+          "name": "Asynchronicity",
+          "description": "How to handle long operations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/asynchronicity.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/asynchronicity/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/asynchronicity.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "cloud-foundy-cloud-controller-api-style-guide",
+      "title": "Cloud Controller API v3 Style Guide (Proposal)",
+      "type": "github",
+      "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide",
+      "company": "Cloud Foundry",
+      "companyLogoUrl": "/media/logos/cloudfoundry.png",
+      "companyUrl": "https://www.cloudfoundry.org/",
+      "date": "2016-05-11T00:00:00.000Z",
+      "reviewDate": "2016-08-18T00:00:00.000Z",
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide.json"
+    }
+  }
+}

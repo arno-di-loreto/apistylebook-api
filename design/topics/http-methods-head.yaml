@@ -1,0 +1,9 @@
+id: http-methods-head
+category: HTTP Methods
+name: HEAD
+description: When to use HTTP method HEAD
+_links:
+  self:
+    href: /design/topics/http-methods-head.yaml
+  topicGuidelines:
+    href: /design/topics/http-methods-head/guidelines.yaml

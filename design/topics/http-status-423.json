@@ -1,0 +1,14 @@
+{
+  "id": "http-status-423",
+  "category": "HTTP Status",
+  "name": "HTTP Status 423",
+  "description": "When to use HTTP status 423",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-423.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-423/guidelines.json"
+    }
+  }
+}

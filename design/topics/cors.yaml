@@ -1,0 +1,9 @@
+id: cors
+category: Miscellaneous
+name: CORS
+description: How to deal with CORS
+_links:
+  self:
+    href: /design/topics/cors.yaml
+  topicGuidelines:
+    href: /design/topics/cors/guidelines.yaml

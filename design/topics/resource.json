@@ -1,0 +1,14 @@
+{
+  "id": "resource",
+  "category": "Resources",
+  "name": "Resource",
+  "description": "General informations about resources",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource/guidelines.json"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "resource-retrieve-dereference",
+  "category": "Resources",
+  "name": "Dereference Relationships",
+  "description": "How to load a resource and its linked resources in one call",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-retrieve-dereference.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+    }
+  }
+}

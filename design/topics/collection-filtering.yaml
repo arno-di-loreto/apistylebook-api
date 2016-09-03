@@ -1,0 +1,9 @@
+id: collection-filtering
+category: Collection Resources
+name: Filtering
+description: How to select some resources in a collection
+_links:
+  self:
+    href: /design/topics/collection-filtering.yaml
+  topicGuidelines:
+    href: /design/topics/collection-filtering/guidelines.yaml

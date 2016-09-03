@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Provide Request-Ids for Introspection",
+          "url": "https://geemus.gitbooks.io/http-api-design/content/en/foundations/provide-request-ids-for-introspection.html"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "heroku-http-api-design-guide",
+          "title": "HTTP API Design Guide",
+          "type": "gitbook",
+          "url": "https://geemus.gitbooks.io/http-api-design/content/en/",
+          "company": "Heroku",
+          "companyLogoUrl": "/media/logos/heroku.png",
+          "companyUrl": "https://devcenter.heroku.com/articles/platform-api-reference",
+          "date": "2016-07-05T00:00:00.000Z",
+          "reviewDate": "2016-08-31T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/heroku-http-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/heroku-http-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/heroku-http-api-design-guide.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "topic": {
+      "id": "debug-diagnose",
+      "category": "Miscellaneous",
+      "name": "Debug and diagnose",
+      "description": "How to provide informations to debug and diagnose",
+      "_links": {
+        "self": {
+          "href": "/design/topics/debug-diagnose.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/debug-diagnose/guidelines.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/topics/debug-diagnose/guidelines.json"
+    },
+    "topic": {
+      "href": "/design/topics/debug-diagnose.json"
+    }
+  }
+}

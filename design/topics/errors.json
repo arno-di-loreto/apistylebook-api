@@ -1,0 +1,14 @@
+{
+  "id": "errors",
+  "category": "Error handling",
+  "name": "Errors",
+  "description": "How to handle errors",
+  "_links": {
+    "self": {
+      "href": "/design/topics/errors.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/errors/guidelines.json"
+    }
+  }
+}

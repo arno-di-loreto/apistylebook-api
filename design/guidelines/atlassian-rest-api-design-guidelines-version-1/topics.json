@@ -1,0 +1,888 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Standard Query Parameters in URIs (start-index, max-results)"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "URI Structure"
+        },
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Collections of Entities"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection",
+          "category": "Collection Resources",
+          "name": "Collection",
+          "description": "What is a collection (set) of resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Representations (Content Types) of Entities"
+        },
+        {
+          "name": "Appendix B: Basic Data Types",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixB:BasicDataTypes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format",
+          "category": "Data",
+          "name": "Data format",
+          "description": "which data format use",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Using these Guidelines",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-UsingtheseGuidelines",
+          "quote": "We strongly recommend that someone who is familiar with these guidelines should review your REST API code"
+        },
+        {
+          "name": "Version Control for APIs",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-VersionControlforAPIs",
+          "quote": "When to Change the Version"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "governance",
+          "category": "API Lifecycle",
+          "name": "Governance",
+          "description": "How to ensure API governance (advertise, consistency, ...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/governance.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/governance/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/governance.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Version Control for Entities"
+        },
+        {
+          "name": "Caching",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Caching"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-caching",
+          "category": "HTTP Protocol",
+          "name": "Caching",
+          "description": "How to use and provide relevant caching informations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-caching.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-caching/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-caching.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Entities SHOULD be served with an ETag header."
+        },
+        {
+          "name": "Caching",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Caching",
+          "quote": "ETag, If-None-Match"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-headers",
+          "category": "HTTP Protocol",
+          "name": "HTTP Headers",
+          "description": "How to use standard or custom HTTP headers",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-headers.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-headers/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-headers.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-200",
+          "category": "HTTP Status",
+          "name": "HTTP Status 200",
+          "description": "When to use HTTP status 200",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-200.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-200/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-200.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-201",
+          "category": "HTTP Status",
+          "name": "HTTP Status 201",
+          "description": "When to use HTTP status 201",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-201.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-201/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-201.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-202",
+          "category": "HTTP Status",
+          "name": "HTTP Status 202",
+          "description": "When to use HTTP status 202",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-202.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-202/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-202.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-204",
+          "category": "HTTP Status",
+          "name": "HTTP Status 204",
+          "description": "When to use HTTP status 204",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-204.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-204/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-204.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-301",
+          "category": "HTTP Status",
+          "name": "HTTP Status 301",
+          "description": "When to use HTTP status 301",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-301.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-301/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-301.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-304",
+          "category": "HTTP Status",
+          "name": "HTTP Status 304",
+          "description": "When to use HTTP status 304",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-304.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-304/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-304.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-401",
+          "category": "HTTP Status",
+          "name": "HTTP Status 401",
+          "description": "When to use HTTP status 401",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-401.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-401/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-401.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-404",
+          "category": "HTTP Status",
+          "name": "HTTP Status 404",
+          "description": "When to use HTTP status 404",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-404.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-404/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-404.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Concurrency",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Concurrency"
+        },
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-412",
+          "category": "HTTP Status",
+          "name": "HTTP Status 412",
+          "description": "When to use HTTP status 412",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-412.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-412/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-412.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status",
+          "category": "HTTP Status",
+          "name": "HTTP Statuses",
+          "description": "General information about HTTP statuses usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Concurrency",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Concurrency"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-delete",
+          "category": "HTTP Methods",
+          "name": "DELETE",
+          "description": "When to use HTTP method DELETE",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-delete.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-delete/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-delete.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Concurrency",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Concurrency"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-put",
+          "category": "HTTP Methods",
+          "name": "PUT",
+          "description": "When to use HTTP method PUT",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-put.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-put/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-put.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Hypertext Linking within an Entity"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-read",
+          "category": "Hypermedia",
+          "name": "Hypermedia (read)",
+          "description": "How to use hypermedia to read data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-read.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-read/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-read.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Hypertext Linking within an Entity"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia-write",
+          "category": "Hypermedia",
+          "name": "Hypermedia (write)",
+          "description": "How to use hypermedia to write data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia-write.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia-write/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia-write.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Hypertext Linking within an Entity"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Concurrency",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Concurrency"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-deletion",
+          "category": "Resources",
+          "name": "Delete resource",
+          "description": "How to delete resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-deletion.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-deletion/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-deletion.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Standard Query Parameters in URIs (expand)"
+        },
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "Title Expansion for Entities"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-dereference",
+          "category": "Resources",
+          "name": "Dereference Relationships",
+          "description": "How to load a resource and its linked resources in one call",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-dereference.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-dereference.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Concurrency",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Concurrency"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-update",
+          "category": "Resources",
+          "name": "Update resource",
+          "description": "How to update a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-update.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-update/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-update.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources",
+          "quote": "URI Structure"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "REST Resources",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-RESTResources"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource",
+          "category": "Resources",
+          "name": "Resource",
+          "description": "General informations about resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-Security"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "security",
+          "category": "Security",
+          "name": "Security",
+          "description": "Security concerns",
+          "_links": {
+            "self": {
+              "href": "/design/topics/security.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/security/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/security.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Version Control for APIs",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-VersionControlforAPIs"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "versioning",
+          "category": "API Lifecycle",
+          "name": "Versionning",
+          "description": "How to handle API versionning",
+          "_links": {
+            "self": {
+              "href": "/design/topics/versioning.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/versioning/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/versioning.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "atlassian-rest-api-design-guidelines-version-1",
+      "title": "Atlassian REST API Design Guidelines version 1",
+      "type": "website",
+      "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1",
+      "company": "Atlassian",
+      "companyLogoUrl": "/media/logos/atlassian.png",
+      "companyUrl": "https://developer.atlassian.com/",
+      "date": "2016-01-22T00:00:00.000Z",
+      "reviewDate": "2016-09-01T00:00:00.000Z",
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1.json"
+    }
+  }
+}

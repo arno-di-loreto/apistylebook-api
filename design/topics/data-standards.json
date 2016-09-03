@@ -1,0 +1,14 @@
+{
+  "id": "data-standards",
+  "category": "Data",
+  "name": "Standards data",
+  "description": "Which standard use for values like languages, countries, currencies, ...",
+  "_links": {
+    "self": {
+      "href": "/design/topics/data-standards.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/data-standards/guidelines.json"
+    }
+  }
+}

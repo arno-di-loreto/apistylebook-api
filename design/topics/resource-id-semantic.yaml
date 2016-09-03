@@ -1,0 +1,9 @@
+id: resource-id-semantic
+category: Resources
+name: ID with semantic
+description: Using meaningful ids (like `me`)
+_links:
+  self:
+    href: /design/topics/resource-id-semantic.yaml
+  topicGuidelines:
+    href: /design/topics/resource-id-semantic/guidelines.yaml

@@ -1,0 +1,14 @@
+{
+  "id": "http-status-411",
+  "category": "HTTP Status",
+  "name": "HTTP Status 411",
+  "description": "When to use HTTP status 411",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-411.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-status-411/guidelines.json"
+    }
+  }
+}

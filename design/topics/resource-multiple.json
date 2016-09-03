@@ -1,0 +1,14 @@
+{
+  "id": "resource-multiple",
+  "category": "Resources",
+  "name": "Batch Bulk",
+  "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)",
+  "_links": {
+    "self": {
+      "href": "/design/topics/resource-multiple.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/resource-multiple/guidelines.json"
+    }
+  }
+}

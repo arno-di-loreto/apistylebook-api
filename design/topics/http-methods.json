@@ -1,0 +1,14 @@
+{
+  "id": "http-methods",
+  "category": "HTTP Methods",
+  "name": "HTTP methods",
+  "description": "General information about HTTP methods usage",
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-methods.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/http-methods/guidelines.json"
+    }
+  }
+}

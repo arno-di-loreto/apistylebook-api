@@ -1,0 +1,19 @@
+{
+  "id": "white-house-web-api-standards",
+  "title": "White House Web API Standards",
+  "type": "github",
+  "url": "https://github.com/WhiteHouse/api-standards",
+  "company": "White House",
+  "companyLogoUrl": "/media/logos/whitehouse.png",
+  "companyUrl": "https://www.whitehouse.gov/developers",
+  "date": "2015-02-24T00:00:00.000Z",
+  "reviewDate": "2016-08-18T00:00:00.000Z",
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/white-house-web-api-standards.json"
+    },
+    "guidelineTopics": {
+      "href": "/design/guidelines/white-house-web-api-standards/topics.json"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+id: http-methods-post
+category: HTTP Methods
+name: POST
+description: When to use HTTP method POST
+_links:
+  self:
+    href: /design/topics/http-methods-post.yaml
+  topicGuidelines:
+    href: /design/topics/http-methods-post/guidelines.yaml

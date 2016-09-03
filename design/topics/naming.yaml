@@ -1,0 +1,9 @@
+id: naming
+category: Naming
+name: Naming
+description: How to name things
+_links:
+  self:
+    href: /design/topics/naming.yaml
+  topicGuidelines:
+    href: /design/topics/naming/guidelines.yaml

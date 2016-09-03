@@ -1,0 +1,14 @@
+{
+  "id": "versioning",
+  "category": "API Lifecycle",
+  "name": "Versionning",
+  "description": "How to handle API versionning",
+  "_links": {
+    "self": {
+      "href": "/design/topics/versioning.json"
+    },
+    "topicGuidelines": {
+      "href": "/design/topics/versioning/guidelines.json"
+    }
+  }
+}

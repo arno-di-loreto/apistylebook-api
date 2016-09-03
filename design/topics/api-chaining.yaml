@@ -1,0 +1,9 @@
+id: api-chaining
+category: Miscellaneous
+name: API chaining
+description: How to chain API call in internal systems
+_links:
+  self:
+    href: /design/topics/api-chaining.yaml
+  topicGuidelines:
+    href: /design/topics/api-chaining/guidelines.yaml

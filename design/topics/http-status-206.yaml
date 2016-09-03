@@ -1,0 +1,9 @@
+id: http-status-206
+category: HTTP Status
+name: HTTP Status 206
+description: When to use HTTP status 206
+_links:
+  self:
+    href: /design/topics/http-status-206.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-206/guidelines.yaml

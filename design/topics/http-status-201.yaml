@@ -1,0 +1,9 @@
+id: http-status-201
+category: HTTP Status
+name: HTTP Status 201
+description: When to use HTTP status 201
+_links:
+  self:
+    href: /design/topics/http-status-201.yaml
+  topicGuidelines:
+    href: /design/topics/http-status-201/guidelines.yaml

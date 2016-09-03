@@ -1,0 +1,236 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Appendix A: Response Codes",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "atlassian-rest-api-design-guidelines-version-1",
+          "title": "Atlassian REST API Design Guidelines version 1",
+          "type": "website",
+          "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1",
+          "company": "Atlassian",
+          "companyLogoUrl": "/media/logos/atlassian.png",
+          "companyUrl": "https://developer.atlassian.com/",
+          "date": "2016-01-22T00:00:00.000Z",
+          "reviewDate": "2016-09-01T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/atlassian-rest-api-design-guidelines-version-1.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Use HTTP methods and status codes",
+          "url": "https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#use-http-methods-and-status-codes"
+        },
+        {
+          "name": "PUT /magazines/1234",
+          "url": "https://apiguide.readthedocs.io/en/latest/build_and_publish/use_HTTP_methods.html#put--magazines-1234"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "ausdto-api-design-guide",
+          "title": "API Design Guide",
+          "type": "website",
+          "url": "https://apiguide.readthedocs.io/en/latest/index.html",
+          "company": "Australian Digital Transformation Office",
+          "companyLogoUrl": "/media/logos/ausdto.png",
+          "companyUrl": "https://www.dto.gov.au/",
+          "date": "2015-10-20T00:00:00.000Z",
+          "reviewDate": "2016-08-18T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/ausdto-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/ausdto-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/ausdto-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Successful Requests",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide#successful-requests"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "cloud-foundy-cloud-controller-api-style-guide",
+          "title": "Cloud Controller API v3 Style Guide (Proposal)",
+          "type": "github",
+          "url": "https://github.com/cloudfoundry/cc-api-v3-style-guide",
+          "company": "Cloud Foundry",
+          "companyLogoUrl": "/media/logos/cloudfoundry.png",
+          "companyUrl": "https://www.cloudfoundry.org/",
+          "date": "2016-05-11T00:00:00.000Z",
+          "reviewDate": "2016-08-18T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/cloud-foundy-cloud-controller-api-style-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "haufe-api-styleguide",
+          "title": "Haufe API style guide",
+          "type": "github",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md",
+          "company": "Haufe",
+          "companyLogoUrl": "/media/logos/haufe.png",
+          "companyUrl": "http://dev.haufe.com/",
+          "date": "2015-01-15T00:00:00.000Z",
+          "reviewDate": "2016-08-31T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/haufe-api-styleguide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/haufe-api-styleguide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/haufe-api-styleguide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Return appropriate status codes",
+          "url": "https://geemus.gitbooks.io/http-api-design/content/en/responses/return-appropriate-status-codes.html"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "heroku-http-api-design-guide",
+          "title": "HTTP API Design Guide",
+          "type": "gitbook",
+          "url": "https://geemus.gitbooks.io/http-api-design/content/en/",
+          "company": "Heroku",
+          "companyLogoUrl": "/media/logos/heroku.png",
+          "companyUrl": "https://devcenter.heroku.com/articles/platform-api-reference",
+          "date": "2016-07-05T00:00:00.000Z",
+          "reviewDate": "2016-08-31T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/heroku-http-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/heroku-http-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/heroku-http-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Success Codes",
+          "url": "http://zalando.github.io/restful-api-guidelines/http/Http.html#success-codes"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "zalando-restful-api-guidelines",
+          "title": "RESTFul API Guidelines",
+          "type": "website",
+          "url": "http://zalando.github.io/restful-api-guidelines/",
+          "company": "Zalando",
+          "companyLogoUrl": "/media/logos/zalando.png",
+          "companyUrl": "https://tech.zalando.de/",
+          "date": "2016-01-22T00:00:00.000Z",
+          "reviewDate": "2016-08-28T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/zalando-restful-api-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/zalando-restful-api-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/zalando-restful-api-guidelines.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "topic": {
+      "id": "http-status-201",
+      "category": "HTTP Status",
+      "name": "HTTP Status 201",
+      "description": "When to use HTTP status 201",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-201.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-201/guidelines.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-201/guidelines.json"
+    },
+    "topic": {
+      "href": "/design/topics/http-status-201.json"
+    }
+  }
+}

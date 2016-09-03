@@ -1,0 +1,9 @@
+id: http-methods-delete
+category: HTTP Methods
+name: DELETE
+description: When to use HTTP method DELETE
+_links:
+  self:
+    href: /design/topics/http-methods-delete.yaml
+  topicGuidelines:
+    href: /design/topics/http-methods-delete/guidelines.yaml
