@@ -1,7 +1,8 @@
 id: http-status-408
-category: HTTP Status
-name: HTTP Status 408
-description: When to use HTTP status 408
+category: HTTP Status User Error
+name: 408 Request Timeout
+description: |
+  The server timed out waiting for the request. According to HTTP specifications: The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time.
 _links:
   self:
     href: /design/topics/http-status-408.yaml

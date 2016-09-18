@@ -1,8 +1,8 @@
 {
   "id": "http-status-411",
-  "category": "HTTP Status",
-  "name": "HTTP Status 411",
-  "description": "When to use HTTP status 411",
+  "category": "HTTP Status User Error",
+  "name": "411 Length Required",
+  "description": "The request did not specify the length of its content, which is required by the requested resource.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-411.json"

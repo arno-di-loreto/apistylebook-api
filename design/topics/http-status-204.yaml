@@ -1,7 +1,7 @@
 id: http-status-204
-category: HTTP Status
-name: HTTP Status 204
-description: When to use HTTP status 204
+category: HTTP Status Success
+name: 204 No Content
+description: The server successfully processed the request and is not returning any content.
 _links:
   self:
     href: /design/topics/http-status-204.yaml

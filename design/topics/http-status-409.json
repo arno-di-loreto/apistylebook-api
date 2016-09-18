@@ -1,8 +1,8 @@
 {
   "id": "http-status-409",
-  "category": "HTTP Status",
-  "name": "HTTP Status 409",
-  "description": "When to use HTTP status 409",
+  "category": "HTTP Status User Error",
+  "name": "409 Conflict",
+  "description": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.\n",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-409.json"

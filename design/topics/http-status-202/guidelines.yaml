@@ -11,6 +11,7 @@ items:
         company: Atlassian
         companyLogoUrl: /media/logos/atlassian.png
         companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/atlassian-rest-api-design-guidelines-version-1.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-09-01T00:00:00.000Z
         _links:
@@ -33,6 +34,7 @@ items:
         company: Cloud Foundry
         companyLogoUrl: /media/logos/cloudfoundry.png
         companyUrl: 'https://www.cloudfoundry.org/'
+        screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
         date: 2016-05-11T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -55,6 +57,7 @@ items:
         company: Heroku
         companyLogoUrl: /media/logos/heroku.png
         companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+        screenshotUrl: /media/screenshots/heroku-http-api-design-guide.png
         date: 2016-07-05T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -77,6 +80,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -90,9 +94,10 @@ items:
 _embedded:
   topic:
     id: http-status-202
-    category: HTTP Status
-    name: HTTP Status 202
-    description: When to use HTTP status 202
+    category: HTTP Status Success
+    name: 202 Accepted
+    description: |
+      The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs.
     _links:
       self:
         href: /design/topics/http-status-202.yaml

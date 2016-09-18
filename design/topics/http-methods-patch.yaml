@@ -1,7 +1,8 @@
 id: http-methods-patch
 category: HTTP Methods
 name: PATCH
-description: When to use HTTP method PATCH
+description: |
+  The PATCH method applies partial modifications to a resource.
 _links:
   self:
     href: /design/topics/http-methods-patch.yaml

@@ -11,6 +11,7 @@ items:
         company: Haufe
         companyLogoUrl: /media/logos/haufe.png
         companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -35,6 +36,7 @@ items:
         company: Microsoft
         companyLogoUrl: /media/logos/microsoft.png
         companyUrl: 'https://opensource.microsoft.com/'
+        screenshotUrl: /media/screenshots/microsoft-rest-api-guidelines.png
         date: 2016-07-19T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -57,6 +59,7 @@ items:
         company: PayPal
         companyLogoUrl: /media/logos/paypal.png
         companyUrl: 'https://developer.paypal.com/'
+        screenshotUrl: /media/screenshots/paypal-api-style-guide.png
         date: 2016-08-11T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -80,6 +83,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:

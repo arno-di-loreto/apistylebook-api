@@ -1,7 +1,7 @@
 id: http-status-429
-category: HTTP Status
-name: HTTP Status 429
-description: When to use HTTP status 429
+category: HTTP Status User Error
+name: 429 Too Many Requests
+description: The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.
 _links:
   self:
     href: /design/topics/http-status-429.yaml

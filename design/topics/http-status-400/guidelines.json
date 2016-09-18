@@ -16,6 +16,7 @@
           "company": "Cloud Foundry",
           "companyLogoUrl": "/media/logos/cloudfoundry.png",
           "companyUrl": "https://www.cloudfoundry.org/",
+          "screenshotUrl": "/media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png",
           "date": "2016-05-11T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -62,6 +63,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -96,6 +98,7 @@
           "company": "PayPal",
           "companyLogoUrl": "/media/logos/paypal.png",
           "companyUrl": "https://developer.paypal.com/",
+          "screenshotUrl": "/media/screenshots/paypal-api-style-guide.png",
           "date": "2016-08-11T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -130,6 +133,7 @@
           "company": "White House",
           "companyLogoUrl": "/media/logos/whitehouse.png",
           "companyUrl": "https://www.whitehouse.gov/developers",
+          "screenshotUrl": "/media/screenshots/white-house-web-api-standards.png",
           "date": "2015-02-24T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -164,6 +168,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {
@@ -186,9 +191,9 @@
   "_embedded": {
     "topic": {
       "id": "http-status-400",
-      "category": "HTTP Status",
-      "name": "HTTP Status 400",
-      "description": "When to use HTTP status 400",
+      "category": "HTTP Status User Error",
+      "name": "400 Bad Request",
+      "description": "The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).\n",
       "_links": {
         "self": {
           "href": "/design/topics/http-status-400.json"

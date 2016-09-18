@@ -11,6 +11,7 @@ items:
         company: Cloud Foundry
         companyLogoUrl: /media/logos/cloudfoundry.png
         companyUrl: 'https://www.cloudfoundry.org/'
+        screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
         date: 2016-05-11T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -33,6 +34,7 @@ items:
         company: Haufe
         companyLogoUrl: /media/logos/haufe.png
         companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -57,6 +59,7 @@ items:
         company: Heroku
         companyLogoUrl: /media/logos/heroku.png
         companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+        screenshotUrl: /media/screenshots/heroku-http-api-design-guide.png
         date: 2016-07-05T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -79,6 +82,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -92,9 +96,9 @@ items:
 _embedded:
   topic:
     id: http-status-403
-    category: HTTP Status
-    name: HTTP Status 403
-    description: When to use HTTP status 403
+    category: HTTP Status User Error
+    name: 403 Forbidden
+    description: 'The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.'
     _links:
       self:
         href: /design/topics/http-status-403.yaml

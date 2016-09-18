@@ -1,8 +1,8 @@
 {
   "id": "http-status-422",
-  "category": "HTTP Status",
-  "name": "HTTP Status 422",
-  "description": "When to use HTTP status 422",
+  "category": "HTTP Status User Error",
+  "name": "422 Unprocessable Entity",
+  "description": "The request was well-formed but was unable to be followed due to semantic errors.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-422.json"

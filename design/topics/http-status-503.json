@@ -1,8 +1,8 @@
 {
   "id": "http-status-503",
-  "category": "HTTP Status",
-  "name": "HTTP Status 503",
-  "description": "When to use HTTP status 503",
+  "category": "HTTP Status Server Error",
+  "name": "503 Service Unavailable",
+  "description": "The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-503.json"

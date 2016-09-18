@@ -1,0 +1,41 @@
+items:
+  - references:
+      - name: HTTP Status Codes
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md'
+    _embedded:
+      guideline:
+        id: haufe-api-styleguide
+        title: Haufe API style guide
+        type: github
+        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
+        company: Haufe
+        companyLogoUrl: /media/logos/haufe.png
+        companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
+        date: 2015-01-15T00:00:00.000Z
+        reviewDate: 2016-08-31T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/haufe-api-styleguide.yaml
+          guidelineTopics:
+            href: /design/guidelines/haufe-api-styleguide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/haufe-api-styleguide.yaml
+_embedded:
+  topic:
+    id: http-status-410
+    category: HTTP Status User Error
+    name: 410 Gone
+    description: |
+      Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a *404 Not Found* may be used instead.
+    _links:
+      self:
+        href: /design/topics/http-status-410.yaml
+      topicGuidelines:
+        href: /design/topics/http-status-410/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/http-status-410/guidelines.yaml
+  topic:
+    href: /design/topics/http-status-410.yaml

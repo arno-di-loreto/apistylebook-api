@@ -20,6 +20,7 @@
           "company": "Microsoft",
           "companyLogoUrl": "/media/logos/microsoft.png",
           "companyUrl": "https://opensource.microsoft.com/",
+          "screenshotUrl": "/media/screenshots/microsoft-rest-api-guidelines.png",
           "date": "2016-07-19T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -54,6 +55,7 @@
           "company": "Red Hat",
           "companyLogoUrl": "/media/logos/redhat.png",
           "companyUrl": "https://www.redhat.com/",
+          "screenshotUrl": "/media/screenshots/redhat-thoughts-on-restful-api-design.png",
           "authors": [
             {
               "name": "Geert Jansen",
@@ -94,6 +96,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {

@@ -1,8 +1,8 @@
 {
   "id": "http-status-201",
-  "category": "HTTP Status",
-  "name": "HTTP Status 201",
-  "description": "When to use HTTP status 201",
+  "category": "HTTP Status Success",
+  "name": "201 Created",
+  "description": "The request has been fulfilled, resulting in the creation of a new resource.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-201.json"

@@ -1,8 +1,8 @@
 {
   "id": "http-status-428",
-  "category": "HTTP Status",
-  "name": "HTTP Status 428",
-  "description": "When to use HTTP status 428",
+  "category": "HTTP Status User Error",
+  "name": "428 Precondition Required",
+  "description": "The origin server requires the request to be conditional. \nIntended to prevent the *lost update* problem, where a client GETs a resource's state, modifies it, \nand PUTs it back to the server, when meanwhile a third party has modified the state on the server, \nleading to a conflict.\n",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-428.json"

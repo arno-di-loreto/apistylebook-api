@@ -11,6 +11,7 @@ items:
         company: Atlassian
         companyLogoUrl: /media/logos/atlassian.png
         companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/atlassian-rest-api-policy.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-09-01T00:00:00.000Z
         _links:
@@ -37,6 +38,7 @@ items:
         company: Australian Digital Transformation Office
         companyLogoUrl: /media/logos/ausdto.png
         companyUrl: 'https://www.dto.gov.au/'
+        screenshotUrl: /media/screenshots/ausdto-api-design-guide.png
         date: 2015-10-20T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -59,6 +61,7 @@ items:
         company: Haufe
         companyLogoUrl: /media/logos/haufe.png
         companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -83,6 +86,7 @@ items:
         company: Microsoft
         companyLogoUrl: /media/logos/microsoft.png
         companyUrl: 'https://opensource.microsoft.com/'
+        screenshotUrl: /media/screenshots/microsoft-rest-api-guidelines.png
         date: 2016-07-19T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:

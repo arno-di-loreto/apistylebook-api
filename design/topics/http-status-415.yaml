@@ -1,7 +1,7 @@
 id: http-status-415
-category: HTTP Status
-name: HTTP Status 415
-description: When to use HTTP status 415
+category: HTTP Status User Error
+name: 415 Unsupported Media Type
+description: 'The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.'
 _links:
   self:
     href: /design/topics/http-status-415.yaml

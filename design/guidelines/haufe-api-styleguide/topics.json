@@ -503,9 +503,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-200",
-          "category": "HTTP Status",
-          "name": "HTTP Status 200",
-          "description": "When to use HTTP status 200",
+          "category": "HTTP Status Success",
+          "name": "200 OK",
+          "description": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-200.json"
@@ -532,9 +532,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-201",
-          "category": "HTTP Status",
-          "name": "HTTP Status 201",
-          "description": "When to use HTTP status 201",
+          "category": "HTTP Status Success",
+          "name": "201 Created",
+          "description": "The request has been fulfilled, resulting in the creation of a new resource.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-201.json"
@@ -573,9 +573,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-204",
-          "category": "HTTP Status",
-          "name": "HTTP Status 204",
-          "description": "When to use HTTP status 204",
+          "category": "HTTP Status Success",
+          "name": "204 No Content",
+          "description": "The server successfully processed the request and is not returning any content.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-204.json"
@@ -602,9 +602,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-304",
-          "category": "HTTP Status",
-          "name": "HTTP Status 304",
-          "description": "When to use HTTP status 304",
+          "category": "HTTP Status Redirection",
+          "name": "304 Not Modified",
+          "description": "Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. In such case, there is no need to retransmit the resource since the client still has a previously-downloaded copy.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-304.json"
@@ -643,9 +643,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-400",
-          "category": "HTTP Status",
-          "name": "HTTP Status 400",
-          "description": "When to use HTTP status 400",
+          "category": "HTTP Status User Error",
+          "name": "400 Bad Request",
+          "description": "The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-400.json"
@@ -672,9 +672,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-401",
-          "category": "HTTP Status",
-          "name": "HTTP Status 401",
-          "description": "When to use HTTP status 401",
+          "category": "HTTP Status User Error",
+          "name": "401 Unauthorized",
+          "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. \n",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-401.json"
@@ -701,9 +701,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-403",
-          "category": "HTTP Status",
-          "name": "HTTP Status 403",
-          "description": "When to use HTTP status 403",
+          "category": "HTTP Status User Error",
+          "name": "403 Forbidden",
+          "description": "The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-403.json"
@@ -743,9 +743,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-404",
-          "category": "HTTP Status",
-          "name": "HTTP Status 404",
-          "description": "When to use HTTP status 404",
+          "category": "HTTP Status User Error",
+          "name": "404 Not Found",
+          "description": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-404.json"
@@ -772,9 +772,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-405",
-          "category": "HTTP Status",
-          "name": "HTTP Status 405",
-          "description": "When to use HTTP status 405",
+          "category": "HTTP Status User Error",
+          "name": "405 Method Not Allowed",
+          "description": "A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-405.json"
@@ -801,9 +801,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-406",
-          "category": "HTTP Status",
-          "name": "HTTP Status 406",
-          "description": "When to use HTTP status 406",
+          "category": "HTTP Status User Error",
+          "name": "406 Not Acceptable",
+          "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-406.json"
@@ -830,9 +830,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-408",
-          "category": "HTTP Status",
-          "name": "HTTP Status 408",
-          "description": "When to use HTTP status 408",
+          "category": "HTTP Status User Error",
+          "name": "408 Request Timeout",
+          "description": "The server timed out waiting for the request. According to HTTP specifications: The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-408.json"
@@ -859,9 +859,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-409",
-          "category": "HTTP Status",
-          "name": "HTTP Status 409",
-          "description": "When to use HTTP status 409",
+          "category": "HTTP Status User Error",
+          "name": "409 Conflict",
+          "description": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-409.json"
@@ -887,10 +887,39 @@
       ],
       "_embedded": {
         "topic": {
+          "id": "http-status-410",
+          "category": "HTTP Status User Error",
+          "name": "410 Gone",
+          "description": "Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a *404 Not Found* may be used instead.\n",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-410.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-410/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-410.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP Status Codes",
+          "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-status-codes/http-status-codes.md"
+        }
+      ],
+      "_embedded": {
+        "topic": {
           "id": "http-status-411",
-          "category": "HTTP Status",
-          "name": "HTTP Status 411",
-          "description": "When to use HTTP status 411",
+          "category": "HTTP Status User Error",
+          "name": "411 Length Required",
+          "description": "The request did not specify the length of its content, which is required by the requested resource.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-411.json"
@@ -917,9 +946,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-412",
-          "category": "HTTP Status",
-          "name": "HTTP Status 412",
-          "description": "When to use HTTP status 412",
+          "category": "HTTP Status User Error",
+          "name": "412 Precondition Failed",
+          "description": "The server does not meet one of the preconditions that the requester put on the request.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-412.json"
@@ -946,9 +975,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-415",
-          "category": "HTTP Status",
-          "name": "HTTP Status 415",
-          "description": "When to use HTTP status 415",
+          "category": "HTTP Status User Error",
+          "name": "415 Unsupported Media Type",
+          "description": "The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-415.json"
@@ -983,9 +1012,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-422",
-          "category": "HTTP Status",
-          "name": "HTTP Status 422",
-          "description": "When to use HTTP status 422",
+          "category": "HTTP Status User Error",
+          "name": "422 Unprocessable Entity",
+          "description": "The request was well-formed but was unable to be followed due to semantic errors.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-422.json"
@@ -1012,9 +1041,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-500",
-          "category": "HTTP Status",
-          "name": "HTTP Status 500",
-          "description": "When to use HTTP status 500",
+          "category": "HTTP Status Server Error",
+          "name": "500 Internal Server Error",
+          "description": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-500.json"
@@ -1041,9 +1070,9 @@
       "_embedded": {
         "topic": {
           "id": "http-status-501",
-          "category": "HTTP Status",
-          "name": "HTTP Status 501",
-          "description": "When to use HTTP status 501",
+          "category": "HTTP Status Server Error",
+          "name": "501 Not Implemented",
+          "description": "The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API).",
           "_links": {
             "self": {
               "href": "/design/topics/http-status-501.json"
@@ -1103,7 +1132,7 @@
       "_embedded": {
         "topic": {
           "id": "http-status",
-          "category": "HTTP Status",
+          "category": "HTTP Protocol",
           "name": "HTTP Statuses",
           "description": "General information about HTTP statuses usage",
           "_links": {
@@ -1134,7 +1163,7 @@
           "id": "http-methods-delete",
           "category": "HTTP Methods",
           "name": "DELETE",
-          "description": "When to use HTTP method DELETE",
+          "description": "The DELETE method deletes the specified resource.",
           "_links": {
             "self": {
               "href": "/design/topics/http-methods-delete.json"
@@ -1171,7 +1200,7 @@
           "id": "http-methods-get",
           "category": "HTTP Methods",
           "name": "GET",
-          "description": "When to use HTTP method GET",
+          "description": "The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-methods-get.json"
@@ -1204,7 +1233,7 @@
           "id": "http-methods-patch",
           "category": "HTTP Methods",
           "name": "PATCH",
-          "description": "When to use HTTP method PATCH",
+          "description": "The PATCH method applies partial modifications to a resource.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-methods-patch.json"
@@ -1241,7 +1270,7 @@
           "id": "http-methods-post",
           "category": "HTTP Methods",
           "name": "POST",
-          "description": "When to use HTTP method POST",
+          "description": "The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-methods-post.json"
@@ -1278,7 +1307,7 @@
           "id": "http-methods-put",
           "category": "HTTP Methods",
           "name": "PUT",
-          "description": "When to use HTTP method PUT",
+          "description": "The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.\n",
           "_links": {
             "self": {
               "href": "/design/topics/http-methods-put.json"
@@ -1626,33 +1655,6 @@
       }
     },
     {
-      "references": {
-        "name": "Dereference Relationships",
-        "description": "How to load a resource and its linked resources in one call"
-      },
-      "_embedded": {
-        "topic": {
-          "id": "resource-retrieve-dereference",
-          "category": "Resources",
-          "name": "Dereference Relationships",
-          "description": "How to load a resource and its linked resources in one call",
-          "_links": {
-            "self": {
-              "href": "/design/topics/resource-retrieve-dereference.json"
-            },
-            "topicGuidelines": {
-              "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
-            }
-          }
-        }
-      },
-      "_links": {
-        "topic": {
-          "href": "/design/topics/resource-retrieve-dereference.json"
-        }
-      }
-    },
-    {
       "references": [
         {
           "name": "Field selection",
@@ -1962,6 +1964,7 @@
       "company": "Haufe",
       "companyLogoUrl": "/media/logos/haufe.png",
       "companyUrl": "http://dev.haufe.com/",
+      "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
       "date": "2015-01-15T00:00:00.000Z",
       "reviewDate": "2016-08-31T00:00:00.000Z",
       "_links": {

@@ -81,7 +81,8 @@ items:
         id: http-methods-get
         category: HTTP Methods
         name: GET
-        description: When to use HTTP method GET
+        description: |
+          The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.
         _links:
           self:
             href: /design/topics/http-methods-get.yaml
@@ -98,7 +99,8 @@ items:
         id: http-methods-post
         category: HTTP Methods
         name: POST
-        description: When to use HTTP method POST
+        description: |
+          The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.
         _links:
           self:
             href: /design/topics/http-methods-post.yaml
@@ -115,7 +117,8 @@ items:
         id: http-methods-put
         category: HTTP Methods
         name: PUT
-        description: When to use HTTP method PUT
+        description: |
+          The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
         _links:
           self:
             href: /design/topics/http-methods-put.yaml
@@ -132,7 +135,7 @@ items:
         id: http-methods-delete
         category: HTTP Methods
         name: DELETE
-        description: When to use HTTP method DELETE
+        description: The DELETE method deletes the specified resource.
         _links:
           self:
             href: /design/topics/http-methods-delete.yaml
@@ -149,7 +152,8 @@ items:
         id: http-methods-patch
         category: HTTP Methods
         name: PATCH
-        description: When to use HTTP method PATCH
+        description: |
+          The PATCH method applies partial modifications to a resource.
         _links:
           self:
             href: /design/topics/http-methods-patch.yaml
@@ -176,7 +180,7 @@ items:
     _embedded:
       topic:
         id: http-status
-        category: HTTP Status
+        category: HTTP Protocol
         name: HTTP Statuses
         description: General information about HTTP statuses usage
         _links:
@@ -193,9 +197,9 @@ items:
     _embedded:
       topic:
         id: http-status-200
-        category: HTTP Status
-        name: HTTP Status 200
-        description: When to use HTTP status 200
+        category: HTTP Status Success
+        name: 200 OK
+        description: 'Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.'
         _links:
           self:
             href: /design/topics/http-status-200.yaml
@@ -210,9 +214,9 @@ items:
     _embedded:
       topic:
         id: http-status-201
-        category: HTTP Status
-        name: HTTP Status 201
-        description: When to use HTTP status 201
+        category: HTTP Status Success
+        name: 201 Created
+        description: 'The request has been fulfilled, resulting in the creation of a new resource.'
         _links:
           self:
             href: /design/topics/http-status-201.yaml
@@ -227,9 +231,10 @@ items:
     _embedded:
       topic:
         id: http-status-202
-        category: HTTP Status
-        name: HTTP Status 202
-        description: When to use HTTP status 202
+        category: HTTP Status Success
+        name: 202 Accepted
+        description: |
+          The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs.
         _links:
           self:
             href: /design/topics/http-status-202.yaml
@@ -244,9 +249,9 @@ items:
     _embedded:
       topic:
         id: http-status-204
-        category: HTTP Status
-        name: HTTP Status 204
-        description: When to use HTTP status 204
+        category: HTTP Status Success
+        name: 204 No Content
+        description: The server successfully processed the request and is not returning any content.
         _links:
           self:
             href: /design/topics/http-status-204.yaml
@@ -261,9 +266,10 @@ items:
     _embedded:
       topic:
         id: http-status-302
-        category: HTTP Status
-        name: HTTP Status 302
-        description: When to use HTTP status 302
+        category: HTTP Status Redirection
+        name: 302 Found
+        description: |
+          Common way of performing URL redirection. An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field. 
         _links:
           self:
             href: /design/topics/http-status-302.yaml
@@ -278,9 +284,10 @@ items:
     _embedded:
       topic:
         id: http-status-303
-        category: HTTP Status
-        name: HTTP Status 303
-        description: When to use HTTP status 303
+        category: HTTP Status Redirection
+        name: 303 See Other
+        description: |
+          The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.
         _links:
           self:
             href: /design/topics/http-status-303.yaml
@@ -295,9 +302,10 @@ items:
     _embedded:
       topic:
         id: http-status-400
-        category: HTTP Status
-        name: HTTP Status 400
-        description: When to use HTTP status 400
+        category: HTTP Status User Error
+        name: 400 Bad Request
+        description: |
+          The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).
         _links:
           self:
             href: /design/topics/http-status-400.yaml
@@ -312,9 +320,10 @@ items:
     _embedded:
       topic:
         id: http-status-401
-        category: HTTP Status
-        name: HTTP Status 401
-        description: When to use HTTP status 401
+        category: HTTP Status User Error
+        name: 401 Unauthorized
+        description: |
+          Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. 
         _links:
           self:
             href: /design/topics/http-status-401.yaml
@@ -329,9 +338,9 @@ items:
     _embedded:
       topic:
         id: http-status-403
-        category: HTTP Status
-        name: HTTP Status 403
-        description: When to use HTTP status 403
+        category: HTTP Status User Error
+        name: 403 Forbidden
+        description: 'The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.'
         _links:
           self:
             href: /design/topics/http-status-403.yaml
@@ -346,9 +355,9 @@ items:
     _embedded:
       topic:
         id: http-status-404
-        category: HTTP Status
-        name: HTTP Status 404
-        description: When to use HTTP status 404
+        category: HTTP Status User Error
+        name: 404 Not Found
+        description: The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.
         _links:
           self:
             href: /design/topics/http-status-404.yaml
@@ -363,9 +372,9 @@ items:
     _embedded:
       topic:
         id: http-status-422
-        category: HTTP Status
-        name: HTTP Status 422
-        description: When to use HTTP status 422
+        category: HTTP Status User Error
+        name: 422 Unprocessable Entity
+        description: The request was well-formed but was unable to be followed due to semantic errors.
         _links:
           self:
             href: /design/topics/http-status-422.yaml
@@ -380,9 +389,9 @@ items:
     _embedded:
       topic:
         id: http-status-500
-        category: HTTP Status
-        name: HTTP Status 500
-        description: When to use HTTP status 500
+        category: HTTP Status Server Error
+        name: 500 Internal Server Error
+        description: 'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.'
         _links:
           self:
             href: /design/topics/http-status-500.yaml
@@ -397,9 +406,9 @@ items:
     _embedded:
       topic:
         id: http-status-503
-        category: HTTP Status
-        name: HTTP Status 503
-        description: When to use HTTP status 503
+        category: HTTP Status Server Error
+        name: 503 Service Unavailable
+        description: 'The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.'
         _links:
           self:
             href: /design/topics/http-status-503.yaml
@@ -788,6 +797,7 @@ _embedded:
     company: Cloud Foundry
     companyLogoUrl: /media/logos/cloudfoundry.png
     companyUrl: 'https://www.cloudfoundry.org/'
+    screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
     date: 2016-05-11T00:00:00.000Z
     reviewDate: 2016-08-18T00:00:00.000Z
     _links:

@@ -1,7 +1,8 @@
 id: http-status-303
-category: HTTP Status
-name: HTTP Status 303
-description: When to use HTTP status 303
+category: HTTP Status Redirection
+name: 303 See Other
+description: |
+  The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.
 _links:
   self:
     href: /design/topics/http-status-303.yaml

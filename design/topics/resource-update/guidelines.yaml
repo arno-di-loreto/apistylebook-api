@@ -11,6 +11,7 @@ items:
         company: Atlassian
         companyLogoUrl: /media/logos/atlassian.png
         companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/atlassian-rest-api-design-guidelines-version-1.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-09-01T00:00:00.000Z
         _links:
@@ -35,26 +36,9 @@ items:
         company: Cisco
         companyLogoUrl: /media/logos/cisco.png
         companyUrl: 'http://developer.cisco.com/'
+        screenshotUrl: /media/screenshots/cisco-api-design-guide.png
         date: 2015-08-21T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
-        attachedDocuments:
-          - name: REST API Design Principles
-            description: A summary of common REST API design constraints and conventions
-            url: 'https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md'
-            type: github
-            referenced:
-              - name: Preface
-                url: 'https://github.com/CiscoDevNet/api-design-guide#1-preface'
-          - name: Tracking ID flow
-            description: A sequence diagram explaning
-            url: 'https://github.com/CiscoDevNet/api-design-guide/blob/master/trackingid-flow.png'
-            type: github
-            referenced:
-              - name: TrackingID Header
-                description: A sequence diagram explaning the use of the tracking ID
-                url: 'https://github.com/CiscoDevNet/api-design-guide#352-trackingid-header'
-        remarks:
-          - 'broken links due to typo error in https://github.com/CiscoDevNet/api-design-guide#36-http-verbs'
         _links:
           self:
             href: /design/guidelines/cisco-api-design-guide.yaml
@@ -75,6 +59,7 @@ items:
         company: Cloud Foundry
         companyLogoUrl: /media/logos/cloudfoundry.png
         companyUrl: 'https://www.cloudfoundry.org/'
+        screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
         date: 2016-05-11T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -99,6 +84,7 @@ items:
         company: Haufe
         companyLogoUrl: /media/logos/haufe.png
         companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -121,6 +107,7 @@ items:
         company: Heroku
         companyLogoUrl: /media/logos/heroku.png
         companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+        screenshotUrl: /media/screenshots/heroku-http-api-design-guide.png
         date: 2016-07-05T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -145,6 +132,7 @@ items:
         company: Microsoft
         companyLogoUrl: /media/logos/microsoft.png
         companyUrl: 'https://opensource.microsoft.com/'
+        screenshotUrl: /media/screenshots/microsoft-rest-api-guidelines.png
         date: 2016-07-19T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -167,6 +155,7 @@ items:
         company: PayPal
         companyLogoUrl: /media/logos/paypal.png
         companyUrl: 'https://developer.paypal.com/'
+        screenshotUrl: /media/screenshots/paypal-api-style-guide.png
         date: 2016-08-11T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -189,6 +178,7 @@ items:
         company: Red Hat
         companyLogoUrl: /media/logos/redhat.png
         companyUrl: 'https://www.redhat.com/'
+        screenshotUrl: /media/screenshots/redhat-thoughts-on-restful-api-design.png
         authors:
           - name: Geert Jansen
             twitter: 1geertj
@@ -214,6 +204,7 @@ items:
         company: White House
         companyLogoUrl: /media/logos/whitehouse.png
         companyUrl: 'https://www.whitehouse.gov/developers'
+        screenshotUrl: /media/screenshots/white-house-web-api-standards.png
         date: 2015-02-24T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -238,6 +229,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:

@@ -15,6 +15,7 @@ items:
         company: Atlassian
         companyLogoUrl: /media/logos/atlassian.png
         companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/atlassian-rest-api-design-guidelines-version-1.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-09-01T00:00:00.000Z
         _links:
@@ -26,9 +27,9 @@ items:
       guideline:
         href: /design/guidelines/atlassian-rest-api-design-guidelines-version-1.yaml
   - references:
-      - name: null
+      - name: 3.6.3 GET
         quote: 'If a service supports the fields parameter, then a value of @reference, @narrow, or @wide SHOULD...'
-        url: null
+        url: 'https://github.com/CiscoDevNet/api-design-guide#363-get'
     _embedded:
       guideline:
         id: cisco-api-design-guide
@@ -38,26 +39,9 @@ items:
         company: Cisco
         companyLogoUrl: /media/logos/cisco.png
         companyUrl: 'http://developer.cisco.com/'
+        screenshotUrl: /media/screenshots/cisco-api-design-guide.png
         date: 2015-08-21T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
-        attachedDocuments:
-          - name: REST API Design Principles
-            description: A summary of common REST API design constraints and conventions
-            url: 'https://github.com/CiscoDevNet/api-design-guide/blob/master/principles.md'
-            type: github
-            referenced:
-              - name: Preface
-                url: 'https://github.com/CiscoDevNet/api-design-guide#1-preface'
-          - name: Tracking ID flow
-            description: A sequence diagram explaning
-            url: 'https://github.com/CiscoDevNet/api-design-guide/blob/master/trackingid-flow.png'
-            type: github
-            referenced:
-              - name: TrackingID Header
-                description: A sequence diagram explaning the use of the tracking ID
-                url: 'https://github.com/CiscoDevNet/api-design-guide#352-trackingid-header'
-        remarks:
-          - 'broken links due to typo error in https://github.com/CiscoDevNet/api-design-guide#36-http-verbs'
         _links:
           self:
             href: /design/guidelines/cisco-api-design-guide.yaml
@@ -78,6 +62,7 @@ items:
         company: Cloud Foundry
         companyLogoUrl: /media/logos/cloudfoundry.png
         companyUrl: 'https://www.cloudfoundry.org/'
+        screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
         date: 2016-05-11T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -88,28 +73,6 @@ items:
     _links:
       guideline:
         href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
-  - references:
-      name: Dereference Relationships
-      description: How to load a resource and its linked resources in one call
-    _embedded:
-      guideline:
-        id: haufe-api-styleguide
-        title: Haufe API style guide
-        type: github
-        url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/readme.md'
-        company: Haufe
-        companyLogoUrl: /media/logos/haufe.png
-        companyUrl: 'http://dev.haufe.com/'
-        date: 2015-01-15T00:00:00.000Z
-        reviewDate: 2016-08-31T00:00:00.000Z
-        _links:
-          self:
-            href: /design/guidelines/haufe-api-styleguide.yaml
-          guidelineTopics:
-            href: /design/guidelines/haufe-api-styleguide/topics.yaml
-    _links:
-      guideline:
-        href: /design/guidelines/haufe-api-styleguide.yaml
   - references:
       - name: Use Conventional Query Strings
         quote: embed — to expand embedded entities
@@ -129,6 +92,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:

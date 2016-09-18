@@ -1,7 +1,7 @@
 id: http-status-406
-category: HTTP Status
-name: HTTP Status 406
-description: When to use HTTP status 406
+category: HTTP Status User Error
+name: 406 Not Acceptable
+description: The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.
 _links:
   self:
     href: /design/topics/http-status-406.yaml

@@ -14,6 +14,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -48,6 +49,7 @@
           "company": "PayPal",
           "companyLogoUrl": "/media/logos/paypal.png",
           "companyUrl": "https://developer.paypal.com/",
+          "screenshotUrl": "/media/screenshots/paypal-api-style-guide.png",
           "date": "2016-08-11T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {

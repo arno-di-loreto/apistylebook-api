@@ -1,7 +1,7 @@
 id: http-status-200
-category: HTTP Status
-name: HTTP Status 200
-description: When to use HTTP status 200
+category: HTTP Status Success
+name: 200 OK
+description: 'Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.'
 _links:
   self:
     href: /design/topics/http-status-200.yaml

@@ -1,7 +1,8 @@
 id: http-status-304
-category: HTTP Status
-name: HTTP Status 304
-description: When to use HTTP status 304
+category: HTTP Status Redirection
+name: 304 Not Modified
+description: |
+  Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. In such case, there is no need to retransmit the resource since the client still has a previously-downloaded copy.
 _links:
   self:
     href: /design/topics/http-status-304.yaml

@@ -16,6 +16,7 @@
           "company": "Cloud Foundry",
           "companyLogoUrl": "/media/logos/cloudfoundry.png",
           "companyUrl": "https://www.cloudfoundry.org/",
+          "screenshotUrl": "/media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png",
           "date": "2016-05-11T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -48,6 +49,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {
@@ -70,9 +72,9 @@
   "_embedded": {
     "topic": {
       "id": "http-status-302",
-      "category": "HTTP Status",
-      "name": "HTTP Status 302",
-      "description": "When to use HTTP status 302",
+      "category": "HTTP Status Redirection",
+      "name": "302 Found",
+      "description": "Common way of performing URL redirection. An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field. \n",
       "_links": {
         "self": {
           "href": "/design/topics/http-status-302.json"

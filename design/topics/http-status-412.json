@@ -1,8 +1,8 @@
 {
   "id": "http-status-412",
-  "category": "HTTP Status",
-  "name": "HTTP Status 412",
-  "description": "When to use HTTP status 412",
+  "category": "HTTP Status User Error",
+  "name": "412 Precondition Failed",
+  "description": "The server does not meet one of the preconditions that the requester put on the request.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-412.json"

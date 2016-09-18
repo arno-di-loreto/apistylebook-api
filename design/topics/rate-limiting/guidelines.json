@@ -16,6 +16,7 @@
           "company": "Atlassian",
           "companyLogoUrl": "/media/logos/atlassian.png",
           "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/atlassian-rest-api-policy.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-09-01T00:00:00.000Z",
           "_links": {
@@ -50,6 +51,7 @@
           "company": "Heroku",
           "companyLogoUrl": "/media/logos/heroku.png",
           "companyUrl": "https://devcenter.heroku.com/articles/platform-api-reference",
+          "screenshotUrl": "/media/screenshots/heroku-http-api-design-guide.png",
           "date": "2016-07-05T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {

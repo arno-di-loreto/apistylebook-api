@@ -12,6 +12,7 @@ items:
         company: Red Hat
         companyLogoUrl: /media/logos/redhat.png
         companyUrl: 'https://www.redhat.com/'
+        screenshotUrl: /media/screenshots/redhat-thoughts-on-restful-api-design.png
         authors:
           - name: Geert Jansen
             twitter: 1geertj

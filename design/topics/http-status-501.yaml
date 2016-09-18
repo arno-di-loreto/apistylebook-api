@@ -1,7 +1,7 @@
 id: http-status-501
-category: HTTP Status
-name: HTTP Status 501
-description: When to use HTTP status 501
+category: HTTP Status Server Error
+name: 501 Not Implemented
+description: 'The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability (e.g., a new feature of a web-service API).'
 _links:
   self:
     href: /design/topics/http-status-501.yaml

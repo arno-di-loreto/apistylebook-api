@@ -1,7 +1,7 @@
 id: http-status-500
-category: HTTP Status
-name: HTTP Status 500
-description: When to use HTTP status 500
+category: HTTP Status Server Error
+name: 500 Internal Server Error
+description: 'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.'
 _links:
   self:
     href: /design/topics/http-status-500.yaml

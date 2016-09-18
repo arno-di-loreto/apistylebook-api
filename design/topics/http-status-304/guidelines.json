@@ -16,6 +16,7 @@
           "company": "Atlassian",
           "companyLogoUrl": "/media/logos/atlassian.png",
           "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/atlassian-rest-api-design-guidelines-version-1.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-09-01T00:00:00.000Z",
           "_links": {
@@ -50,6 +51,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -84,6 +86,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {
@@ -106,9 +109,9 @@
   "_embedded": {
     "topic": {
       "id": "http-status-304",
-      "category": "HTTP Status",
-      "name": "HTTP Status 304",
-      "description": "When to use HTTP status 304",
+      "category": "HTTP Status Redirection",
+      "name": "304 Not Modified",
+      "description": "Indicates that the resource has not been modified since the version specified by the request headers If-Modified-Since or If-None-Match. In such case, there is no need to retransmit the resource since the client still has a previously-downloaded copy.\n",
       "_links": {
         "self": {
           "href": "/design/topics/http-status-304.json"

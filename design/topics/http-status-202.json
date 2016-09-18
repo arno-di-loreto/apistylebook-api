@@ -1,8 +1,8 @@
 {
   "id": "http-status-202",
-  "category": "HTTP Status",
-  "name": "HTTP Status 202",
-  "description": "When to use HTTP status 202",
+  "category": "HTTP Status Success",
+  "name": "202 Accepted",
+  "description": "The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs.\n",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-202.json"

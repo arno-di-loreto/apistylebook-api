@@ -159,9 +159,9 @@ items:
     _embedded:
       topic:
         id: http-status-200
-        category: HTTP Status
-        name: HTTP Status 200
-        description: When to use HTTP status 200
+        category: HTTP Status Success
+        name: 200 OK
+        description: 'Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.'
         _links:
           self:
             href: /design/topics/http-status-200.yaml
@@ -176,9 +176,9 @@ items:
     _embedded:
       topic:
         id: http-status-201
-        category: HTTP Status
-        name: HTTP Status 201
-        description: When to use HTTP status 201
+        category: HTTP Status Success
+        name: 201 Created
+        description: 'The request has been fulfilled, resulting in the creation of a new resource.'
         _links:
           self:
             href: /design/topics/http-status-201.yaml
@@ -193,9 +193,10 @@ items:
     _embedded:
       topic:
         id: http-status-202
-        category: HTTP Status
-        name: HTTP Status 202
-        description: When to use HTTP status 202
+        category: HTTP Status Success
+        name: 202 Accepted
+        description: |
+          The request has been accepted for processing, but the processing has not been completed. The request might or might not be eventually acted upon, and may be disallowed when processing occurs.
         _links:
           self:
             href: /design/topics/http-status-202.yaml
@@ -210,9 +211,10 @@ items:
     _embedded:
       topic:
         id: http-status-206
-        category: HTTP Status
-        name: HTTP Status 206
-        description: When to use HTTP status 206
+        category: HTTP Status Success
+        name: 206 Partial Content
+        description: |
+          The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams.
         _links:
           self:
             href: /design/topics/http-status-206.yaml
@@ -227,9 +229,10 @@ items:
     _embedded:
       topic:
         id: http-status-401
-        category: HTTP Status
-        name: HTTP Status 401
-        description: When to use HTTP status 401
+        category: HTTP Status User Error
+        name: 401 Unauthorized
+        description: |
+          Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. 
         _links:
           self:
             href: /design/topics/http-status-401.yaml
@@ -246,9 +249,9 @@ items:
     _embedded:
       topic:
         id: http-status-403
-        category: HTTP Status
-        name: HTTP Status 403
-        description: When to use HTTP status 403
+        category: HTTP Status User Error
+        name: 403 Forbidden
+        description: 'The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.'
         _links:
           self:
             href: /design/topics/http-status-403.yaml
@@ -263,9 +266,9 @@ items:
     _embedded:
       topic:
         id: http-status-422
-        category: HTTP Status
-        name: HTTP Status 422
-        description: When to use HTTP status 422
+        category: HTTP Status User Error
+        name: 422 Unprocessable Entity
+        description: The request was well-formed but was unable to be followed due to semantic errors.
         _links:
           self:
             href: /design/topics/http-status-422.yaml
@@ -280,9 +283,9 @@ items:
     _embedded:
       topic:
         id: http-status-429
-        category: HTTP Status
-        name: HTTP Status 429
-        description: When to use HTTP status 429
+        category: HTTP Status User Error
+        name: 429 Too Many Requests
+        description: The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.
         _links:
           self:
             href: /design/topics/http-status-429.yaml
@@ -297,9 +300,9 @@ items:
     _embedded:
       topic:
         id: http-status-500
-        category: HTTP Status
-        name: HTTP Status 500
-        description: When to use HTTP status 500
+        category: HTTP Status Server Error
+        name: 500 Internal Server Error
+        description: 'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.'
         _links:
           self:
             href: /design/topics/http-status-500.yaml
@@ -331,7 +334,7 @@ items:
     _embedded:
       topic:
         id: http-status
-        category: HTTP Status
+        category: HTTP Protocol
         name: HTTP Statuses
         description: General information about HTTP statuses usage
         _links:
@@ -614,6 +617,7 @@ _embedded:
     company: Heroku
     companyLogoUrl: /media/logos/heroku.png
     companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+    screenshotUrl: /media/screenshots/heroku-http-api-design-guide.png
     date: 2016-07-05T00:00:00.000Z
     reviewDate: 2016-08-31T00:00:00.000Z
     _links:

@@ -1,7 +1,8 @@
 id: http-methods-put
 category: HTTP Methods
 name: PUT
-description: When to use HTTP method PUT
+description: |
+  The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
 _links:
   self:
     href: /design/topics/http-methods-put.yaml

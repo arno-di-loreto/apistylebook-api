@@ -16,6 +16,7 @@
           "company": "Australian Digital Transformation Office",
           "companyLogoUrl": "/media/logos/ausdto.png",
           "companyUrl": "https://www.dto.gov.au/",
+          "screenshotUrl": "/media/screenshots/ausdto-api-design-guide.png",
           "date": "2015-10-20T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -50,6 +51,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -84,6 +86,7 @@
           "company": "Red Hat",
           "companyLogoUrl": "/media/logos/redhat.png",
           "companyUrl": "https://www.redhat.com/",
+          "screenshotUrl": "/media/screenshots/redhat-thoughts-on-restful-api-design.png",
           "authors": [
             {
               "name": "Geert Jansen",
@@ -124,6 +127,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {
@@ -146,9 +150,9 @@
   "_embedded": {
     "topic": {
       "id": "http-status-405",
-      "category": "HTTP Status",
-      "name": "HTTP Status 405",
-      "description": "When to use HTTP status 405",
+      "category": "HTTP Status User Error",
+      "name": "405 Method Not Allowed",
+      "description": "A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.\n",
       "_links": {
         "self": {
           "href": "/design/topics/http-status-405.json"

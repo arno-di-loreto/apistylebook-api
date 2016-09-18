@@ -1,7 +1,8 @@
 id: http-status-401
-category: HTTP Status
-name: HTTP Status 401
-description: When to use HTTP status 401
+category: HTTP Status User Error
+name: 401 Unauthorized
+description: |
+  Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. 
 _links:
   self:
     href: /design/topics/http-status-401.yaml

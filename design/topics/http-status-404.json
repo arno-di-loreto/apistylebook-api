@@ -1,8 +1,8 @@
 {
   "id": "http-status-404",
-  "category": "HTTP Status",
-  "name": "HTTP Status 404",
-  "description": "When to use HTTP status 404",
+  "category": "HTTP Status User Error",
+  "name": "404 Not Found",
+  "description": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-404.json"

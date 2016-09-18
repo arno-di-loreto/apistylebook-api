@@ -16,6 +16,7 @@
           "company": "Australian Digital Transformation Office",
           "companyLogoUrl": "/media/logos/ausdto.png",
           "companyUrl": "https://www.dto.gov.au/",
+          "screenshotUrl": "/media/screenshots/ausdto-api-design-guide.png",
           "date": "2015-10-20T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -54,6 +55,7 @@
           "company": "Cloud Foundry",
           "companyLogoUrl": "/media/logos/cloudfoundry.png",
           "companyUrl": "https://www.cloudfoundry.org/",
+          "screenshotUrl": "/media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png",
           "date": "2016-05-11T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -92,6 +94,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -126,6 +129,7 @@
           "company": "Heroku",
           "companyLogoUrl": "/media/logos/heroku.png",
           "companyUrl": "https://devcenter.heroku.com/articles/platform-api-reference",
+          "screenshotUrl": "/media/screenshots/heroku-http-api-design-guide.png",
           "date": "2016-07-05T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -160,6 +164,7 @@
           "company": "Red Hat",
           "companyLogoUrl": "/media/logos/redhat.png",
           "companyUrl": "https://www.redhat.com/",
+          "screenshotUrl": "/media/screenshots/redhat-thoughts-on-restful-api-design.png",
           "authors": [
             {
               "name": "Geert Jansen",
@@ -208,6 +213,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {

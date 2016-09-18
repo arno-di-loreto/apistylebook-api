@@ -1,8 +1,8 @@
 {
   "id": "http-status-301",
-  "category": "HTTP Status",
-  "name": "HTTP Status 301",
-  "description": "When to use HTTP status 301",
+  "category": "HTTP Status Redirection",
+  "name": "301 Moved Permanently",
+  "description": "This and all future requests should be directed to the given URI.",
   "_links": {
     "self": {
       "href": "/design/topics/http-status-301.json"

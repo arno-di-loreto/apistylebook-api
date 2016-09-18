@@ -16,6 +16,7 @@
           "company": "Atlassian",
           "companyLogoUrl": "/media/logos/atlassian.png",
           "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/atlassian-rest-api-design-guidelines-version-1.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-09-01T00:00:00.000Z",
           "_links": {
@@ -70,6 +71,7 @@
           "company": "Australian Digital Transformation Office",
           "companyLogoUrl": "/media/logos/ausdto.png",
           "companyUrl": "https://www.dto.gov.au/",
+          "screenshotUrl": "/media/screenshots/ausdto-api-design-guide.png",
           "date": "2015-10-20T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -104,6 +106,7 @@
           "company": "Cloud Foundry",
           "companyLogoUrl": "/media/logos/cloudfoundry.png",
           "companyUrl": "https://www.cloudfoundry.org/",
+          "screenshotUrl": "/media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png",
           "date": "2016-05-11T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -146,6 +149,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -180,6 +184,7 @@
           "company": "Heroku",
           "companyLogoUrl": "/media/logos/heroku.png",
           "companyUrl": "https://devcenter.heroku.com/articles/platform-api-reference",
+          "screenshotUrl": "/media/screenshots/heroku-http-api-design-guide.png",
           "date": "2016-07-05T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -218,6 +223,7 @@
           "company": "PayPal",
           "companyLogoUrl": "/media/logos/paypal.png",
           "companyUrl": "https://developer.paypal.com/",
+          "screenshotUrl": "/media/screenshots/paypal-api-style-guide.png",
           "date": "2016-08-11T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -252,6 +258,7 @@
           "company": "White House",
           "companyLogoUrl": "/media/logos/whitehouse.png",
           "companyUrl": "https://www.whitehouse.gov/developers",
+          "screenshotUrl": "/media/screenshots/white-house-web-api-standards.png",
           "date": "2015-02-24T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -286,6 +293,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {
@@ -308,9 +316,9 @@
   "_embedded": {
     "topic": {
       "id": "http-status-200",
-      "category": "HTTP Status",
-      "name": "HTTP Status 200",
-      "description": "When to use HTTP status 200",
+      "category": "HTTP Status Success",
+      "name": "200 OK",
+      "description": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.",
       "_links": {
         "self": {
           "href": "/design/topics/http-status-200.json"

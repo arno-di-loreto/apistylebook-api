@@ -1,7 +1,8 @@
 id: http-status-302
-category: HTTP Status
-name: HTTP Status 302
-description: When to use HTTP status 302
+category: HTTP Status Redirection
+name: 302 Found
+description: |
+  Common way of performing URL redirection. An HTTP response with this status code will additionally provide a URL in the location header field. The user agent (e.g. a web browser) is invited by a response with this code to make a second, otherwise identical, request to the new URL specified in the location field. 
 _links:
   self:
     href: /design/topics/http-status-302.yaml

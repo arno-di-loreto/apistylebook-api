@@ -16,6 +16,7 @@
           "company": "Australian Digital Transformation Office",
           "companyLogoUrl": "/media/logos/ausdto.png",
           "companyUrl": "https://www.dto.gov.au/",
+          "screenshotUrl": "/media/screenshots/ausdto-api-design-guide.png",
           "date": "2015-10-20T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {
@@ -50,6 +51,7 @@
           "company": "Microsoft",
           "companyLogoUrl": "/media/logos/microsoft.png",
           "companyUrl": "https://opensource.microsoft.com/",
+          "screenshotUrl": "/media/screenshots/microsoft-rest-api-guidelines.png",
           "date": "2016-07-19T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -84,6 +86,7 @@
           "company": "White House",
           "companyLogoUrl": "/media/logos/whitehouse.png",
           "companyUrl": "https://www.whitehouse.gov/developers",
+          "screenshotUrl": "/media/screenshots/white-house-web-api-standards.png",
           "date": "2015-02-24T00:00:00.000Z",
           "reviewDate": "2016-08-18T00:00:00.000Z",
           "_links": {

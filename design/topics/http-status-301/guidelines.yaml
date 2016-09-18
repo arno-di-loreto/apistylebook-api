@@ -11,6 +11,7 @@ items:
         company: Atlassian
         companyLogoUrl: /media/logos/atlassian.png
         companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/atlassian-rest-api-design-guidelines-version-1.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-09-01T00:00:00.000Z
         _links:
@@ -33,6 +34,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -46,9 +48,9 @@ items:
 _embedded:
   topic:
     id: http-status-301
-    category: HTTP Status
-    name: HTTP Status 301
-    description: When to use HTTP status 301
+    category: HTTP Status Redirection
+    name: 301 Moved Permanently
+    description: This and all future requests should be directed to the given URI.
     _links:
       self:
         href: /design/topics/http-status-301.yaml

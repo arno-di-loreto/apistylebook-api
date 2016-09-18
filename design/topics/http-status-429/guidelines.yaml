@@ -11,6 +11,7 @@ items:
         company: Heroku
         companyLogoUrl: /media/logos/heroku.png
         companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+        screenshotUrl: /media/screenshots/heroku-http-api-design-guide.png
         date: 2016-07-05T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -35,6 +36,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -48,9 +50,9 @@ items:
 _embedded:
   topic:
     id: http-status-429
-    category: HTTP Status
-    name: HTTP Status 429
-    description: When to use HTTP status 429
+    category: HTTP Status User Error
+    name: 429 Too Many Requests
+    description: The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.
     _links:
       self:
         href: /design/topics/http-status-429.yaml

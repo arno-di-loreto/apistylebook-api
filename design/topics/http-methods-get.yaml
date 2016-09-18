@@ -1,7 +1,8 @@
 id: http-methods-get
 category: HTTP Methods
 name: GET
-description: When to use HTTP method GET
+description: |
+  The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.
 _links:
   self:
     href: /design/topics/http-methods-get.yaml

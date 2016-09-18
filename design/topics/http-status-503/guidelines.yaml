@@ -11,6 +11,7 @@ items:
         company: Cloud Foundry
         companyLogoUrl: /media/logos/cloudfoundry.png
         companyUrl: 'https://www.cloudfoundry.org/'
+        screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
         date: 2016-05-11T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -33,6 +34,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -46,9 +48,9 @@ items:
 _embedded:
   topic:
     id: http-status-503
-    category: HTTP Status
-    name: HTTP Status 503
-    description: When to use HTTP status 503
+    category: HTTP Status Server Error
+    name: 503 Service Unavailable
+    description: 'The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.'
     _links:
       self:
         href: /design/topics/http-status-503.yaml

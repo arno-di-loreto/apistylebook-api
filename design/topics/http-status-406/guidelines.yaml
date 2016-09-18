@@ -11,6 +11,7 @@ items:
         company: Haufe
         companyLogoUrl: /media/logos/haufe.png
         companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -33,6 +34,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -46,9 +48,9 @@ items:
 _embedded:
   topic:
     id: http-status-406
-    category: HTTP Status
-    name: HTTP Status 406
-    description: When to use HTTP status 406
+    category: HTTP Status User Error
+    name: 406 Not Acceptable
+    description: The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.
     _links:
       self:
         href: /design/topics/http-status-406.yaml

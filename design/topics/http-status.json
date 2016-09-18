@@ -1,6 +1,6 @@
 {
   "id": "http-status",
-  "category": "HTTP Status",
+  "category": "HTTP Protocol",
   "name": "HTTP Statuses",
   "description": "General information about HTTP statuses usage",
   "_links": {

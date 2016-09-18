@@ -11,6 +11,7 @@ items:
         company: Cloud Foundry
         companyLogoUrl: /media/logos/cloudfoundry.png
         companyUrl: 'https://www.cloudfoundry.org/'
+        screenshotUrl: /media/screenshots/cloud-foundy-cloud-controller-api-style-guide.png
         date: 2016-05-11T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -33,6 +34,7 @@ items:
         company: Haufe
         companyLogoUrl: /media/logos/haufe.png
         companyUrl: 'http://dev.haufe.com/'
+        screenshotUrl: /media/screenshots/haufe-api-styleguide.png
         date: 2015-01-15T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -55,6 +57,7 @@ items:
         company: Heroku
         companyLogoUrl: /media/logos/heroku.png
         companyUrl: 'https://devcenter.heroku.com/articles/platform-api-reference'
+        screenshotUrl: /media/screenshots/heroku-http-api-design-guide.png
         date: 2016-07-05T00:00:00.000Z
         reviewDate: 2016-08-31T00:00:00.000Z
         _links:
@@ -77,6 +80,7 @@ items:
         company: White House
         companyLogoUrl: /media/logos/whitehouse.png
         companyUrl: 'https://www.whitehouse.gov/developers'
+        screenshotUrl: /media/screenshots/white-house-web-api-standards.png
         date: 2015-02-24T00:00:00.000Z
         reviewDate: 2016-08-18T00:00:00.000Z
         _links:
@@ -99,6 +103,7 @@ items:
         company: Zalando
         companyLogoUrl: /media/logos/zalando.png
         companyUrl: 'https://tech.zalando.de/'
+        screenshotUrl: /media/screenshots/zalando-restful-api-guidelines.png
         date: 2016-01-22T00:00:00.000Z
         reviewDate: 2016-08-28T00:00:00.000Z
         _links:
@@ -112,9 +117,9 @@ items:
 _embedded:
   topic:
     id: http-status-500
-    category: HTTP Status
-    name: HTTP Status 500
-    description: When to use HTTP status 500
+    category: HTTP Status Server Error
+    name: 500 Internal Server Error
+    description: 'A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.'
     _links:
       self:
         href: /design/topics/http-status-500.yaml

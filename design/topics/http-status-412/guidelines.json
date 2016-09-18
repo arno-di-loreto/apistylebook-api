@@ -20,6 +20,7 @@
           "company": "Atlassian",
           "companyLogoUrl": "/media/logos/atlassian.png",
           "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/atlassian-rest-api-design-guidelines-version-1.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-09-01T00:00:00.000Z",
           "_links": {
@@ -54,6 +55,7 @@
           "company": "Haufe",
           "companyLogoUrl": "/media/logos/haufe.png",
           "companyUrl": "http://dev.haufe.com/",
+          "screenshotUrl": "/media/screenshots/haufe-api-styleguide.png",
           "date": "2015-01-15T00:00:00.000Z",
           "reviewDate": "2016-08-31T00:00:00.000Z",
           "_links": {
@@ -88,6 +90,7 @@
           "company": "Zalando",
           "companyLogoUrl": "/media/logos/zalando.png",
           "companyUrl": "https://tech.zalando.de/",
+          "screenshotUrl": "/media/screenshots/zalando-restful-api-guidelines.png",
           "date": "2016-01-22T00:00:00.000Z",
           "reviewDate": "2016-08-28T00:00:00.000Z",
           "_links": {
@@ -110,9 +113,9 @@
   "_embedded": {
     "topic": {
       "id": "http-status-412",
-      "category": "HTTP Status",
-      "name": "HTTP Status 412",
-      "description": "When to use HTTP status 412",
+      "category": "HTTP Status User Error",
+      "name": "412 Precondition Failed",
+      "description": "The server does not meet one of the preconditions that the requester put on the request.",
       "_links": {
         "self": {
           "href": "/design/topics/http-status-412.json"

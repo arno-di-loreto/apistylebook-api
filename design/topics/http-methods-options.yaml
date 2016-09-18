@@ -1,7 +1,8 @@
 id: http-methods-options
 category: HTTP Methods
 name: OPTIONS
-description: When to use HTTP method OPTION
+description: |
+  The OPTIONS method returns the HTTP methods that the server supports for the specified URL. This can be used to check the functionality of a web server by requesting '*' instead of a specific resource.
 _links:
   self:
     href: /design/topics/http-methods-options.yaml
