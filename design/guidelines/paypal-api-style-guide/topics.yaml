@@ -647,8 +647,8 @@ items:
       topic:
         id: versioning
         category: API Lifecycle
-        name: Versionning
-        description: How to handle API versionning
+        name: Versioning
+        description: How to handle API versioning
         _links:
           self:
             href: /design/topics/versioning.yaml
