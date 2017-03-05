@@ -38,6 +38,42 @@
     {
       "references": [
         {
+          "name": "Update",
+          "url": "https://cloud.google.com/apis/design/standard_methods#update",
+          "quote": "If the API accepts client-assigned resource names, the server may allow the client to specify a non-existent resource name and create a new resource."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Create New Resource - Consumer Supplied Identifier",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#create-new-resource---consumer-supplied-identifier"
         }

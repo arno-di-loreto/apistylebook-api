@@ -112,6 +112,50 @@
     {
       "references": [
         {
+          "name": "Standard Methods",
+          "url": "https://cloud.google.com/apis/design/standard_methods"
+        },
+        {
+          "name": "Update",
+          "url": "https://cloud.google.com/apis/design/standard_methods#update"
+        },
+        {
+          "name": "Move",
+          "url": "https://cloud.google.com/apis/design/custom_methods#common_custom_methods",
+          "quote": "Move a resource from one parent to another."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Update Single Resource",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#update-single-resource"
         },

@@ -1,6 +1,42 @@
 {
   "items": [
     {
+      "references": [
+        {
+          "name": "Use Cases",
+          "url": "https://cloud.google.com/apis/design/custom_methods#use_cases",
+          "quote": "Promote an employee (corpeng) If implemented as a standard update, the client would have to replicate the corporate policies governing the promotion process to ensure the promotion happens to the correct level, within the same career ladder etc."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
       "references": {
         "name": "Resource's state",
         "description": "How to change a resource's state/status (like processed/sent/paid/...)"

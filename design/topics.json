@@ -1023,6 +1023,48 @@
       }
     },
     {
+      "id": "guiding-input",
+      "category": "Miscellaneous",
+      "name": "Guiding inputs",
+      "description": "How to help consumers or end user to input relevant data",
+      "_links": {
+        "self": {
+          "href": "/design/topics/guiding-input.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/guiding-input/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "naming-language",
+      "category": "Naming",
+      "name": "Language",
+      "description": "Which language(s) use when designing an API",
+      "_links": {
+        "self": {
+          "href": "/design/topics/naming-language.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/naming-language/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-state",
+      "category": "Resources",
+      "name": "Resource's state",
+      "description": "How to change a resource's state/status (like processed/sent/paid/...)",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-state.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-state/guidelines.json"
+        }
+      }
+    },
+    {
       "id": "data-standards",
       "category": "Data",
       "name": "Standards data",
@@ -1149,20 +1191,6 @@
       }
     },
     {
-      "id": "resource-state",
-      "category": "Resources",
-      "name": "Resource's state",
-      "description": "How to change a resource's state/status (like processed/sent/paid/...)",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-state.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-state/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "debug-diagnose",
       "category": "Miscellaneous",
       "name": "Debug and diagnose",
@@ -1261,20 +1289,6 @@
       }
     },
     {
-      "id": "guiding-input",
-      "category": "Miscellaneous",
-      "name": "Guiding inputs",
-      "description": "How to help consumers or end user to input relevant data",
-      "_links": {
-        "self": {
-          "href": "/design/topics/guiding-input.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/guiding-input/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "api-counts",
       "category": "API Design",
       "name": "API counts",
@@ -1313,20 +1327,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-status-428/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "naming-language",
-      "category": "Naming",
-      "name": "Language",
-      "description": "Which language(s) use when designing an API",
-      "_links": {
-        "self": {
-          "href": "/design/topics/naming-language.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/naming-language/guidelines.json"
         }
       }
     }

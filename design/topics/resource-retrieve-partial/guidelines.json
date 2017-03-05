@@ -78,6 +78,47 @@
     {
       "references": [
         {
+          "name": "Partial Response",
+          "url": "https://cloud.google.com/apis/design/design_patterns#partial_response",
+          "quote": "Sometimes an API client only needs a specific subset of data in the response message."
+        },
+        {
+          "name": "Resource View",
+          "url": "https://cloud.google.com/apis/design/design_patterns#resource_view",
+          "quote": "To reduce network traffic, it is sometimes useful to allow the client to limit which parts of the resource the server should return in its responses, returning a view of the resource instead of the full resource representation."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Field selection",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#field-selection"
         }

@@ -36,6 +36,47 @@
       }
     },
     {
+      "references": [
+        {
+          "name": "Batch Get",
+          "url": "https://cloud.google.com/apis/design/standard_methods#list",
+          "quote": "A batch get (such as a method that takes multiple resource ids and returns an object for each of those ids) should be implemented as a custom BatchGet method, rather than a List"
+        },
+        {
+          "name": "Common Custom Methods",
+          "url": "https://cloud.google.com/apis/design/custom_methods#common_custom_methods",
+          "quote": "Batch get of multiple resources."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
       "references": {
         "name": "Batch Bulk",
         "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)"

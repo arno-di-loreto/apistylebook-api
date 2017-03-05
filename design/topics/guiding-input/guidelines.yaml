@@ -1,5 +1,37 @@
 items:
   - references:
+      - name: Request Validation
+        url: 'https://cloud.google.com/apis/design/design_patterns#request_validation'
+        quote: 'If this field is set to true, the server must not execute any side effects and only perform implementation-specific validation consistent with the full request.'
+      - name: Request Duplication
+        url: 'https://cloud.google.com/apis/design/design_patterns#request_duplication'
+        quote: 'some API methods cannot easily be idempotent, such as creating a resource, and there is a need to avoid unnecessary duplication'
+      - name: Grammar Syntax
+        url: 'https://cloud.google.com/apis/design/design_patterns#grammar_syntax'
+      - name: Output Fields
+        url: 'https://cloud.google.com/apis/design/design_patterns#output_fields'
+        quote: This means that the server must ignore the presence of output only fields and any indication of it.
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Forms
         quote: '... without referring to external documentation, an API user does not know what data to provide to operations that take input.'
         url: 'http://restful-api-design.readthedocs.io/en/latest/forms.html'

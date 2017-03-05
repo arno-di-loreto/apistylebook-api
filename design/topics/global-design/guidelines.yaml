@@ -25,6 +25,37 @@ items:
       guideline:
         href: /design/guidelines/ausdto-api-design-guide.yaml
   - references:
+      - name: Resource Oriented Design
+        url: 'https://cloud.google.com/apis/design/resources'
+        quote: 'This Design Guide explains how to apply REST principles to API designs independent of programming language, operating system, or network protocol. It is NOT a guide solely to creating REST APIs.'
+      - name: What is a REST API?
+        url: 'https://cloud.google.com/apis/design/resources#what_is_a_rest_api'
+      - name: Design flow
+        url: 'https://cloud.google.com/apis/design/resources#design_flow'
+        quote: The Design Guide suggests taking the following steps when designing resource- oriented APIs
+      - name: Design Patterns
+        url: 'https://cloud.google.com/apis/design/design_patterns'
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Introduction
         url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/introduction/introduction.md'
       - name: General Guidelines

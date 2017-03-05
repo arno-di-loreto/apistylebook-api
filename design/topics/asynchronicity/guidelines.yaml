@@ -23,6 +23,35 @@ items:
       guideline:
         href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
   - references:
+      - name: Delete
+        url: 'https://cloud.google.com/apis/design/standard_methods#delete'
+        quote: 'If the Delete method initiates a long-running operation, it should return the long-running operation.'
+      - name: Common Custom Methods
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: 'Cancel an outstanding operation (build, computation etc.)'
+      - name: Long Running Operation
+        url: 'https://cloud.google.com/apis/design/design_patterns#long_running_operations'
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Long running API faults
         url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#55-long-running-api-faults'
       - name: Long running operations

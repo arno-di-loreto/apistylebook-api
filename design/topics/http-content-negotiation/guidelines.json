@@ -82,6 +82,42 @@
     {
       "references": [
         {
+          "name": "Protocol Buffers v3",
+          "url": "https://cloud.google.com/apis/design/proto3",
+          "quote": "It supports both binary and text wire formats, and works with many different wire protocols on different platforms."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Standard request headers",
           "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers",
           "quote": "Accept Content Type"

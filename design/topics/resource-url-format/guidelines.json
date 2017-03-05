@@ -188,6 +188,46 @@
     {
       "references": [
         {
+          "name": "Resource Names",
+          "url": "https://cloud.google.com/apis/design/resource_names",
+          "quote": "The resource name is organized hierarchically using collection IDs and resource IDs, separated by forward slashes."
+        },
+        {
+          "name": "Resource Name vs URL",
+          "url": "https://cloud.google.com/apis/design/resource_names#resource_name_vs_url"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "URI Components",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/uri-components/uri-components.md"
         }

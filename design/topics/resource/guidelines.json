@@ -113,6 +113,55 @@
     {
       "references": [
         {
+          "name": "Resources",
+          "url": "https://cloud.google.com/apis/design/resources#resources",
+          "quote": "A resource has some state and zero or more sub-resources. Each sub-resource can be either a simple resource or a collection resource."
+        },
+        {
+          "name": "Methods",
+          "url": "https://cloud.google.com/apis/design/resources#methods",
+          "quote": "The key characteristic of a resource-oriented API is that it emphasizes resources (data model) over the methods performed on the resources (functionality)"
+        },
+        {
+          "name": "Resources examples",
+          "url": "https://cloud.google.com/apis/design/resources#examples"
+        },
+        {
+          "name": "Resource Labels",
+          "url": "https://cloud.google.com/apis/design/design_patterns#resource_labels"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Building Your Resource Taxonomy",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-process/api-design-process.md#building-your-resource-taxonomy"
         },

@@ -112,6 +112,50 @@
     {
       "references": [
         {
+          "name": "Resource Oriented Design",
+          "url": "https://cloud.google.com/apis/design/resources",
+          "quote": "With the HTTP protocol, the resource names naturally map to URLs, and methods naturally map to HTTP methods POST, GET, PUT, PATCH, and DELETE."
+        },
+        {
+          "name": "Standard Methods",
+          "url": "https://cloud.google.com/apis/design/standard_methods"
+        },
+        {
+          "name": "HTTP Verbs",
+          "url": "https://cloud.google.com/apis/design/http_verbs"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "google-api-design-guide",
+          "title": "Google API Design Guide",
+          "type": "website",
+          "url": "https://cloud.google.com/apis/design/",
+          "company": "Google",
+          "companyLogoUrl": "/media/logos/google.png",
+          "companyUrl": "https://cloud.google.com/",
+          "screenshotUrl": "/media/screenshots/google-api-design-guide.png",
+          "date": "2017-02-21T00:00:00.000Z",
+          "reviewDate": "2017-03-04T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/google-api-design-guide.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/google-api-design-guide/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/google-api-design-guide.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "HTTP Verbs",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/http-verbs/http-verbs.md"
         }

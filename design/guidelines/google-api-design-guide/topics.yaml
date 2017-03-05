@@ -1,0 +1,837 @@
+items:
+  - references:
+      - name: Delete
+        url: 'https://cloud.google.com/apis/design/standard_methods#delete'
+        quote: 'If the Delete method initiates a long-running operation, it should return the long-running operation.'
+      - name: Common Custom Methods
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: 'Cancel an outstanding operation (build, computation etc.)'
+      - name: Long Running Operation
+        url: 'https://cloud.google.com/apis/design/design_patterns#long_running_operations'
+    _embedded:
+      topic:
+        id: asynchronicity
+        category: Asynchronicity
+        name: Asynchronicity
+        description: How to handle long operations
+        _links:
+          self:
+            href: /design/topics/asynchronicity.yaml
+          topicGuidelines:
+            href: /design/topics/asynchronicity/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/asynchronicity.yaml
+  - references:
+      - name: List filter field
+        url: 'https://cloud.google.com/apis/design/naming_convention#list_filter_field'
+      - name: Common Custom Methods
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: '(:search) Alternative to List for fetching data that does not adhere to List semantics.'
+      - name: List Sub-Collections
+        url: 'https://cloud.google.com/apis/design/design_patterns#list_sub-collections'
+        quote: 'Sometimes, an API needs to let a client List/Search across sub- collections.'
+      - name: Get Unique Resource From Sub-Collection
+        url: 'https://cloud.google.com/apis/design/design_patterns#get_unique_resource_from_sub-collection'
+        quote: it may be useful to allow a Get to retrieve that resource without knowing which parent collection contains it
+    _embedded:
+      topic:
+        id: collection-filtering
+        category: Collection Resources
+        name: Filtering
+        description: How to select some resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-filtering.yaml
+          topicGuidelines:
+            href: /design/topics/collection-filtering/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-filtering.yaml
+  - references:
+      - name: List Pagination
+        url: 'https://cloud.google.com/apis/design/design_patterns#list_pagination'
+    _embedded:
+      topic:
+        id: collection-pagination
+        category: Collection Resources
+        name: Pagination
+        description: How to retrieve a range of resources in a collection
+        _links:
+          self:
+            href: /design/topics/collection-pagination.yaml
+          topicGuidelines:
+            href: /design/topics/collection-pagination/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-pagination.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: List
+        url: 'https://cloud.google.com/apis/design/standard_methods#list'
+        quote: 'The List method takes a collection name and zero or more parameters as input, and returns a list of resources that match the input'
+    _embedded:
+      topic:
+        id: collection-retrieve
+        category: Collection Resources
+        name: Retrieve a collection
+        description: How to get a collection or resources
+        _links:
+          self:
+            href: /design/topics/collection-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/collection-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-retrieve.yaml
+  - references:
+      - name: Sorting Order
+        url: 'https://cloud.google.com/apis/design/design_patterns#sorting_order'
+    _embedded:
+      topic:
+        id: collection-sorting
+        category: Collection Resources
+        name: Sorting a collection
+        description: How to sort a collection of resources
+        _links:
+          self:
+            href: /design/topics/collection-sorting.yaml
+          topicGuidelines:
+            href: /design/topics/collection-sorting/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection-sorting.yaml
+  - references:
+      - name: Resources
+        url: 'https://cloud.google.com/apis/design/resources#resources'
+        quote: 'A collection contains a list of resources of the same type. For example, a user has a collection of contacts.'
+      - name: Methods
+        url: 'https://cloud.google.com/apis/design/resources#methods'
+        quote: The key characteristic of a resource-oriented API is that it emphasizes resources (data model) over the methods performed on the resources (functionality)
+      - name: Resources examples
+        url: 'https://cloud.google.com/apis/design/resources#examples'
+      - name: Collection ID
+        url: 'https://cloud.google.com/apis/design/resource_names#collection_id'
+    _embedded:
+      topic:
+        id: collection
+        category: Collection Resources
+        name: Collection
+        description: What is a collection (set) of resources
+        _links:
+          self:
+            href: /design/topics/collection.yaml
+          topicGuidelines:
+            href: /design/topics/collection/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection.yaml
+  - references:
+      - name: Time and Duration
+        url: 'https://cloud.google.com/apis/design/naming_convention#time_and_duration'
+      - name: Date and Time of the Day
+        url: 'https://cloud.google.com/apis/design/naming_convention#date_and_time_of_day'
+    _embedded:
+      topic:
+        id: data-format-date-time
+        category: Data
+        name: Date and Time
+        description: How to deal with date and time data
+        _links:
+          self:
+            href: /design/topics/data-format-date-time.yaml
+          topicGuidelines:
+            href: /design/topics/data-format-date-time/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format-date-time.yaml
+  - references:
+      - name: Grammar Syntax
+        url: 'https://cloud.google.com/apis/design/design_patterns#grammar_syntax'
+      - name: Integer Types
+        url: 'https://cloud.google.com/apis/design/design_patterns#integer_types'
+    _embedded:
+      topic:
+        id: data-format
+        category: Data
+        name: Data format
+        description: which data format use
+        _links:
+          self:
+            href: /design/topics/data-format.yaml
+          topicGuidelines:
+            href: /design/topics/data-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format.yaml
+  - references:
+      - name: Grammar Syntax
+        url: 'https://cloud.google.com/apis/design/design_patterns#grammar_syntax'
+        quote: 'To provide a consistent developer experience across APIs and reduce learning curve, API designers must use the ISO 14977 Extended Backus-Naur Form (EBNF) syntax to define such grammars'
+    _embedded:
+      topic:
+        id: developer-experience
+        category: Miscellaneous
+        name: Developer experience
+        description: How to take care of developer experience (DX)
+        _links:
+          self:
+            href: /design/topics/developer-experience.yaml
+          topicGuidelines:
+            href: /design/topics/developer-experience/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/developer-experience.yaml
+  - references:
+      - name: Grammar Syntax
+        url: 'https://cloud.google.com/apis/design/design_patterns#grammar_syntax'
+        quote: 'To provide a consistent developer experience across APIs and reduce learning curve, API designers must use the ISO 14977 Extended Backus-Naur Form (EBNF) syntax to define such grammars'
+      - name: Output Fields
+        url: 'https://cloud.google.com/apis/design/design_patterns#output_fields'
+        quote: 'For fields that are output only, the field attribute shall be documented.'
+      - name: Documentation
+        url: 'https://cloud.google.com/apis/design/documentation'
+        quote: 'This section provides guidelines for adding inline documentation to your API. Most APIs will also have overviews, tutorials, and higher-level reference documentation, which are outside the scope of this Design Guide.'
+      - name: Checklist for all descriptions
+        url: 'https://cloud.google.com/apis/design/documentation#checklist_for_all_descriptions'
+        quote: 'In most cases, there''s more to say than just restating the obvious'
+    _embedded:
+      topic:
+        id: documentation
+        category: Miscellaneous
+        name: Documentation
+        description: How to produce and/or propose API documentation
+        _links:
+          self:
+            href: /design/topics/documentation.yaml
+          topicGuidelines:
+            href: /design/topics/documentation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/documentation.yaml
+  - references:
+      - name: Resource Oriented Design
+        url: 'https://cloud.google.com/apis/design/resources'
+        quote: 'This Design Guide explains how to apply REST principles to API designs independent of programming language, operating system, or network protocol. It is NOT a guide solely to creating REST APIs.'
+      - name: What is a REST API?
+        url: 'https://cloud.google.com/apis/design/resources#what_is_a_rest_api'
+      - name: Design flow
+        url: 'https://cloud.google.com/apis/design/resources#design_flow'
+        quote: The Design Guide suggests taking the following steps when designing resource- oriented APIs
+      - name: Design Patterns
+        url: 'https://cloud.google.com/apis/design/design_patterns'
+    _embedded:
+      topic:
+        id: global-design
+        category: API Design
+        name: Global design
+        description: General considerations on API design
+        _links:
+          self:
+            href: /design/topics/global-design.yaml
+          topicGuidelines:
+            href: /design/topics/global-design/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/global-design.yaml
+  - references:
+      - name: Request Validation
+        url: 'https://cloud.google.com/apis/design/design_patterns#request_validation'
+        quote: 'If this field is set to true, the server must not execute any side effects and only perform implementation-specific validation consistent with the full request.'
+      - name: Request Duplication
+        url: 'https://cloud.google.com/apis/design/design_patterns#request_duplication'
+        quote: 'some API methods cannot easily be idempotent, such as creating a resource, and there is a need to avoid unnecessary duplication'
+      - name: Grammar Syntax
+        url: 'https://cloud.google.com/apis/design/design_patterns#grammar_syntax'
+      - name: Output Fields
+        url: 'https://cloud.google.com/apis/design/design_patterns#output_fields'
+        quote: This means that the server must ignore the presence of output only fields and any indication of it.
+    _embedded:
+      topic:
+        id: guiding-input
+        category: Miscellaneous
+        name: Guiding inputs
+        description: How to help consumers or end user to input relevant data
+        _links:
+          self:
+            href: /design/topics/guiding-input.yaml
+          topicGuidelines:
+            href: /design/topics/guiding-input/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/guiding-input.yaml
+  - references:
+      - name: ETags
+        url: 'https://cloud.google.com/apis/design/design_patterns#etags'
+    _embedded:
+      topic:
+        id: http-caching
+        category: HTTP Protocol
+        name: Caching
+        description: How to use and provide relevant caching informations
+        _links:
+          self:
+            href: /design/topics/http-caching.yaml
+          topicGuidelines:
+            href: /design/topics/http-caching/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-caching.yaml
+  - references:
+      - name: Protocol Buffers v3
+        url: 'https://cloud.google.com/apis/design/proto3'
+        quote: 'It supports both binary and text wire formats, and works with many different wire protocols on different platforms.'
+    _embedded:
+      topic:
+        id: http-content-negotiation
+        category: HTTP Protocol
+        name: Content negociation and media types
+        description: 'How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)'
+        _links:
+          self:
+            href: /design/topics/http-content-negotiation.yaml
+          topicGuidelines:
+            href: /design/topics/http-content-negotiation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-content-negotiation.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Delete
+        url: 'https://cloud.google.com/apis/design/standard_methods#delete'
+    _embedded:
+      topic:
+        id: http-methods-delete
+        category: HTTP Methods
+        name: DELETE
+        description: The DELETE method deletes the specified resource.
+        _links:
+          self:
+            href: /design/topics/http-methods-delete.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-delete/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-delete.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: List
+        url: 'https://cloud.google.com/apis/design/standard_methods#list'
+        quote: The List method must use an HTTP GET verb.
+      - name: Get
+        url: 'https://cloud.google.com/apis/design/standard_methods#get'
+    _embedded:
+      topic:
+        id: http-methods-get
+        category: HTTP Methods
+        name: GET
+        description: |
+          The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.
+        _links:
+          self:
+            href: /design/topics/http-methods-get.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-get/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-get.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Update
+        url: 'https://cloud.google.com/apis/design/standard_methods#update'
+        quote: 'The standard Update method should support partial resource update, and use HTTP verb PATCH'
+    _embedded:
+      topic:
+        id: http-methods-patch
+        category: HTTP Methods
+        name: PATCH
+        description: |
+          The PATCH method applies partial modifications to a resource.
+        _links:
+          self:
+            href: /design/topics/http-methods-patch.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-patch/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-patch.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Create
+        url: 'https://cloud.google.com/apis/design/standard_methods#create'
+    _embedded:
+      topic:
+        id: http-methods-post
+        category: HTTP Methods
+        name: POST
+        description: |
+          The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.
+        _links:
+          self:
+            href: /design/topics/http-methods-post.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-post/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-post.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Update
+        url: 'https://cloud.google.com/apis/design/standard_methods#update'
+        quote: 'If the Update method only supports full resource update, it must use HTTP verb PUT'
+    _embedded:
+      topic:
+        id: http-methods-put
+        category: HTTP Methods
+        name: PUT
+        description: |
+          The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
+        _links:
+          self:
+            href: /design/topics/http-methods-put.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-put/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-put.yaml
+  - references:
+      - name: Resource Oriented Design
+        url: 'https://cloud.google.com/apis/design/resources'
+        quote: 'With the HTTP protocol, the resource names naturally map to URLs, and methods naturally map to HTTP methods POST, GET, PUT, PATCH, and DELETE.'
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: HTTP Verbs
+        url: 'https://cloud.google.com/apis/design/http_verbs'
+    _embedded:
+      topic:
+        id: http-methods
+        category: HTTP Methods
+        name: HTTP methods
+        description: General information about HTTP methods usage
+        _links:
+          self:
+            href: /design/topics/http-methods.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods.yaml
+  - references:
+      - name: Collection ID
+        url: 'https://cloud.google.com/apis/design/resource_names#collection_id'
+        quote: Must use clear and concise English terms.
+      - name: Naming Conventions
+        url: 'https://cloud.google.com/apis/design/naming_convention'
+        quote: Names used in APIs should be in correct American English.
+    _embedded:
+      topic:
+        id: naming-language
+        category: Naming
+        name: Language
+        description: Which language(s) use when designing an API
+        _links:
+          self:
+            href: /design/topics/naming-language.yaml
+          topicGuidelines:
+            href: /design/topics/naming-language/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/naming-language.yaml
+  - references:
+      - name: Collection ID
+        url: 'https://cloud.google.com/apis/design/resource_names#collection_id'
+        quote: Must be in plural form with lowerCamel case
+      - name: Camel Case
+        url: 'https://cloud.google.com/apis/design/naming_convention#camel_case'
+    _embedded:
+      topic:
+        id: naming-case
+        category: Naming
+        name: Case
+        description: 'Which case (lowercase, camelCase, ...) to use and when'
+        _links:
+          self:
+            href: /design/topics/naming-case.yaml
+          topicGuidelines:
+            href: /design/topics/naming-case/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/naming-case.yaml
+  - references:
+      - name: Collection ID
+        url: 'https://cloud.google.com/apis/design/resource_names#collection_id'
+        quote: Must be in plural form
+      - name: Standard Fields
+        url: 'https://cloud.google.com/apis/design/standard_fields'
+        quote: This section describes a set of standard message field definitions that should be used when similar concepts are needed. This will ensure the same concept has the same name and semantics across different APIs.
+      - name: Naming Conventions
+        url: 'https://cloud.google.com/apis/design/naming_convention'
+      - name: Representing Ranges
+        url: 'https://cloud.google.com/apis/design/design_patterns#representing_ranges'
+      - name: List Paginations
+        url: 'https://cloud.google.com/apis/design/design_patterns#list_pagination'
+    _embedded:
+      topic:
+        id: naming
+        category: Naming
+        name: Naming
+        description: How to name things
+        _links:
+          self:
+            href: /design/topics/naming.yaml
+          topicGuidelines:
+            href: /design/topics/naming/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/naming.yaml
+  - references:
+      - name: Custom Methods
+        url: 'https://cloud.google.com/apis/design/custom_methods'
+    _embedded:
+      topic:
+        id: resource-action
+        category: Resources
+        name: Action resource
+        description: How to use action resource (e.g. resources like /cancel or /approve)
+        _links:
+          self:
+            href: /design/topics/resource-action.yaml
+          topicGuidelines:
+            href: /design/topics/resource-action/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-action.yaml
+  - references:
+      - name: Update
+        url: 'https://cloud.google.com/apis/design/standard_methods#update'
+        quote: 'If the API accepts client-assigned resource names, the server may allow the client to specify a non-existent resource name and create a new resource.'
+    _embedded:
+      topic:
+        id: resource-creation-with-id
+        category: Resources
+        name: Create resource with a specific ID
+        description: How to create resource with a provided id
+        _links:
+          self:
+            href: /design/topics/resource-creation-with-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation-with-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation-with-id.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Create
+        url: 'https://cloud.google.com/apis/design/standard_methods#create'
+    _embedded:
+      topic:
+        id: resource-creation
+        category: Resources
+        name: Create resource
+        description: How to create resources
+        _links:
+          self:
+            href: /design/topics/resource-creation.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Delete
+        url: 'https://cloud.google.com/apis/design/standard_methods#delete'
+    _embedded:
+      topic:
+        id: resource-deletion
+        category: Resources
+        name: Delete resource
+        description: How to delete resources
+        _links:
+          self:
+            href: /design/topics/resource-deletion.yaml
+          topicGuidelines:
+            href: /design/topics/resource-deletion/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-deletion.yaml
+  - references:
+      - name: Resource ID
+        url: 'https://cloud.google.com/apis/design/resource_names#resource_id'
+    _embedded:
+      topic:
+        id: resource-id
+        category: Resources
+        name: Resource ID
+        description: What is a resource ID and/or how it's built
+        _links:
+          self:
+            href: /design/topics/resource-id.yaml
+          topicGuidelines:
+            href: /design/topics/resource-id/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-id.yaml
+  - references:
+      - name: Batch Get
+        url: 'https://cloud.google.com/apis/design/standard_methods#list'
+        quote: 'A batch get (such as a method that takes multiple resource ids and returns an object for each of those ids) should be implemented as a custom BatchGet method, rather than a List'
+      - name: Common Custom Methods
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: Batch get of multiple resources.
+    _embedded:
+      topic:
+        id: resource-multiple
+        category: Resources
+        name: Batch Bulk
+        description: How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)
+        _links:
+          self:
+            href: /design/topics/resource-multiple.yaml
+          topicGuidelines:
+            href: /design/topics/resource-multiple/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-multiple.yaml
+  - references:
+      - name: Update
+        url: 'https://cloud.google.com/apis/design/standard_methods#update'
+        quote: 'If the Update method only supports full resource update, it must use HTTP verb PUT'
+    _embedded:
+      topic:
+        id: resource-replacement
+        category: Resources
+        name: Replace resource
+        description: How to replace (or update fully) a resource
+        _links:
+          self:
+            href: /design/topics/resource-replacement.yaml
+          topicGuidelines:
+            href: /design/topics/resource-replacement/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-replacement.yaml
+  - references:
+      - name: Partial Response
+        url: 'https://cloud.google.com/apis/design/design_patterns#partial_response'
+        quote: Sometimes an API client only needs a specific subset of data in the response message.
+      - name: Resource View
+        url: 'https://cloud.google.com/apis/design/design_patterns#resource_view'
+        quote: 'To reduce network traffic, it is sometimes useful to allow the client to limit which parts of the resource the server should return in its responses, returning a view of the resource instead of the full resource representation.'
+    _embedded:
+      topic:
+        id: resource-retrieve-partial
+        category: Resources
+        name: Retrieve resource partially
+        description: How to retrieve partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve-partial.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Get
+        url: 'https://cloud.google.com/apis/design/standard_methods#get'
+      - name: Get Unique Resource From Sub-Collection
+        url: 'https://cloud.google.com/apis/design/design_patterns#get_unique_resource_from_sub-collection'
+        quote: it may be useful to allow a Get to retrieve that resource without knowing which parent collection contains it
+    _embedded:
+      topic:
+        id: resource-retrieve
+        category: Resources
+        name: Retrieve resource
+        description: How to retrieve a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve.yaml
+  - references:
+      - name: Use Cases
+        url: 'https://cloud.google.com/apis/design/custom_methods#use_cases'
+        quote: 'Promote an employee (corpeng) If implemented as a standard update, the client would have to replicate the corporate policies governing the promotion process to ensure the promotion happens to the correct level, within the same career ladder etc.'
+    _embedded:
+      topic:
+        id: resource-state
+        category: Resources
+        name: Resource's state
+        description: How to change a resource's state/status (like processed/sent/paid/...)
+        _links:
+          self:
+            href: /design/topics/resource-state.yaml
+          topicGuidelines:
+            href: /design/topics/resource-state/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-state.yaml
+  - references:
+      - name: Update
+        url: 'https://cloud.google.com/apis/design/standard_methods#update'
+        quote: 'The standard Update method should support partial resource update, and use HTTP verb PATCH'
+    _embedded:
+      topic:
+        id: resource-update-partial
+        category: Resources
+        name: Update resource partially
+        description: How to udate partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-update-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update-partial.yaml
+  - references:
+      - name: Standard Methods
+        url: 'https://cloud.google.com/apis/design/standard_methods'
+      - name: Update
+        url: 'https://cloud.google.com/apis/design/standard_methods#update'
+      - name: Move
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: Move a resource from one parent to another.
+    _embedded:
+      topic:
+        id: resource-update
+        category: Resources
+        name: Update resource
+        description: How to update a resource
+        _links:
+          self:
+            href: /design/topics/resource-update.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update.yaml
+  - references:
+      - name: Resource Names
+        url: 'https://cloud.google.com/apis/design/resource_names'
+        quote: 'The resource name is organized hierarchically using collection IDs and resource IDs, separated by forward slashes.'
+      - name: Resource Name vs URL
+        url: 'https://cloud.google.com/apis/design/resource_names#resource_name_vs_url'
+    _embedded:
+      topic:
+        id: resource-url-format
+        category: Resources
+        name: URL format
+        description: How to design URLs
+        _links:
+          self:
+            href: /design/topics/resource-url-format.yaml
+          topicGuidelines:
+            href: /design/topics/resource-url-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-url-format.yaml
+  - references:
+      - name: Resources
+        url: 'https://cloud.google.com/apis/design/resources#resources'
+        quote: A resource has some state and zero or more sub-resources. Each sub-resource can be either a simple resource or a collection resource.
+      - name: Methods
+        url: 'https://cloud.google.com/apis/design/resources#methods'
+        quote: The key characteristic of a resource-oriented API is that it emphasizes resources (data model) over the methods performed on the resources (functionality)
+      - name: Resources examples
+        url: 'https://cloud.google.com/apis/design/resources#examples'
+      - name: Resource Labels
+        url: 'https://cloud.google.com/apis/design/design_patterns#resource_labels'
+    _embedded:
+      topic:
+        id: resource
+        category: Resources
+        name: Resource
+        description: General informations about resources
+        _links:
+          self:
+            href: /design/topics/resource.yaml
+          topicGuidelines:
+            href: /design/topics/resource/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource.yaml
+  - references:
+      - name: Delete
+        url: 'https://cloud.google.com/apis/design/standard_methods#delete'
+        quote: 'If the Delete method only marks the resource as being deleted, it should return the updated resource.'
+      - name: Undelete
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: Restore a resource that was previously deleted. The recommended retention period is 30-day.
+    _embedded:
+      topic:
+        id: undo
+        category: Miscellaneous
+        name: Undo
+        description: How to undo things
+        _links:
+          self:
+            href: /design/topics/undo.yaml
+          topicGuidelines:
+            href: /design/topics/undo/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/undo.yaml
+  - references:
+      - name: List Pagination
+        url: 'https://cloud.google.com/apis/design/design_patterns#list_pagination'
+        quote: 'Even though adding pagination support to an existing API is purely additive from API surface perspective, it is a behavior-breaking change'
+      - name: Versioning
+        url: 'https://cloud.google.com/apis/design/versioning'
+      - name: Compatibility
+        url: 'https://cloud.google.com/apis/design/compatibility'
+        quote: This page provides more detailed explanations for the list of breaking and non-breaking changes given in the Versioning section.
+      - name: Backwards-compatible (non-breaking) changes
+        url: 'https://cloud.google.com/apis/design/compatibility#backwards-compatible_non-breaking_changes'
+      - name: Backwards-incompatible (breaking) changes
+        url: 'https://cloud.google.com/apis/design/compatibility#backwards-incompatible_breaking_changes'
+    _embedded:
+      topic:
+        id: versioning
+        category: API Lifecycle
+        name: Versioning
+        description: How to handle API versioning
+        _links:
+          self:
+            href: /design/topics/versioning.yaml
+          topicGuidelines:
+            href: /design/topics/versioning/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/versioning.yaml
+_embedded:
+  guideline:
+    id: google-api-design-guide
+    title: Google API Design Guide
+    type: website
+    url: 'https://cloud.google.com/apis/design/'
+    company: Google
+    companyLogoUrl: /media/logos/google.png
+    companyUrl: 'https://cloud.google.com/'
+    screenshotUrl: /media/screenshots/google-api-design-guide.png
+    date: 2017-02-21T00:00:00.000Z
+    reviewDate: 2017-03-04T00:00:00.000Z
+    _links:
+      self:
+        href: /design/guidelines/google-api-design-guide.yaml
+      guidelineTopics:
+        href: /design/guidelines/google-api-design-guide/topics.yaml
+_links:
+  self:
+    href: /design/guidelines/google-api-design-guide/topics.yaml
+  guideline:
+    href: /design/guidelines/google-api-design-guide.yaml

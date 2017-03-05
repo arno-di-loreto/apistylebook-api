@@ -77,6 +77,31 @@ items:
       guideline:
         href: /design/guidelines/cisco-api-design-guide.yaml
   - references:
+      - name: Grammar Syntax
+        url: 'https://cloud.google.com/apis/design/design_patterns#grammar_syntax'
+      - name: Integer Types
+        url: 'https://cloud.google.com/apis/design/design_patterns#integer_types'
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Hypermedia Response Format
         url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/response-format/response-format.md'
       - name: Type Formatting

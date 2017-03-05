@@ -73,6 +73,37 @@ items:
       guideline:
         href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
   - references:
+      - name: Resources
+        url: 'https://cloud.google.com/apis/design/resources#resources'
+        quote: 'A collection contains a list of resources of the same type. For example, a user has a collection of contacts.'
+      - name: Methods
+        url: 'https://cloud.google.com/apis/design/resources#methods'
+        quote: The key characteristic of a resource-oriented API is that it emphasizes resources (data model) over the methods performed on the resources (functionality)
+      - name: Resources examples
+        url: 'https://cloud.google.com/apis/design/resources#examples'
+      - name: Collection ID
+        url: 'https://cloud.google.com/apis/design/resource_names#collection_id'
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Collection Resources
         url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md'
     _embedded:

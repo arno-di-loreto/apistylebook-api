@@ -23,6 +23,33 @@ items:
     _links:
       guideline:
         href: /design/guidelines/cisco-api-design-guide.yaml
+  - references:
+      - name: Delete
+        url: 'https://cloud.google.com/apis/design/standard_methods#delete'
+        quote: 'If the Delete method only marks the resource as being deleted, it should return the updated resource.'
+      - name: Undelete
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: Restore a resource that was previously deleted. The recommended retention period is 30-day.
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
 _embedded:
   topic:
     id: undo

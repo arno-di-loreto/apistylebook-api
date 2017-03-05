@@ -100,6 +100,39 @@ items:
       guideline:
         href: /design/guidelines/cisco-api-design-guide.yaml
   - references:
+      - name: List Pagination
+        url: 'https://cloud.google.com/apis/design/design_patterns#list_pagination'
+        quote: 'Even though adding pagination support to an existing API is purely additive from API surface perspective, it is a behavior-breaking change'
+      - name: Versioning
+        url: 'https://cloud.google.com/apis/design/versioning'
+      - name: Compatibility
+        url: 'https://cloud.google.com/apis/design/compatibility'
+        quote: This page provides more detailed explanations for the list of breaking and non-breaking changes given in the Versioning section.
+      - name: Backwards-compatible (non-breaking) changes
+        url: 'https://cloud.google.com/apis/design/compatibility#backwards-compatible_non-breaking_changes'
+      - name: Backwards-incompatible (breaking) changes
+        url: 'https://cloud.google.com/apis/design/compatibility#backwards-incompatible_breaking_changes'
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Version
         url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/uri-components/uri-components.md#version'
     _embedded:

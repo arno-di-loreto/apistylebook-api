@@ -669,6 +669,33 @@ items:
         href: /design/topics/collection-sorting.yaml
       topicGuidelines:
         href: /design/topics/collection-sorting/guidelines.yaml
+  - id: guiding-input
+    category: Miscellaneous
+    name: Guiding inputs
+    description: How to help consumers or end user to input relevant data
+    _links:
+      self:
+        href: /design/topics/guiding-input.yaml
+      topicGuidelines:
+        href: /design/topics/guiding-input/guidelines.yaml
+  - id: naming-language
+    category: Naming
+    name: Language
+    description: Which language(s) use when designing an API
+    _links:
+      self:
+        href: /design/topics/naming-language.yaml
+      topicGuidelines:
+        href: /design/topics/naming-language/guidelines.yaml
+  - id: resource-state
+    category: Resources
+    name: Resource's state
+    description: How to change a resource's state/status (like processed/sent/paid/...)
+    _links:
+      self:
+        href: /design/topics/resource-state.yaml
+      topicGuidelines:
+        href: /design/topics/resource-state/guidelines.yaml
   - id: data-standards
     category: Data
     name: Standards data
@@ -753,15 +780,6 @@ items:
         href: /design/topics/http-status-501.yaml
       topicGuidelines:
         href: /design/topics/http-status-501/guidelines.yaml
-  - id: resource-state
-    category: Resources
-    name: Resource's state
-    description: How to change a resource's state/status (like processed/sent/paid/...)
-    _links:
-      self:
-        href: /design/topics/resource-state.yaml
-      topicGuidelines:
-        href: /design/topics/resource-state/guidelines.yaml
   - id: debug-diagnose
     category: Miscellaneous
     name: Debug and diagnose
@@ -826,15 +844,6 @@ items:
         href: /design/topics/resource-change-tracking.yaml
       topicGuidelines:
         href: /design/topics/resource-change-tracking/guidelines.yaml
-  - id: guiding-input
-    category: Miscellaneous
-    name: Guiding inputs
-    description: How to help consumers or end user to input relevant data
-    _links:
-      self:
-        href: /design/topics/guiding-input.yaml
-      topicGuidelines:
-        href: /design/topics/guiding-input/guidelines.yaml
   - id: api-counts
     category: API Design
     name: API counts
@@ -866,15 +875,6 @@ items:
         href: /design/topics/http-status-428.yaml
       topicGuidelines:
         href: /design/topics/http-status-428/guidelines.yaml
-  - id: naming-language
-    category: Naming
-    name: Language
-    description: Which language(s) use when designing an API
-    _links:
-      self:
-        href: /design/topics/naming-language.yaml
-      topicGuidelines:
-        href: /design/topics/naming-language/guidelines.yaml
 _links:
   self:
     href: /design/topics.yaml

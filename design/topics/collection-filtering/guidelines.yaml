@@ -46,6 +46,38 @@ items:
       guideline:
         href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
   - references:
+      - name: List filter field
+        url: 'https://cloud.google.com/apis/design/naming_convention#list_filter_field'
+      - name: Common Custom Methods
+        url: 'https://cloud.google.com/apis/design/custom_methods#common_custom_methods'
+        quote: '(:search) Alternative to List for fetching data that does not adhere to List semantics.'
+      - name: List Sub-Collections
+        url: 'https://cloud.google.com/apis/design/design_patterns#list_sub-collections'
+        quote: 'Sometimes, an API needs to let a client List/Search across sub- collections.'
+      - name: Get Unique Resource From Sub-Collection
+        url: 'https://cloud.google.com/apis/design/design_patterns#get_unique_resource_from_sub-collection'
+        quote: it may be useful to allow a Get to retrieve that resource without knowing which parent collection contains it
+    _embedded:
+      guideline:
+        id: google-api-design-guide
+        title: Google API Design Guide
+        type: website
+        url: 'https://cloud.google.com/apis/design/'
+        company: Google
+        companyLogoUrl: /media/logos/google.png
+        companyUrl: 'https://cloud.google.com/'
+        screenshotUrl: /media/screenshots/google-api-design-guide.png
+        date: 2017-02-21T00:00:00.000Z
+        reviewDate: 2017-03-04T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/google-api-design-guide.yaml
+          guidelineTopics:
+            href: /design/guidelines/google-api-design-guide/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/google-api-design-guide.yaml
+  - references:
       - name: Filtering
         url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/filtering-sorting-field-selection-and-paging/filtering-sorting-field-selection-and-paging.md#filtering'
       - name: Time selection
