@@ -46,6 +46,38 @@ items:
       guideline:
         href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
   - references:
+      - name: RESTful
+        url: 'http://deliveroo.engineering/guidelines/api-design/#restful'
+      - name: 'PATCH, mutating entities'
+        url: 'http://deliveroo.engineering/guidelines/api-design/#patch-mutating-entities'
+      - name: Return codes and errors
+        url: 'http://deliveroo.engineering/guidelines/api-design/#return-codes-and-errors'
+        quote: '409 Conflict: PATCH and PUT failures with unique fields'
+      - name: Return codes and errors
+        url: 'http://deliveroo.engineering/guidelines/api-design/#return-codes-and-errors'
+        quote: 'POST and PATCH should never result in a 200 (generally 201, occasionally 202).'
+    _embedded:
+      guideline:
+        id: deliveroo-api-design-guidelines
+        title: API Design
+        type: website
+        url: 'http://deliveroo.engineering/guidelines/api-design/'
+        githubUrl: 'https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md'
+        company: Deliveroo
+        companyLogoUrl: /media/logos/deliveroo.svg
+        companyUrl: 'http://deliveroo.engineering/'
+        screenshotUrl: /media/screenshots/deliveroo-api-design-guidelines.png
+        date: 2016-09-22T00:00:00.000Z
+        reviewDate: 2017-04-23T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/deliveroo-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+  - references:
       - name: Standard Methods
         url: 'https://cloud.google.com/apis/design/standard_methods'
       - name: Update

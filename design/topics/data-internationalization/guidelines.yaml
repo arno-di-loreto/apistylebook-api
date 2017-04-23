@@ -1,0 +1,41 @@
+items:
+  - references:
+      - name: Internationalisation (i18n)
+        url: 'http://deliveroo.engineering/guidelines/api-design/#internationalisation-i18n'
+    _embedded:
+      guideline:
+        id: deliveroo-api-design-guidelines
+        title: API Design
+        type: website
+        url: 'http://deliveroo.engineering/guidelines/api-design/'
+        githubUrl: 'https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md'
+        company: Deliveroo
+        companyLogoUrl: /media/logos/deliveroo.svg
+        companyUrl: 'http://deliveroo.engineering/'
+        screenshotUrl: /media/screenshots/deliveroo-api-design-guidelines.png
+        date: 2016-09-22T00:00:00.000Z
+        reviewDate: 2017-04-23T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/deliveroo-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+_embedded:
+  topic:
+    id: data-internationalization
+    category: Data
+    name: Internationalization
+    description: Providing internationalized data representation (e.g. adapted to the user's country)
+    _links:
+      self:
+        href: /design/topics/data-internationalization.yaml
+      topicGuidelines:
+        href: /design/topics/data-internationalization/guidelines.yaml
+_links:
+  self:
+    href: /design/topics/data-internationalization/guidelines.yaml
+  topic:
+    href: /design/topics/data-internationalization.yaml

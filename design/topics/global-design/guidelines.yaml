@@ -25,6 +25,41 @@ items:
       guideline:
         href: /design/guidelines/ausdto-api-design-guide.yaml
   - references:
+      - name: General Principles
+        url: 'http://deliveroo.engineering/guidelines/api-design/#general-principles'
+        quote: |
+          We choose to adopt three general principles. Here’s a shortcut to remember:
+          RESTful, Hypermedia, Fine-grained
+      - name: API and domain modelling
+        url: 'http://deliveroo.engineering/guidelines/api-design/#api-and-domain-modelling'
+      - name: External-facing APIs
+        url: 'http://deliveroo.engineering/guidelines/api-design/#external-facing'
+      - name: Mobile-friendly APIs
+        url: 'http://deliveroo.engineering/guidelines/api-design/#mobile-friendly-apis'
+      - name: Public-friendly APIs
+        url: 'http://deliveroo.engineering/guidelines/api-design/#public-friendly-apis'
+    _embedded:
+      guideline:
+        id: deliveroo-api-design-guidelines
+        title: API Design
+        type: website
+        url: 'http://deliveroo.engineering/guidelines/api-design/'
+        githubUrl: 'https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md'
+        company: Deliveroo
+        companyLogoUrl: /media/logos/deliveroo.svg
+        companyUrl: 'http://deliveroo.engineering/'
+        screenshotUrl: /media/screenshots/deliveroo-api-design-guidelines.png
+        date: 2016-09-22T00:00:00.000Z
+        reviewDate: 2017-04-23T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/deliveroo-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+  - references:
       - name: Resource Oriented Design
         url: 'https://cloud.google.com/apis/design/resources'
         quote: 'This Design Guide explains how to apply REST principles to API designs independent of programming language, operating system, or network protocol. It is NOT a guide solely to creating REST APIs.'

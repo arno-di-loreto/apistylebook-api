@@ -38,6 +38,43 @@
     {
       "references": [
         {
+          "name": "POST, creating entities",
+          "url": "http://deliveroo.engineering/guidelines/api-design/#post-creating-entities",
+          "quote": "429 Too Many Requests if the service throttles requests from an aggressive client"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "deliveroo-api-design-guidelines",
+          "title": "API Design",
+          "type": "website",
+          "url": "http://deliveroo.engineering/guidelines/api-design/",
+          "githubUrl": "https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md",
+          "company": "Deliveroo",
+          "companyLogoUrl": "/media/logos/deliveroo.svg",
+          "companyUrl": "http://deliveroo.engineering/",
+          "screenshotUrl": "/media/screenshots/deliveroo-api-design-guidelines.png",
+          "date": "2016-09-22T00:00:00.000Z",
+          "reviewDate": "2017-04-23T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/deliveroo-api-design-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/deliveroo-api-design-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/deliveroo-api-design-guidelines.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Show rate limit status",
           "url": "https://geemus.gitbooks.io/http-api-design/content/en/responses/show-rate-limit-status.html"
         }

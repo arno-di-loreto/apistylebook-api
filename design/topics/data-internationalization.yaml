@@ -1,0 +1,9 @@
+id: data-internationalization
+category: Data
+name: Internationalization
+description: Providing internationalized data representation (e.g. adapted to the user's country)
+_links:
+  self:
+    href: /design/topics/data-internationalization.yaml
+  topicGuidelines:
+    href: /design/topics/data-internationalization/guidelines.yaml

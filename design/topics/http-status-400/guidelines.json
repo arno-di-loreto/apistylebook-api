@@ -38,6 +38,58 @@
     {
       "references": [
         {
+          "name": "POST, creating entities",
+          "url": "http://deliveroo.engineering/guidelines/api-design/#post-creating-entities",
+          "quote": "400 Bad Request if the entity cannot be created with the information in the request body"
+        },
+        {
+          "name": "PATCH, mutating entities",
+          "url": "http://deliveroo.engineering/guidelines/api-design/#patch-mutating-entities",
+          "quote": "400 Bad Request, if the modification failed."
+        },
+        {
+          "name": "Return codes and errors",
+          "url": "http://deliveroo.engineering/guidelines/api-design/#return-codes-and-errors",
+          "quote": "400 Bad Request: bad syntax (unknown route, missing required fields or parameters, unknown extra parameters, bad field or parameter values)."
+        },
+        {
+          "name": "Parameters",
+          "url": "http://deliveroo.engineering/guidelines/api-design/#parameters",
+          "quote": "Those endpoints may return 400 Bad Request if parameters are specified."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "deliveroo-api-design-guidelines",
+          "title": "API Design",
+          "type": "website",
+          "url": "http://deliveroo.engineering/guidelines/api-design/",
+          "githubUrl": "https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md",
+          "company": "Deliveroo",
+          "companyLogoUrl": "/media/logos/deliveroo.svg",
+          "companyUrl": "http://deliveroo.engineering/",
+          "screenshotUrl": "/media/screenshots/deliveroo-api-design-guidelines.png",
+          "date": "2016-09-22T00:00:00.000Z",
+          "reviewDate": "2017-04-23T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/deliveroo-api-design-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/deliveroo-api-design-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/deliveroo-api-design-guidelines.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "HTTP Status (Get List of resources)",
           "url": "https://github.com/Haufe-Lexware/api-style-guide/blob/master/collection-resources/collection-resources.md#http-status"
         },

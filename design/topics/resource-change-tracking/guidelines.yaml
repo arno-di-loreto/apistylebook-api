@@ -1,5 +1,30 @@
 items:
   - references:
+      - name: Single-entity GET endpoints
+        url: 'http://deliveroo.engineering/guidelines/api-design/#single-entity-get-endpoints'
+        quote: 'Responses should include a Last-Modified or ETag header, and may include both'
+    _embedded:
+      guideline:
+        id: deliveroo-api-design-guidelines
+        title: API Design
+        type: website
+        url: 'http://deliveroo.engineering/guidelines/api-design/'
+        githubUrl: 'https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md'
+        company: Deliveroo
+        companyLogoUrl: /media/logos/deliveroo.svg
+        companyUrl: 'http://deliveroo.engineering/'
+        screenshotUrl: /media/screenshots/deliveroo-api-design-guidelines.png
+        date: 2016-09-22T00:00:00.000Z
+        reviewDate: 2017-04-23T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/deliveroo-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+  - references:
       - name: Delta queries
         url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#10-delta-queries'
     _embedded:

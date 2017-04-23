@@ -1009,6 +1009,244 @@
       }
     },
     {
+      "id": "api-counts",
+      "category": "API Design",
+      "name": "API counts",
+      "description": "How many endpoints/resources in an API?",
+      "_links": {
+        "self": {
+          "href": "/design/topics/api-counts.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/api-counts/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "data-internationalization",
+      "category": "Data",
+      "name": "Internationalization",
+      "description": "Providing internationalized data representation (e.g. adapted to the user's country)",
+      "_links": {
+        "self": {
+          "href": "/design/topics/data-internationalization.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/data-internationalization/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "errors",
+      "category": "Error handling",
+      "name": "Errors",
+      "description": "How to handle errors",
+      "_links": {
+        "self": {
+          "href": "/design/topics/errors.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/errors/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-203",
+      "category": "HTTP Status Success",
+      "name": "203 Non-Authoritative Information",
+      "description": "The 203 (Non-Authoritative Information) status code indicates that the request was successful but the enclosed payload has been modified from that of the origin server’s 200 (OK) response by a transforming proxy. \n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-203.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-203/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-206",
+      "category": "HTTP Status Success",
+      "name": "206 Partial Content",
+      "description": "The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-206.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-206/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-300",
+      "category": "HTTP Status Redirection",
+      "name": "300 Multiple Choices",
+      "description": "The 300 (Multiple Choices) status code indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers. In other words, the server desires that the user agent engage in reactive negotiation to select the most appropriate representation(s) for its needs.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-300.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-300/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-307",
+      "category": "HTTP Status Redirection",
+      "name": "307 Temporary Redirect",
+      "description": "The 307 (Temporary Redirect) status code indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI. Since the redirection can change over time, the client ought to continue using the original effective request URI for future requests.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-307.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-307/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-308",
+      "category": "HTTP Status Redirection",
+      "name": "308 Permanent Redirect",
+      "description": "The 308 (Permanent Redirect) status code indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. \n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-308.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-308/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-406",
+      "category": "HTTP Status User Error",
+      "name": "406 Not Acceptable",
+      "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-406.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-406/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-409",
+      "category": "HTTP Status User Error",
+      "name": "409 Conflict",
+      "description": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-409.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-409/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-410",
+      "category": "HTTP Status User Error",
+      "name": "410 Gone",
+      "description": "Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a *404 Not Found* may be used instead.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-410.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-410/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-415",
+      "category": "HTTP Status User Error",
+      "name": "415 Unsupported Media Type",
+      "description": "The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-415.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-415/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-428",
+      "category": "HTTP Status User Error",
+      "name": "428 Precondition Required",
+      "description": "The origin server requires the request to be conditional. \nIntended to prevent the *lost update* problem, where a client GETs a resource's state, modifies it, \nand PUTs it back to the server, when meanwhile a third party has modified the state on the server, \nleading to a conflict.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-428.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-428/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-429",
+      "category": "HTTP Status User Error",
+      "name": "429 Too Many Requests",
+      "description": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-429.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-429/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http",
+      "category": "HTTP Protocol",
+      "name": "HTTP protocol",
+      "description": "General informations about HTTP protocol",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "performance",
+      "category": "Miscellaneous",
+      "name": "Performance and bandwidth",
+      "description": "How to deal with high traffic or consumers with low bandwith",
+      "_links": {
+        "self": {
+          "href": "/design/topics/performance.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/performance/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-change-tracking",
+      "category": "Resources",
+      "name": "Track change",
+      "description": "How to track change on resources",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-change-tracking.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-change-tracking/guidelines.json"
+        }
+      }
+    },
+    {
       "id": "collection-sorting",
       "category": "Collection Resources",
       "name": "Sorting a collection",
@@ -1079,34 +1317,6 @@
       }
     },
     {
-      "id": "errors",
-      "category": "Error handling",
-      "name": "Errors",
-      "description": "How to handle errors",
-      "_links": {
-        "self": {
-          "href": "/design/topics/errors.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/errors/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-406",
-      "category": "HTTP Status User Error",
-      "name": "406 Not Acceptable",
-      "description": "The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-406.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-406/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "http-status-408",
       "category": "HTTP Status User Error",
       "name": "408 Request Timeout",
@@ -1121,34 +1331,6 @@
       }
     },
     {
-      "id": "http-status-409",
-      "category": "HTTP Status User Error",
-      "name": "409 Conflict",
-      "description": "Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-409.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-409/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-410",
-      "category": "HTTP Status User Error",
-      "name": "410 Gone",
-      "description": "Indicates that the resource requested is no longer available and will not be available again. This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a *404 Not Found* may be used instead.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-410.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-410/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "http-status-411",
       "category": "HTTP Status User Error",
       "name": "411 Length Required",
@@ -1159,20 +1341,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-status-411/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-415",
-      "category": "HTTP Status User Error",
-      "name": "415 Unsupported Media Type",
-      "description": "The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-415.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-415/guidelines.json"
         }
       }
     },
@@ -1205,62 +1373,6 @@
       }
     },
     {
-      "id": "http-status-206",
-      "category": "HTTP Status Success",
-      "name": "206 Partial Content",
-      "description": "The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-206.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-206/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-429",
-      "category": "HTTP Status User Error",
-      "name": "429 Too Many Requests",
-      "description": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-429.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-429/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "performance",
-      "category": "Miscellaneous",
-      "name": "Performance and bandwidth",
-      "description": "How to deal with high traffic or consumers with low bandwith",
-      "_links": {
-        "self": {
-          "href": "/design/topics/performance.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/performance/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http",
-      "category": "HTTP Protocol",
-      "name": "HTTP protocol",
-      "description": "General informations about HTTP protocol",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "notifications-server-events",
       "category": "Asynchronicity",
       "name": "Notifying API consumers",
@@ -1275,34 +1387,6 @@
       }
     },
     {
-      "id": "resource-change-tracking",
-      "category": "Resources",
-      "name": "Track change",
-      "description": "How to track change on resources",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-change-tracking.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-change-tracking/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "api-counts",
-      "category": "API Design",
-      "name": "API counts",
-      "description": "How many endpoints/resources in an API?",
-      "_links": {
-        "self": {
-          "href": "/design/topics/api-counts.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/api-counts/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "http-status-423",
       "category": "HTTP Status User Error",
       "name": "423 Locked",
@@ -1313,20 +1397,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-status-423/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-428",
-      "category": "HTTP Status User Error",
-      "name": "428 Precondition Required",
-      "description": "The origin server requires the request to be conditional. \nIntended to prevent the *lost update* problem, where a client GETs a resource's state, modifies it, \nand PUTs it back to the server, when meanwhile a third party has modified the state on the server, \nleading to a conflict.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-428.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-428/guidelines.json"
         }
       }
     }

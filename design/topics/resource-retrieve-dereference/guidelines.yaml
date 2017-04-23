@@ -74,6 +74,37 @@ items:
       guideline:
         href: /design/guidelines/cloud-foundy-cloud-controller-api-style-guide.yaml
   - references:
+      - name: Fine-grained
+        url: 'http://deliveroo.engineering/guidelines/api-design/#fine-grained'
+        quote: Embedding entities should be avoided
+      - name: Conventions on responses
+        url: 'http://deliveroo.engineering/guidelines/api-design/#conventions-on-responses'
+        quote: 'In addition, embedded entities (using _embedded) should be avoided when possible'
+      - name: Collection GET endpoints
+        url: 'http://deliveroo.engineering/guidelines/api-design/#collection-get-endpoints'
+        quote: 'Exceptionally, a collection representation, may embedded representations of the linked resources...'
+    _embedded:
+      guideline:
+        id: deliveroo-api-design-guidelines
+        title: API Design
+        type: website
+        url: 'http://deliveroo.engineering/guidelines/api-design/'
+        githubUrl: 'https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md'
+        company: Deliveroo
+        companyLogoUrl: /media/logos/deliveroo.svg
+        companyUrl: 'http://deliveroo.engineering/'
+        screenshotUrl: /media/screenshots/deliveroo-api-design-guidelines.png
+        date: 2016-09-22T00:00:00.000Z
+        reviewDate: 2017-04-23T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/deliveroo-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/deliveroo-api-design-guidelines.yaml
+  - references:
       - name: Use Conventional Query Strings
         quote: embed — to expand embedded entities
         url: 'http://zalando.github.io/restful-api-guidelines/naming/Naming.html#could-use-conventional-query-strings'

@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Caching",
+          "url": "http://deliveroo.engineering/guidelines/api-design/#caching",
+          "quote": "Responses with the following status codes should specify a Cache-Control header"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "deliveroo-api-design-guidelines",
+          "title": "API Design",
+          "type": "website",
+          "url": "http://deliveroo.engineering/guidelines/api-design/",
+          "githubUrl": "https://github.com/deliveroo/deliveroo.engineering/blob/gh-pages/_guidelines/api-design.md",
+          "company": "Deliveroo",
+          "companyLogoUrl": "/media/logos/deliveroo.svg",
+          "companyUrl": "http://deliveroo.engineering/",
+          "screenshotUrl": "/media/screenshots/deliveroo-api-design-guidelines.png",
+          "date": "2016-09-22T00:00:00.000Z",
+          "reviewDate": "2017-04-23T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/deliveroo-api-design-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/deliveroo-api-design-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/deliveroo-api-design-guidelines.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "topic": {
+      "id": "http-status-300",
+      "category": "HTTP Status Redirection",
+      "name": "300 Multiple Choices",
+      "description": "The 300 (Multiple Choices) status code indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers. In other words, the server desires that the user agent engage in reactive negotiation to select the most appropriate representation(s) for its needs.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-300.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-300/guidelines.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/topics/http-status-300/guidelines.json"
+    },
+    "topic": {
+      "href": "/design/topics/http-status-300.json"
+    }
+  }
+}
