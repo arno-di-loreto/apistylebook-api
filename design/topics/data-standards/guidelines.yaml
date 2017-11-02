@@ -1,5 +1,29 @@
 items:
   - references:
+      - name: Common Data Types
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/application/common-data-types.html'
+        quote: 'data, time, interval, duration, timestamps, language, country code, currency'
+    _embedded:
+      guideline:
+        id: adidas-api-design-guidelines
+        title: adidas API design guidelines
+        type: website
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/'
+        company: adidas
+        companyLogoUrl: /media/logos/adidas.svg
+        companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/adidas-api-design-guidelines.png
+        date: 2017-07-11T00:00:00.000Z
+        reviewDate: 2017-11-02T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/adidas-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/adidas-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/adidas-api-design-guidelines.yaml
+  - references:
       - name: Currency
         url: 'https://github.com/Haufe-Lexware/api-style-guide/blob/master/type-formatting/type-formatting.md#currency'
         quote: 3-character ISO-4217

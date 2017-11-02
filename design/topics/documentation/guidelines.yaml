@@ -1,5 +1,30 @@
 items:
   - references:
+      - name: OpenAPI Specification
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/openapi-specification.html'
+      - name: API Design Platform - Apiary
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/apiary.html'
+    _embedded:
+      guideline:
+        id: adidas-api-design-guidelines
+        title: adidas API design guidelines
+        type: website
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/'
+        company: adidas
+        companyLogoUrl: /media/logos/adidas.svg
+        companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/adidas-api-design-guidelines.png
+        date: 2017-07-11T00:00:00.000Z
+        reviewDate: 2017-11-02T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/adidas-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/adidas-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/adidas-api-design-guidelines.yaml
+  - references:
       - name: Discoverability
         url: 'https://apiguide.readthedocs.io/en/latest/principles/discoverability.html'
       - name: Document your API

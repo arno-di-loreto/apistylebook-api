@@ -1,0 +1,1310 @@
+{
+  "items": [
+    {
+      "references": [
+        {
+          "name": "Minimal API surface",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/minimal-api-surface.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "api-counts",
+          "category": "API Design",
+          "name": "API counts",
+          "description": "How many endpoints/resources in an API?",
+          "_links": {
+            "self": {
+              "href": "/design/topics/api-counts.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/api-counts/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/api-counts.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Asynchronous Tasks",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/asynchronous-tasks.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "asynchronicity",
+          "category": "Asynchronicity",
+          "name": "Asynchronicity",
+          "description": "How to handle long operations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/asynchronicity.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/asynchronicity/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/asynchronicity.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Search Requests",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/search-requests.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-filtering",
+          "category": "Collection Resources",
+          "name": "Filtering",
+          "description": "How to select some resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-filtering.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-filtering/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-filtering.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Pagination",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/pagination.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "collection-pagination",
+          "category": "Collection Resources",
+          "name": "Pagination",
+          "description": "How to retrieve a range of resources in a collection",
+          "_links": {
+            "self": {
+              "href": "/design/topics/collection-pagination.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/collection-pagination/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/collection-pagination.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "cors",
+          "category": "Miscellaneous",
+          "name": "CORS",
+          "description": "How to deal with CORS",
+          "_links": {
+            "self": {
+              "href": "/design/topics/cors.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/cors/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/cors.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Common Data Types",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/application/common-data-types.html",
+          "quote": "data, time, interval, duration, timestamps, language, country code, currency"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-standards",
+          "category": "Data",
+          "name": "Standards data",
+          "description": "Which standard use for values like languages, countries, currencies, ...",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-standards.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-standards/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-standards.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Common Data Types",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/application/common-data-types.html",
+          "quote": "data, time, interval, duration, timestamps"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format-date-time",
+          "category": "Data",
+          "name": "Date and Time",
+          "description": "How to deal with date and time data",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format-date-time.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format-date-time/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format-date-time.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Corporate Data Model",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/application/harmonize-data.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-format",
+          "category": "Data",
+          "name": "Data format",
+          "description": "which data format use",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Common Data Types",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/application/common-data-types.html",
+          "quote": "language, country code, currency"
+        },
+        {
+          "name": "Localization",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/localization.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "data-internationalization",
+          "category": "Data",
+          "name": "Internationalization",
+          "description": "Providing internationalized data representation (e.g. adapted to the user's country)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/data-internationalization.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/data-internationalization/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/data-internationalization.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "OpenAPI Specification",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/openapi-specification.html"
+        },
+        {
+          "name": "API Design Platform - Apiary",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/apiary.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "documentation",
+          "category": "Miscellaneous",
+          "name": "Documentation",
+          "description": "How to produce and/or propose API documentation",
+          "_links": {
+            "self": {
+              "href": "/design/topics/documentation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/documentation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/documentation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Problem Detail",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/error-reporting.html",
+          "quote": "application/problem+json"
+        },
+        {
+          "name": "Error Response Format",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/message-formats.html",
+          "quote": "application/problem+json"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "errors",
+          "category": "Error handling",
+          "name": "Errors",
+          "description": "How to handle errors",
+          "_links": {
+            "self": {
+              "href": "/design/topics/errors.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/errors/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/errors.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Core principles",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/"
+        },
+        {
+          "name": "API First",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/api-first.html"
+        },
+        {
+          "name": "Contract",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/contract.html"
+        },
+        {
+          "name": "Design Maturity",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/design-maturity.html"
+        },
+        {
+          "name": "Robustness",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/robustness.html"
+        },
+        {
+          "name": "Loose Coupling",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/clients/loose-coupling.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "global-design",
+          "category": "API Design",
+          "name": "Global design",
+          "description": "General considerations on API design",
+          "_links": {
+            "self": {
+              "href": "/design/topics/global-design.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/global-design/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/global-design.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Version Control System",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/version-control-system.html"
+        },
+        {
+          "name": "OpenAPI Specification",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/openapi-specification.html"
+        },
+        {
+          "name": "API Design Platform - Apiary",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/apiary.html"
+        },
+        {
+          "name": "Testing",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/testing.html"
+        },
+        {
+          "name": "Rules For Extending",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/rules-for-extending.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "governance",
+          "category": "API Lifecycle",
+          "name": "Governance",
+          "description": "How to ensure API governance (advertise, consistency, ...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/governance.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/governance/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/governance.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Caching",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/caching.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-caching",
+          "category": "HTTP Protocol",
+          "name": "Caching",
+          "description": "How to use and provide relevant caching informations",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-caching.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-caching/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-caching.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Content Negociation",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/content-negotiation.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-content-negotiation",
+          "category": "HTTP Protocol",
+          "name": "Content negociation and media types",
+          "description": "How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-content-negotiation.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-content-negotiation/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-content-negotiation.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Asynchronous Tasks",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/asynchronous-tasks.html"
+        },
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-200",
+          "category": "HTTP Status Success",
+          "name": "200 OK",
+          "description": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-200.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-200/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-200.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Asynchronous Tasks",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/asynchronous-tasks.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-303",
+          "category": "HTTP Status Redirection",
+          "name": "303 See Other",
+          "description": "The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.\n",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-303.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-303/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-303.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-400",
+          "category": "HTTP Status User Error",
+          "name": "400 Bad Request",
+          "description": "The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).\n",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-400.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-400/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-400.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-401",
+          "category": "HTTP Status User Error",
+          "name": "401 Unauthorized",
+          "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. \n",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-401.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-401/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-401.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-403",
+          "category": "HTTP Status User Error",
+          "name": "403 Forbidden",
+          "description": "The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-403.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-403/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-403.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-404",
+          "category": "HTTP Status User Error",
+          "name": "404 Not Found",
+          "description": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-404.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-404/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-404.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-405",
+          "category": "HTTP Status User Error",
+          "name": "405 Method Not Allowed",
+          "description": "A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.\n",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-405.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-405/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-405.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-429",
+          "category": "HTTP Status User Error",
+          "name": "429 Too Many Requests",
+          "description": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-429.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-429/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-429.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Error Response Format",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/message-formats.html",
+          "quote": "application/problem+json"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status-standard-error",
+          "category": "Error handling",
+          "name": "Error format",
+          "description": "How to provide information about errors",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status-standard-error.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status-standard-error/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status-standard-error.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Naming Conventions",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/naming-conventions.html",
+          "quote": "Every HTTP Header should use Hyphenated-Pascal-Case. A custom HTTP Header SHOULD NOT start with X- (RFC6648)."
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-headers",
+          "category": "HTTP Protocol",
+          "name": "HTTP Headers",
+          "description": "How to use standard or custom HTTP headers",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-headers.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-headers/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-headers.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Status Codes",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/protocol/use-appropriate-status-codes.html"
+        },
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-status",
+          "category": "HTTP Protocol",
+          "name": "HTTP Statuses",
+          "description": "General information about HTTP statuses usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-status.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-status/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-status.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Query Requests with Large Inputs",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/query-requests-with-large-inputs.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-alternative",
+          "category": "HTTP Methods",
+          "name": "Forbidden methods alternatives",
+          "description": "What to do when only possible HTTP methods are POST and GET",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-alternative.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-alternative/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-alternative.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Query Requests with Large Inputs",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/query-requests-with-large-inputs.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods-post",
+          "category": "HTTP Methods",
+          "name": "POST",
+          "description": "The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.\n",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods-post.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods-post/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods-post.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Request Methods",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/protocol/use-appropriate-methods.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http-methods",
+          "category": "HTTP Methods",
+          "name": "HTTP methods",
+          "description": "General information about HTTP methods usage",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http-methods.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http-methods/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http-methods.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HTTP",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/protocol/http.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "http",
+          "category": "HTTP Protocol",
+          "name": "HTTP protocol",
+          "description": "General informations about HTTP protocol",
+          "_links": {
+            "self": {
+              "href": "/design/topics/http.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/http/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/http.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "HAL",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/hal.html"
+        },
+        {
+          "name": "Foreign Key Relations",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/foreign-key-relations.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "hypermedia",
+          "category": "Hypermedia",
+          "name": "Hypermedia",
+          "description": "How to use hypermedia",
+          "_links": {
+            "self": {
+              "href": "/design/topics/hypermedia.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/hypermedia/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/hypermedia.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Naming Conventions",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/naming-conventions.html"
+        },
+        {
+          "name": "JSON",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/json.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming-case",
+          "category": "Naming",
+          "name": "Case",
+          "description": "Which case (lowercase, camelCase, ...) to use and when",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming-case.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming-case/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming-case.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Naming Conventions",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/naming-conventions.html"
+        },
+        {
+          "name": "Reserved Identifiers",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/reserved-identifiers.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "naming",
+          "category": "Naming",
+          "name": "Naming",
+          "description": "How to name things",
+          "_links": {
+            "self": {
+              "href": "/design/topics/naming.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/naming/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/naming.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Rate Limiting",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/rate-limiting.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "rate-limiting",
+          "category": "Miscellaneous",
+          "name": "Rate limiting",
+          "description": "How to provide information about how many calls a consumer can do",
+          "_links": {
+            "self": {
+              "href": "/design/topics/rate-limiting.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/rate-limiting/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/rate-limiting.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": null,
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/batch-operations.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-multiple",
+          "category": "Resources",
+          "name": "Batch Bulk",
+          "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-multiple.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-multiple/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-multiple.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Foreign Key Relations",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/message/foreign-key-relations.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-relationships",
+          "category": "Resources",
+          "name": "Relationships",
+          "description": "How to define and use relations between resources",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-relationships.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-relationships/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-relationships.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Choosing Fields & Embedded Resources",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/choosing-fields-and-embedded-resoruces.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-dereference",
+          "category": "Resources",
+          "name": "Dereference Relationships",
+          "description": "How to load a resource and its linked resources in one call",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-dereference.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-dereference.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Choosing Fields & Embedded Resources",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/choosing-fields-and-embedded-resoruces.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-retrieve-partial",
+          "category": "Resources",
+          "name": "Retrieve resource partially",
+          "description": "How to retrieve partially a resource",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-retrieve-partial.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-retrieve-partial/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-retrieve-partial.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "URI structure",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/uri-structure.html"
+        },
+        {
+          "name": "Changes and Versioning",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/versioning.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "resource-url-format",
+          "category": "Resources",
+          "name": "URL format",
+          "description": "How to design URLs",
+          "_links": {
+            "self": {
+              "href": "/design/topics/resource-url-format.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/resource-url-format/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/resource-url-format.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "TLS",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/protocol/tls.html"
+        },
+        {
+          "name": "Security",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "security",
+          "category": "Security",
+          "name": "Security",
+          "description": "Security concerns",
+          "_links": {
+            "self": {
+              "href": "/design/topics/security.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/security/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/security.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
+          "name": "Changes and Versioning",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/versioning.html"
+        },
+        {
+          "name": "Rules For Extending",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/rules-for-extending.html"
+        }
+      ],
+      "_embedded": {
+        "topic": {
+          "id": "versioning",
+          "category": "API Lifecycle",
+          "name": "Updates and Versioning",
+          "description": "How to handle API updates and versioning",
+          "_links": {
+            "self": {
+              "href": "/design/topics/versioning.json"
+            },
+            "topicGuidelines": {
+              "href": "/design/topics/versioning/guidelines.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "topic": {
+          "href": "/design/topics/versioning.json"
+        }
+      }
+    }
+  ],
+  "_embedded": {
+    "guideline": {
+      "id": "adidas-api-design-guidelines",
+      "title": "adidas API design guidelines",
+      "type": "website",
+      "url": "https://adidas-group.gitbooks.io/api-guidelines/content/",
+      "company": "adidas",
+      "companyLogoUrl": "/media/logos/adidas.svg",
+      "companyUrl": "https://developer.atlassian.com/",
+      "screenshotUrl": "/media/screenshots/adidas-api-design-guidelines.png",
+      "date": "2017-07-11T00:00:00.000Z",
+      "reviewDate": "2017-11-02T00:00:00.000Z",
+      "_links": {
+        "self": {
+          "href": "/design/guidelines/adidas-api-design-guidelines.json"
+        },
+        "guidelineTopics": {
+          "href": "/design/guidelines/adidas-api-design-guidelines/topics.json"
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "/design/guidelines/adidas-api-design-guidelines/topics.json"
+    },
+    "guideline": {
+      "href": "/design/guidelines/adidas-api-design-guidelines.json"
+    }
+  }
+}

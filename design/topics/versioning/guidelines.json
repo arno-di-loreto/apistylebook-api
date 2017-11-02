@@ -3,6 +3,45 @@
     {
       "references": [
         {
+          "name": "Changes and Versioning",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/evolution/versioning.html"
+        },
+        {
+          "name": "Rules For Extending",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/rules-for-extending.html"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "adidas-api-design-guidelines",
+          "title": "adidas API design guidelines",
+          "type": "website",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/",
+          "company": "adidas",
+          "companyLogoUrl": "/media/logos/adidas.svg",
+          "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/adidas-api-design-guidelines.png",
+          "date": "2017-07-11T00:00:00.000Z",
+          "reviewDate": "2017-11-02T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/adidas-api-design-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/adidas-api-design-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/adidas-api-design-guidelines.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Version Control for APIs",
           "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-VersionControlforAPIs"
         }
@@ -494,8 +533,8 @@
     "topic": {
       "id": "versioning",
       "category": "API Lifecycle",
-      "name": "Versioning",
-      "description": "How to handle API versioning",
+      "name": "Updates and Versioning",
+      "description": "How to handle API updates and versioning",
       "_links": {
         "self": {
           "href": "/design/topics/versioning.json"

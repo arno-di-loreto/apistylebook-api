@@ -3,6 +3,42 @@
     {
       "references": [
         {
+          "name": "Common Data Types",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/application/common-data-types.html",
+          "quote": "data, time, interval, duration, timestamps"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "adidas-api-design-guidelines",
+          "title": "adidas API design guidelines",
+          "type": "website",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/",
+          "company": "adidas",
+          "companyLogoUrl": "/media/logos/adidas.svg",
+          "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/adidas-api-design-guidelines.png",
+          "date": "2017-07-11T00:00:00.000Z",
+          "reviewDate": "2017-11-02T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/adidas-api-design-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/adidas-api-design-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/adidas-api-design-guidelines.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "3.3 Representations",
           "url": "https://github.com/CiscoDevNet/api-design-guide#33-representations",
           "quote": "3.3.8 Date and time fields MUST be represented as strings and formatted according to RFC-3339"

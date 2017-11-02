@@ -3,6 +3,57 @@
     {
       "references": [
         {
+          "name": "Version Control System",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/version-control-system.html"
+        },
+        {
+          "name": "OpenAPI Specification",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/openapi-specification.html"
+        },
+        {
+          "name": "API Design Platform - Apiary",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/apiary.html"
+        },
+        {
+          "name": "Testing",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/testing.html"
+        },
+        {
+          "name": "Rules For Extending",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/core-principles/rules-for-extending.html"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "adidas-api-design-guidelines",
+          "title": "adidas API design guidelines",
+          "type": "website",
+          "url": "https://adidas-group.gitbooks.io/api-guidelines/content/",
+          "company": "adidas",
+          "companyLogoUrl": "/media/logos/adidas.svg",
+          "companyUrl": "https://developer.atlassian.com/",
+          "screenshotUrl": "/media/screenshots/adidas-api-design-guidelines.png",
+          "date": "2017-07-11T00:00:00.000Z",
+          "reviewDate": "2017-11-02T00:00:00.000Z",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/adidas-api-design-guidelines.json"
+            },
+            "guidelineTopics": {
+              "href": "/design/guidelines/adidas-api-design-guidelines/topics.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/adidas-api-design-guidelines.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Using these Guidelines",
           "url": "https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-UsingtheseGuidelines",
           "quote": "We strongly recommend that someone who is familiar with these guidelines should review your REST API code"

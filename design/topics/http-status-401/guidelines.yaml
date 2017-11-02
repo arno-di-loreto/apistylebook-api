@@ -1,5 +1,28 @@
 items:
   - references:
+      - name: Security
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/execution/security.html'
+    _embedded:
+      guideline:
+        id: adidas-api-design-guidelines
+        title: adidas API design guidelines
+        type: website
+        url: 'https://adidas-group.gitbooks.io/api-guidelines/content/'
+        company: adidas
+        companyLogoUrl: /media/logos/adidas.svg
+        companyUrl: 'https://developer.atlassian.com/'
+        screenshotUrl: /media/screenshots/adidas-api-design-guidelines.png
+        date: 2017-07-11T00:00:00.000Z
+        reviewDate: 2017-11-02T00:00:00.000Z
+        _links:
+          self:
+            href: /design/guidelines/adidas-api-design-guidelines.yaml
+          guidelineTopics:
+            href: /design/guidelines/adidas-api-design-guidelines/topics.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/adidas-api-design-guidelines.yaml
+  - references:
       - name: 'Appendix A: Response Codes'
         url: 'https://developer.atlassian.com/docs/atlassian-platform-common-components/rest-api-development/atlassian-rest-api-design-guidelines-version-1#AtlassianRESTAPIDesignGuidelinesversion1-AppendixA:ResponseCodes'
     _embedded:

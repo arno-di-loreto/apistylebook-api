@@ -1996,8 +1996,8 @@
         "topic": {
           "id": "versioning",
           "category": "API Lifecycle",
-          "name": "Versioning",
-          "description": "How to handle API versioning",
+          "name": "Updates and Versioning",
+          "description": "How to handle API updates and versioning",
           "_links": {
             "self": {
               "href": "/design/topics/versioning.json"

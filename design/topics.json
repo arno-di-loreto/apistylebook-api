@@ -1,6 +1,48 @@
 {
   "items": [
     {
+      "id": "api-counts",
+      "category": "API Design",
+      "name": "API counts",
+      "description": "How many endpoints/resources in an API?",
+      "_links": {
+        "self": {
+          "href": "/design/topics/api-counts.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/api-counts/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "asynchronicity",
+      "category": "Asynchronicity",
+      "name": "Asynchronicity",
+      "description": "How to handle long operations",
+      "_links": {
+        "self": {
+          "href": "/design/topics/asynchronicity.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/asynchronicity/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "collection-filtering",
+      "category": "Collection Resources",
+      "name": "Filtering",
+      "description": "How to select some resources in a collection",
+      "_links": {
+        "self": {
+          "href": "/design/topics/collection-filtering.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/collection-filtering/guidelines.json"
+        }
+      }
+    },
+    {
       "id": "collection-pagination",
       "category": "Collection Resources",
       "name": "Pagination",
@@ -15,16 +57,44 @@
       }
     },
     {
-      "id": "collection",
-      "category": "Collection Resources",
-      "name": "Collection",
-      "description": "What is a collection (set) of resources",
+      "id": "cors",
+      "category": "Miscellaneous",
+      "name": "CORS",
+      "description": "How to deal with CORS",
       "_links": {
         "self": {
-          "href": "/design/topics/collection.json"
+          "href": "/design/topics/cors.json"
         },
         "topicGuidelines": {
-          "href": "/design/topics/collection/guidelines.json"
+          "href": "/design/topics/cors/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "data-standards",
+      "category": "Data",
+      "name": "Standards data",
+      "description": "Which standard use for values like languages, countries, currencies, ...",
+      "_links": {
+        "self": {
+          "href": "/design/topics/data-standards.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/data-standards/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "data-format-date-time",
+      "category": "Data",
+      "name": "Date and Time",
+      "description": "How to deal with date and time data",
+      "_links": {
+        "self": {
+          "href": "/design/topics/data-format-date-time.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/data-format-date-time/guidelines.json"
         }
       }
     },
@@ -39,6 +109,62 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/data-format/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "data-internationalization",
+      "category": "Data",
+      "name": "Internationalization",
+      "description": "Providing internationalized data representation (e.g. adapted to the user's country)",
+      "_links": {
+        "self": {
+          "href": "/design/topics/data-internationalization.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/data-internationalization/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "documentation",
+      "category": "Miscellaneous",
+      "name": "Documentation",
+      "description": "How to produce and/or propose API documentation",
+      "_links": {
+        "self": {
+          "href": "/design/topics/documentation.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/documentation/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "errors",
+      "category": "Error handling",
+      "name": "Errors",
+      "description": "How to handle errors",
+      "_links": {
+        "self": {
+          "href": "/design/topics/errors.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/errors/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "global-design",
+      "category": "API Design",
+      "name": "Global design",
+      "description": "General considerations on API design",
+      "_links": {
+        "self": {
+          "href": "/design/topics/global-design.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/global-design/guidelines.json"
         }
       }
     },
@@ -71,16 +197,16 @@
       }
     },
     {
-      "id": "http-headers",
+      "id": "http-content-negotiation",
       "category": "HTTP Protocol",
-      "name": "HTTP Headers",
-      "description": "How to use standard or custom HTTP headers",
+      "name": "Content negociation and media types",
+      "description": "How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)",
       "_links": {
         "self": {
-          "href": "/design/topics/http-headers.json"
+          "href": "/design/topics/http-content-negotiation.json"
         },
         "topicGuidelines": {
-          "href": "/design/topics/http-headers/guidelines.json"
+          "href": "/design/topics/http-content-negotiation/guidelines.json"
         }
       }
     },
@@ -95,6 +221,370 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-status-200/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-303",
+      "category": "HTTP Status Redirection",
+      "name": "303 See Other",
+      "description": "The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-303.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-303/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-400",
+      "category": "HTTP Status User Error",
+      "name": "400 Bad Request",
+      "description": "The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-400.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-400/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-401",
+      "category": "HTTP Status User Error",
+      "name": "401 Unauthorized",
+      "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. \n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-401.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-401/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-403",
+      "category": "HTTP Status User Error",
+      "name": "403 Forbidden",
+      "description": "The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-403.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-403/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-404",
+      "category": "HTTP Status User Error",
+      "name": "404 Not Found",
+      "description": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-404.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-404/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-405",
+      "category": "HTTP Status User Error",
+      "name": "405 Method Not Allowed",
+      "description": "A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-405.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-405/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-429",
+      "category": "HTTP Status User Error",
+      "name": "429 Too Many Requests",
+      "description": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-429.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-429/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status-standard-error",
+      "category": "Error handling",
+      "name": "Error format",
+      "description": "How to provide information about errors",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status-standard-error.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status-standard-error/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-headers",
+      "category": "HTTP Protocol",
+      "name": "HTTP Headers",
+      "description": "How to use standard or custom HTTP headers",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-headers.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-headers/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-status",
+      "category": "HTTP Protocol",
+      "name": "HTTP Statuses",
+      "description": "General information about HTTP statuses usage",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-status.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-status/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-methods-alternative",
+      "category": "HTTP Methods",
+      "name": "Forbidden methods alternatives",
+      "description": "What to do when only possible HTTP methods are POST and GET",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-methods-alternative.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-methods-alternative/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-methods-post",
+      "category": "HTTP Methods",
+      "name": "POST",
+      "description": "The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.\n",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-methods-post.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-methods-post/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http-methods",
+      "category": "HTTP Methods",
+      "name": "HTTP methods",
+      "description": "General information about HTTP methods usage",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http-methods.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http-methods/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "http",
+      "category": "HTTP Protocol",
+      "name": "HTTP protocol",
+      "description": "General informations about HTTP protocol",
+      "_links": {
+        "self": {
+          "href": "/design/topics/http.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/http/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "hypermedia",
+      "category": "Hypermedia",
+      "name": "Hypermedia",
+      "description": "How to use hypermedia",
+      "_links": {
+        "self": {
+          "href": "/design/topics/hypermedia.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/hypermedia/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "naming-case",
+      "category": "Naming",
+      "name": "Case",
+      "description": "Which case (lowercase, camelCase, ...) to use and when",
+      "_links": {
+        "self": {
+          "href": "/design/topics/naming-case.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/naming-case/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "naming",
+      "category": "Naming",
+      "name": "Naming",
+      "description": "How to name things",
+      "_links": {
+        "self": {
+          "href": "/design/topics/naming.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/naming/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "rate-limiting",
+      "category": "Miscellaneous",
+      "name": "Rate limiting",
+      "description": "How to provide information about how many calls a consumer can do",
+      "_links": {
+        "self": {
+          "href": "/design/topics/rate-limiting.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/rate-limiting/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-multiple",
+      "category": "Resources",
+      "name": "Batch Bulk",
+      "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-multiple.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-multiple/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-relationships",
+      "category": "Resources",
+      "name": "Relationships",
+      "description": "How to define and use relations between resources",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-relationships.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-relationships/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-retrieve-dereference",
+      "category": "Resources",
+      "name": "Dereference Relationships",
+      "description": "How to load a resource and its linked resources in one call",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-retrieve-dereference.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-retrieve-partial",
+      "category": "Resources",
+      "name": "Retrieve resource partially",
+      "description": "How to retrieve partially a resource",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-retrieve-partial.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-retrieve-partial/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "resource-url-format",
+      "category": "Resources",
+      "name": "URL format",
+      "description": "How to design URLs",
+      "_links": {
+        "self": {
+          "href": "/design/topics/resource-url-format.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/resource-url-format/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "security",
+      "category": "Security",
+      "name": "Security",
+      "description": "Security concerns",
+      "_links": {
+        "self": {
+          "href": "/design/topics/security.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/security/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "versioning",
+      "category": "API Lifecycle",
+      "name": "Updates and Versioning",
+      "description": "How to handle API updates and versioning",
+      "_links": {
+        "self": {
+          "href": "/design/topics/versioning.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/versioning/guidelines.json"
+        }
+      }
+    },
+    {
+      "id": "collection",
+      "category": "Collection Resources",
+      "name": "Collection",
+      "description": "What is a collection (set) of resources",
+      "_links": {
+        "self": {
+          "href": "/design/topics/collection.json"
+        },
+        "topicGuidelines": {
+          "href": "/design/topics/collection/guidelines.json"
         }
       }
     },
@@ -169,34 +659,6 @@
       }
     },
     {
-      "id": "http-status-401",
-      "category": "HTTP Status User Error",
-      "name": "401 Unauthorized",
-      "description": "Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. \n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-401.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-401/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-404",
-      "category": "HTTP Status User Error",
-      "name": "404 Not Found",
-      "description": "The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-404.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-404/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "http-status-412",
       "category": "HTTP Status User Error",
       "name": "412 Precondition Failed",
@@ -207,20 +669,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-status-412/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status",
-      "category": "HTTP Protocol",
-      "name": "HTTP Statuses",
-      "description": "General information about HTTP statuses usage",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status/guidelines.json"
         }
       }
     },
@@ -281,20 +729,6 @@
       }
     },
     {
-      "id": "hypermedia",
-      "category": "Hypermedia",
-      "name": "Hypermedia",
-      "description": "How to use hypermedia",
-      "_links": {
-        "self": {
-          "href": "/design/topics/hypermedia.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/hypermedia/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "resource-deletion",
       "category": "Resources",
       "name": "Delete resource",
@@ -305,20 +739,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/resource-deletion/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "resource-retrieve-dereference",
-      "category": "Resources",
-      "name": "Dereference Relationships",
-      "description": "How to load a resource and its linked resources in one call",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-retrieve-dereference.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-retrieve-dereference/guidelines.json"
         }
       }
     },
@@ -337,20 +757,6 @@
       }
     },
     {
-      "id": "resource-url-format",
-      "category": "Resources",
-      "name": "URL format",
-      "description": "How to design URLs",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-url-format.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-url-format/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "resource",
       "category": "Resources",
       "name": "Resource",
@@ -365,34 +771,6 @@
       }
     },
     {
-      "id": "security",
-      "category": "Security",
-      "name": "Security",
-      "description": "Security concerns",
-      "_links": {
-        "self": {
-          "href": "/design/topics/security.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/security/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "versioning",
-      "category": "API Lifecycle",
-      "name": "Versioning",
-      "description": "How to handle API versioning",
-      "_links": {
-        "self": {
-          "href": "/design/topics/versioning.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/versioning/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "developer-experience",
       "category": "Miscellaneous",
       "name": "Developer experience",
@@ -403,90 +781,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/developer-experience/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "rate-limiting",
-      "category": "Miscellaneous",
-      "name": "Rate limiting",
-      "description": "How to provide information about how many calls a consumer can do",
-      "_links": {
-        "self": {
-          "href": "/design/topics/rate-limiting.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/rate-limiting/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "cors",
-      "category": "Miscellaneous",
-      "name": "CORS",
-      "description": "How to deal with CORS",
-      "_links": {
-        "self": {
-          "href": "/design/topics/cors.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/cors/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "documentation",
-      "category": "Miscellaneous",
-      "name": "Documentation",
-      "description": "How to produce and/or propose API documentation",
-      "_links": {
-        "self": {
-          "href": "/design/topics/documentation.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/documentation/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-content-negotiation",
-      "category": "HTTP Protocol",
-      "name": "Content negociation and media types",
-      "description": "How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-content-negotiation.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-content-negotiation/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-405",
-      "category": "HTTP Status User Error",
-      "name": "405 Method Not Allowed",
-      "description": "A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-405.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-405/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-standard-error",
-      "category": "Error handling",
-      "name": "Error format",
-      "description": "How to provide information about errors",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-standard-error.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-standard-error/guidelines.json"
         }
       }
     },
@@ -515,62 +809,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-methods-head/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-methods-post",
-      "category": "HTTP Methods",
-      "name": "POST",
-      "description": "The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-methods-post.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-methods-post/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-methods",
-      "category": "HTTP Methods",
-      "name": "HTTP methods",
-      "description": "General information about HTTP methods usage",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-methods.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-methods/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "global-design",
-      "category": "API Design",
-      "name": "Global design",
-      "description": "General considerations on API design",
-      "_links": {
-        "self": {
-          "href": "/design/topics/global-design.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/global-design/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "resource-relationships",
-      "category": "Resources",
-      "name": "Relationships",
-      "description": "How to define and use relations between resources",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-relationships.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-relationships/guidelines.json"
         }
       }
     },
@@ -631,20 +869,6 @@
       }
     },
     {
-      "id": "http-methods-alternative",
-      "category": "HTTP Methods",
-      "name": "Forbidden methods alternatives",
-      "description": "What to do when only possible HTTP methods are POST and GET",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-methods-alternative.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-methods-alternative/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "resource-id-semantic",
       "category": "Resources",
       "name": "ID with semantic",
@@ -669,20 +893,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/resource-retrieve/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "resource-retrieve-partial",
-      "category": "Resources",
-      "name": "Retrieve resource partially",
-      "description": "How to retrieve partially a resource",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-retrieve-partial.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-retrieve-partial/guidelines.json"
         }
       }
     },
@@ -743,20 +953,6 @@
       }
     },
     {
-      "id": "resource-multiple",
-      "category": "Resources",
-      "name": "Batch Bulk",
-      "description": "How to handle batch/bulk processing/creation/update/... (e.g. handle multiple resources at conce)",
-      "_links": {
-        "self": {
-          "href": "/design/topics/resource-multiple.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/resource-multiple/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "resource-action",
       "category": "Resources",
       "name": "Action resource",
@@ -767,62 +963,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/resource-action/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "collection-filtering",
-      "category": "Collection Resources",
-      "name": "Filtering",
-      "description": "How to select some resources in a collection",
-      "_links": {
-        "self": {
-          "href": "/design/topics/collection-filtering.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/collection-filtering/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "naming",
-      "category": "Naming",
-      "name": "Naming",
-      "description": "How to name things",
-      "_links": {
-        "self": {
-          "href": "/design/topics/naming.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/naming/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "naming-case",
-      "category": "Naming",
-      "name": "Case",
-      "description": "Which case (lowercase, camelCase, ...) to use and when",
-      "_links": {
-        "self": {
-          "href": "/design/topics/naming-case.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/naming-case/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "data-format-date-time",
-      "category": "Data",
-      "name": "Date and Time",
-      "description": "How to deal with date and time data",
-      "_links": {
-        "self": {
-          "href": "/design/topics/data-format-date-time.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/data-format-date-time/guidelines.json"
         }
       }
     },
@@ -865,48 +1005,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/http-status-302/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-303",
-      "category": "HTTP Status Redirection",
-      "name": "303 See Other",
-      "description": "The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-303.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-303/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-400",
-      "category": "HTTP Status User Error",
-      "name": "400 Bad Request",
-      "description": "The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing).\n",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-400.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-400/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http-status-403",
-      "category": "HTTP Status User Error",
-      "name": "403 Forbidden",
-      "description": "The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-403.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-403/guidelines.json"
         }
       }
     },
@@ -991,62 +1089,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/query-parameter/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "asynchronicity",
-      "category": "Asynchronicity",
-      "name": "Asynchronicity",
-      "description": "How to handle long operations",
-      "_links": {
-        "self": {
-          "href": "/design/topics/asynchronicity.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/asynchronicity/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "api-counts",
-      "category": "API Design",
-      "name": "API counts",
-      "description": "How many endpoints/resources in an API?",
-      "_links": {
-        "self": {
-          "href": "/design/topics/api-counts.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/api-counts/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "data-internationalization",
-      "category": "Data",
-      "name": "Internationalization",
-      "description": "Providing internationalized data representation (e.g. adapted to the user's country)",
-      "_links": {
-        "self": {
-          "href": "/design/topics/data-internationalization.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/data-internationalization/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "errors",
-      "category": "Error handling",
-      "name": "Errors",
-      "description": "How to handle errors",
-      "_links": {
-        "self": {
-          "href": "/design/topics/errors.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/errors/guidelines.json"
         }
       }
     },
@@ -1191,34 +1233,6 @@
       }
     },
     {
-      "id": "http-status-429",
-      "category": "HTTP Status User Error",
-      "name": "429 Too Many Requests",
-      "description": "The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http-status-429.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http-status-429/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "http",
-      "category": "HTTP Protocol",
-      "name": "HTTP protocol",
-      "description": "General informations about HTTP protocol",
-      "_links": {
-        "self": {
-          "href": "/design/topics/http.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/http/guidelines.json"
-        }
-      }
-    },
-    {
       "id": "performance",
       "category": "Miscellaneous",
       "name": "Performance and bandwidth",
@@ -1299,20 +1313,6 @@
         },
         "topicGuidelines": {
           "href": "/design/topics/resource-state/guidelines.json"
-        }
-      }
-    },
-    {
-      "id": "data-standards",
-      "category": "Data",
-      "name": "Standards data",
-      "description": "Which standard use for values like languages, countries, currencies, ...",
-      "_links": {
-        "self": {
-          "href": "/design/topics/data-standards.json"
-        },
-        "topicGuidelines": {
-          "href": "/design/topics/data-standards/guidelines.json"
         }
       }
     },
