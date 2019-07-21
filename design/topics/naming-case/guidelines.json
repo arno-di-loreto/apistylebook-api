@@ -196,6 +196,39 @@
     {
       "references": [
         {
+          "name": "The properties of JSON objects must have a consistent naming",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#le-proprieta-degli-oggetti-json-devono-avere-un-naming-consistente",
+          "quote": "snake_case camelCase"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "italian-public-administration",
+          "title": "Interoperability model for the Public Administration",
+          "type": "website",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/",
+          "company": "Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)",
+          "companyLogoUrl": "/media/logos/italianadministration.png",
+          "companyUrl": "https://teamdigitale.governo.it/",
+          "screenshotUrl": "/media/screenshots/agid-interoperability-model.png",
+          "date": "2017-07-20T00:00:00.000Z",
+          "language": "italian",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/italian-public-administration.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/italian-public-administration.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Property names must be snake_case",
           "url": "http://zalando.github.io/restful-api-guidelines/json-guidelines/JsonGuidelines.html#must-property-names-must-be-snakecase-and-never-camelcase"
         }

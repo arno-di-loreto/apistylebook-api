@@ -263,6 +263,43 @@
     {
       "references": [
         {
+          "name": "Directions for use (REST)",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo",
+          "quote": "Where necessary, especially for caching and concurrent access to resources, ETag (of unique version identifiers of resources) should be leveraged"
+        },
+        {
+          "name": "By default, http caching must be disabled",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#di-default-il-caching-http-deve-essere-disabilitato"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "italian-public-administration",
+          "title": "Interoperability model for the Public Administration",
+          "type": "website",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/",
+          "company": "Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)",
+          "companyLogoUrl": "/media/logos/italianadministration.png",
+          "companyUrl": "https://teamdigitale.governo.it/",
+          "screenshotUrl": "/media/screenshots/agid-interoperability-model.png",
+          "date": "2017-07-20T00:00:00.000Z",
+          "language": "italian",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/italian-public-administration.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/italian-public-administration.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Standard request headers",
           "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers",
           "quote": "If-Match, If-None-Match, If-Range"

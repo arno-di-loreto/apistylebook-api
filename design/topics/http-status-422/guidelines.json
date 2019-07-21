@@ -116,6 +116,39 @@
     {
       "references": [
         {
+          "name": "Use the Problem JSON scheme for error responses",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#usare-lo-schema-problem-json-per-le-risposte-di-errore",
+          "quote": "HTTP status 422 if the representation of the request is syntactically correct but semantically non-processable."
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "italian-public-administration",
+          "title": "Interoperability model for the Public Administration",
+          "type": "website",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/",
+          "company": "Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)",
+          "companyLogoUrl": "/media/logos/italianadministration.png",
+          "companyUrl": "https://teamdigitale.governo.it/",
+          "screenshotUrl": "/media/screenshots/agid-interoperability-model.png",
+          "date": "2017-07-20T00:00:00.000Z",
+          "language": "italian",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/italian-public-administration.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/italian-public-administration.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Update Single Resource",
           "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#update-single-resource"
         }

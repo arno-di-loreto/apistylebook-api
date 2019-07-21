@@ -174,6 +174,53 @@ items:
       guideline:
         href: /design/guidelines/heroku-http-api-design-guide.yaml
   - references:
+      - name: Introduction to service interfaces
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_01.html'
+        quote: 'A service therefore consists of an activity, or a series of activities, of a more or less intangible nature, which take place in an exchange between a supplier and a customer, in which the object of the transaction is an intangible asset.'
+      - name: Paradigms of cooperation
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_05.html#paradigmi-di-cooperazione'
+        quote: 'Data sharing, Inter public administration notification, inter public administration composition'
+      - name: SOAP
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_03.html#soap'
+      - name: REST
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#rest'
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+      - name: Comparative considerations (REST vs SOAP vs Message broket)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_06.html#considerazioni-comparative'
+      - name: 'Other approches (Distributed data stores, open data)'
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_07.html#altri-approcci-e-tecnologie-di-integrazione'
+      - name: Paradigms for the design of service interfaces (RPC-like vs resource oriented)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_03_cap_01.html#paradigmi-per-la-progettazione-delle-interfacce-di-servizio'
+      - name: Perimeter of service interfaces
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_03_cap_01.html#perimetro-delle-interfacce-di-servizio'
+        quote: 'So each application server offers service interfaces, however it is still significant to distinguish whether the service interface is offered to interoperate within the domain..., towards other administrations or other subjects with whom a relationship of trust is established ... or externally....'
+      - name: Technical recommendations for REST
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#raccomandazioni-tecniche-per-rest'
+      - name: Technical recommendations for SOAP
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#raccomandazioni-tecniche-per-soap'
+      - name: The european context
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_02.html#il-contesto-europeo'
+        quote: The European Interoperability Framework (EIF) provides guidance to European public administrations on how to operate initiatives related to the issue of interoperability;
+    _embedded:
+      guideline:
+        id: italian-public-administration
+        title: Interoperability model for the Public Administration
+        type: website
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/'
+        company: Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)
+        companyLogoUrl: /media/logos/italianadministration.png
+        companyUrl: 'https://teamdigitale.governo.it/'
+        screenshotUrl: /media/screenshots/agid-interoperability-model.png
+        date: 2017-07-20T00:00:00.000Z
+        language: italian
+        _links:
+          self:
+            href: /design/guidelines/italian-public-administration.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/italian-public-administration.yaml
+  - references:
       - name: Introduction
         url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#3-introduction'
     _embedded:

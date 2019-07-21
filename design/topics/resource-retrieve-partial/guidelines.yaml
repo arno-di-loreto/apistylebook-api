@@ -147,6 +147,28 @@ items:
       guideline:
         href: /design/guidelines/haufe-api-styleguide.yaml
   - references:
+      - name: Optimize bandwidth usage and improve responsiveness
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#ottimizzare-l-uso-della-banda-e-migliorare-la-responsivita'
+        quote: 'GET /resources/123?fields=(name,partner(name))'
+    _embedded:
+      guideline:
+        id: italian-public-administration
+        title: Interoperability model for the Public Administration
+        type: website
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/'
+        company: Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)
+        companyLogoUrl: /media/logos/italianadministration.png
+        companyUrl: 'https://teamdigitale.governo.it/'
+        screenshotUrl: /media/screenshots/agid-interoperability-model.png
+        date: 2017-07-20T00:00:00.000Z
+        language: italian
+        _links:
+          self:
+            href: /design/guidelines/italian-public-administration.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/italian-public-administration.yaml
+  - references:
       - name: Standard request headers
         url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#75-standard-request-headers'
         quote: 'Prefer return=minimal, return=representation'

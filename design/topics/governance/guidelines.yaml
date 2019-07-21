@@ -133,6 +133,29 @@ items:
       guideline:
         href: /design/guidelines/haufe-api-styleguide.yaml
   - references:
+      - name: Catalog of API/Services
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_05.html#catalogo-delle-api-servizi'
+      - name: Model governance
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_05.html#governance-del-modello'
+    _embedded:
+      guideline:
+        id: italian-public-administration
+        title: Interoperability model for the Public Administration
+        type: website
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/'
+        company: Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)
+        companyLogoUrl: /media/logos/italianadministration.png
+        companyUrl: 'https://teamdigitale.governo.it/'
+        screenshotUrl: /media/screenshots/agid-interoperability-model.png
+        date: 2017-07-20T00:00:00.000Z
+        language: italian
+        _links:
+          self:
+            href: /design/guidelines/italian-public-administration.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/italian-public-administration.yaml
+  - references:
       - name: Interpreting The Guidelines
         url: 'https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#4-interpreting-the-guidelines'
       - name: When to version

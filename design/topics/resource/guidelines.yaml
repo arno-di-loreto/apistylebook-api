@@ -158,6 +158,31 @@ items:
       guideline:
         href: /design/guidelines/haufe-api-styleguide.yaml
   - references:
+      - name: The concept of service
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_01.html#il-concetto-di-servizio'
+        quote: |
+          We can identify the types of properties, functional property, which expresses "what" we get from service; quality of the service, referring to characteristics (for example, delivery time) that specify benefits or perceived utility associated with the service; non-functional properties, expressing "how" the service is delivered to us.
+      - name: CRUD Access to Resources
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#accesso-crud-a-risorse'
+    _embedded:
+      guideline:
+        id: italian-public-administration
+        title: Interoperability model for the Public Administration
+        type: website
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/'
+        company: Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)
+        companyLogoUrl: /media/logos/italianadministration.png
+        companyUrl: 'https://teamdigitale.governo.it/'
+        screenshotUrl: /media/screenshots/agid-interoperability-model.png
+        date: 2017-07-20T00:00:00.000Z
+        language: italian
+        _links:
+          self:
+            href: /design/guidelines/italian-public-administration.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/italian-public-administration.yaml
+  - references:
       - name: Read Single Resource
         url: 'https://github.com/paypal/api-standards/blob/master/api-style-guide.md#read-single-resource'
       - name: Sub-Resource Singleton

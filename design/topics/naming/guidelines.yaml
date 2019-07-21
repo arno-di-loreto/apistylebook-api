@@ -181,6 +181,31 @@ items:
       guideline:
         href: /design/guidelines/heroku-http-api-design-guide.yaml
   - references:
+      - name: Uniformity and naming (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#uniformita-e-naming'
+      - name: Uniformity and naming (SOAP)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_03.html#uniformita-e-naming'
+      - name: Resource collections can use plural names
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#le-collezioni-di-risorse-possono-usare-nomi-al-plurale'
+    _embedded:
+      guideline:
+        id: italian-public-administration
+        title: Interoperability model for the Public Administration
+        type: website
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/'
+        company: Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)
+        companyLogoUrl: /media/logos/italianadministration.png
+        companyUrl: 'https://teamdigitale.governo.it/'
+        screenshotUrl: /media/screenshots/agid-interoperability-model.png
+        date: 2017-07-20T00:00:00.000Z
+        language: italian
+        _links:
+          self:
+            href: /design/guidelines/italian-public-administration.yaml
+    _links:
+      guideline:
+        href: /design/guidelines/italian-public-administration.yaml
+  - references:
       - name: Collection Resources
         url: 'https://github.com/paypal/api-standards/blob/master/api-style-guide.md#collection-resources'
         quote: Collection resource names should be plural nouns

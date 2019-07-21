@@ -223,6 +223,38 @@
     {
       "references": [
         {
+          "name": "REST interface processing rules",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "italian-public-administration",
+          "title": "Interoperability model for the Public Administration",
+          "type": "website",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/",
+          "company": "Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)",
+          "companyLogoUrl": "/media/logos/italianadministration.png",
+          "companyUrl": "https://teamdigitale.governo.it/",
+          "screenshotUrl": "/media/screenshots/agid-interoperability-model.png",
+          "date": "2017-07-20T00:00:00.000Z",
+          "language": "italian",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/italian-public-administration.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/italian-public-administration.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Read Single Resource",
           "url": "https://github.com/paypal/api-standards/blob/master/api-style-guide.md#read-single-resource"
         }

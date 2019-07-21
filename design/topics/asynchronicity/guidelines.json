@@ -118,6 +118,53 @@
     {
       "references": [
         {
+          "name": "Message broker",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker"
+        },
+        {
+          "name": "Non blocking profile",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profili-non-bloccanti",
+          "quote": "In the following chapter the non-blocking interaction profiles will be shown, in which a user submits a request and this is only taken in charge immediately, while its satisfaction can take place in a deferred manner."
+        },
+        {
+          "name": "Non-blocking RPC PUSH profiles (callback based)",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profili-non-bloccante-rpc-push-basato-su-callback",
+          "quote": "This particular case, called RPC PUSH, can be used if the user in turn has the possibility to expose a service interface for receiving replies."
+        },
+        {
+          "name": "Non-blocking profile RPC PULL (busy waiting)",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profilo-non-bloccante-rpc-pull-busy-waiting",
+          "quote": "the provider provides a searchable address to verify the processing status of a request"
+        }
+      ],
+      "_embedded": {
+        "guideline": {
+          "id": "italian-public-administration",
+          "title": "Interoperability model for the Public Administration",
+          "type": "website",
+          "url": "https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/",
+          "company": "Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)",
+          "companyLogoUrl": "/media/logos/italianadministration.png",
+          "companyUrl": "https://teamdigitale.governo.it/",
+          "screenshotUrl": "/media/screenshots/agid-interoperability-model.png",
+          "date": "2017-07-20T00:00:00.000Z",
+          "language": "italian",
+          "_links": {
+            "self": {
+              "href": "/design/guidelines/italian-public-administration.json"
+            }
+          }
+        }
+      },
+      "_links": {
+        "guideline": {
+          "href": "/design/guidelines/italian-public-administration.json"
+        }
+      }
+    },
+    {
+      "references": [
+        {
           "name": "Long running API faults",
           "url": "https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#55-long-running-api-faults"
         },

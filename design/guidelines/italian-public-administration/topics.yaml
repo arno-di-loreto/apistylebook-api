@@ -1,0 +1,772 @@
+items:
+  - references:
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+      - name: Non blocking profile
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profili-non-bloccanti'
+        quote: 'In the following chapter the non-blocking interaction profiles will be shown, in which a user submits a request and this is only taken in charge immediately, while its satisfaction can take place in a deferred manner.'
+      - name: Non-blocking RPC PUSH profiles (callback based)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profili-non-bloccante-rpc-push-basato-su-callback'
+        quote: 'This particular case, called RPC PUSH, can be used if the user in turn has the possibility to expose a service interface for receiving replies.'
+      - name: Non-blocking profile RPC PULL (busy waiting)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/profili-non-bloccanti.html#profilo-non-bloccante-rpc-pull-busy-waiting'
+        quote: the provider provides a searchable address to verify the processing status of a request
+    _embedded:
+      topic:
+        id: asynchronicity
+        category: Asynchronicity
+        name: Asynchronicity
+        description: How to handle long operations
+        _links:
+          self:
+            href: /design/topics/asynchronicity.yaml
+          topicGuidelines:
+            href: /design/topics/asynchronicity/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/asynchronicity.yaml
+  - references:
+      - name: Introduction to service interfaces
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_01.html'
+        quote: 'A service therefore consists of an activity, or a series of activities, of a more or less intangible nature, which take place in an exchange between a supplier and a customer, in which the object of the transaction is an intangible asset.'
+      - name: Paradigms of cooperation
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_05.html#paradigmi-di-cooperazione'
+        quote: 'Data sharing, Inter public administration notification, inter public administration composition'
+      - name: SOAP
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_03.html#soap'
+      - name: REST
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#rest'
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+      - name: Comparative considerations (REST vs SOAP vs Message broket)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_06.html#considerazioni-comparative'
+      - name: 'Other approches (Distributed data stores, open data)'
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_07.html#altri-approcci-e-tecnologie-di-integrazione'
+      - name: Paradigms for the design of service interfaces (RPC-like vs resource oriented)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_03_cap_01.html#paradigmi-per-la-progettazione-delle-interfacce-di-servizio'
+      - name: Perimeter of service interfaces
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_03_cap_01.html#perimetro-delle-interfacce-di-servizio'
+        quote: 'So each application server offers service interfaces, however it is still significant to distinguish whether the service interface is offered to interoperate within the domain..., towards other administrations or other subjects with whom a relationship of trust is established ... or externally....'
+      - name: Technical recommendations for REST
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#raccomandazioni-tecniche-per-rest'
+      - name: Technical recommendations for SOAP
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#raccomandazioni-tecniche-per-soap'
+      - name: The european context
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_02.html#il-contesto-europeo'
+        quote: The European Interoperability Framework (EIF) provides guidance to European public administrations on how to operate initiatives related to the issue of interoperability;
+    _embedded:
+      topic:
+        id: global-design
+        category: API Design
+        name: Global design
+        description: General considerations on API design
+        _links:
+          self:
+            href: /design/topics/global-design.yaml
+          topicGuidelines:
+            href: /design/topics/global-design/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/global-design.yaml
+  - references:
+      - name: Resource collections can use plural names
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#le-collezioni-di-risorse-possono-usare-nomi-al-plurale'
+      - name: Code structured data with JSON objects
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#codificare-dati-strutturati-con-oggetti-json'
+        quote: the payload of a response containing more than one entry returns an object containing a list and not directly a list.
+    _embedded:
+      topic:
+        id: collection
+        category: Collection Resources
+        name: Collection
+        description: What is a collection (set) of resources
+        _links:
+          self:
+            href: /design/topics/collection.yaml
+          topicGuidelines:
+            href: /design/topics/collection/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/collection.yaml
+  - references:
+      - name: Data uniformity
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_01.html#uniformita-dei-dati'
+      - name: Data format (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#formato-dei-dati'
+    _embedded:
+      topic:
+        id: data-format
+        category: Data
+        name: Data format
+        description: which data format use
+        _links:
+          self:
+            href: /design/topics/data-format.yaml
+          topicGuidelines:
+            href: /design/topics/data-format/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-format.yaml
+  - references:
+      - name: Use the properties according to standard nomenclatures
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#utilizzare-le-properties-secondo-nomenclature-standard'
+    _embedded:
+      topic:
+        id: data-standards
+        category: Data
+        name: Standards data
+        description: 'Which standard use for values like languages, countries, currencies, ...'
+        _links:
+          self:
+            href: /design/topics/data-standards.yaml
+          topicGuidelines:
+            href: /design/topics/data-standards/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/data-standards.yaml
+  - references:
+      - name: REST
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#rest'
+        quote: 'For these reasons the ModI imposes the use of OpenAPI v3. An OpenAPI file allows you to describe the entire interface (available endpoints and operations on each endpoint, input and output parameters for each operation, authentication methods, contact information, license, terms of use, etc.).'
+    _embedded:
+      topic:
+        id: documentation
+        category: Miscellaneous
+        name: Documentation
+        description: How to produce and/or propose API documentation
+        _links:
+          self:
+            href: /design/topics/documentation.yaml
+          topicGuidelines:
+            href: /design/topics/documentation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/documentation.yaml
+  - references:
+      - name: Use the Problem JSON scheme for error responses
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#usare-lo-schema-problem-json-per-le-risposte-di-errore'
+    _embedded:
+      topic:
+        id: errors
+        category: Error handling
+        name: Errors
+        description: How to handle errors
+        _links:
+          self:
+            href: /design/topics/errors.yaml
+          topicGuidelines:
+            href: /design/topics/errors/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/errors.yaml
+  - references:
+      - name: Catalog of API/Services
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_05.html#catalogo-delle-api-servizi'
+      - name: Model governance
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_01_cap_05.html#governance-del-modello'
+    _embedded:
+      topic:
+        id: governance
+        category: API Lifecycle
+        name: Governance
+        description: 'How to ensure API governance (advertise, consistency, ...)'
+        _links:
+          self:
+            href: /design/topics/governance.yaml
+          topicGuidelines:
+            href: /design/topics/governance/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/governance.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: 'Where necessary, especially for caching and concurrent access to resources, ETag (of unique version identifiers of resources) should be leveraged'
+      - name: 'By default, http caching must be disabled'
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#di-default-il-caching-http-deve-essere-disabilitato'
+    _embedded:
+      topic:
+        id: http-caching
+        category: HTTP Protocol
+        name: Caching
+        description: How to use and provide relevant caching informations
+        _links:
+          self:
+            href: /design/topics/http-caching.yaml
+          topicGuidelines:
+            href: /design/topics/http-caching/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-caching.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+      - name: Avoid custom Content-Types
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#evitare-content-type-personalizzati'
+    _embedded:
+      topic:
+        id: http-content-negotiation
+        category: HTTP Protocol
+        name: Content negociation and media types
+        description: 'How to describe your API data format and/or propose different formats (like json, yaml, xml atom, ...)'
+        _links:
+          self:
+            href: /design/topics/http-content-negotiation.yaml
+          topicGuidelines:
+            href: /design/topics/http-content-negotiation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-content-negotiation.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: The REST service interface must use the HTTP verb most suitable for the operation as indicated in RFC 7231
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+        quote: 'Although, depending on the implementations, the different REST service interfaces for accessing message brokers differ in functionality offered and ways of modeling queues, topics / subscriptions, the following behaviors of HTTP methods can be abstracted'
+    _embedded:
+      topic:
+        id: http-methods
+        category: HTTP Methods
+        name: HTTP methods
+        description: General information about HTTP methods usage
+        _links:
+          self:
+            href: /design/topics/http-methods.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: The REST service interface must use the HTTP verb most suitable for the operation as indicated in RFC 7231
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+        quote: the GET method is used to consume messages from queues and topics / subscriptions;
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-methods-get
+        category: HTTP Methods
+        name: GET
+        description: |
+          The GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.
+        _links:
+          self:
+            href: /design/topics/http-methods-get.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-get/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-get.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: The REST service interface must use the HTTP verb most suitable for the operation as indicated in RFC 7231
+    _embedded:
+      topic:
+        id: http-methods-head
+        category: HTTP Methods
+        name: HEAD
+        description: |
+          The HEAD method asks for a response identical to that of a GET request, but without the response body. This is useful for retrieving meta-information written in response headers, without having to transport the entire content.
+        _links:
+          self:
+            href: /design/topics/http-methods-head.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-head/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-head.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-methods-patch
+        category: HTTP Methods
+        name: PATCH
+        description: |
+          The PATCH method applies partial modifications to a resource.
+        _links:
+          self:
+            href: /design/topics/http-methods-patch.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-patch/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-patch.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: The REST service interface must use the HTTP verb most suitable for the operation as indicated in RFC 7231
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+        quote: The PUT method is usually used to modify the properties of topic / subscriptions and queues.
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-methods-put
+        category: HTTP Methods
+        name: PUT
+        description: |
+          The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
+        _links:
+          self:
+            href: /design/topics/http-methods-put.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-put/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-put.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: The REST service interface must use the HTTP verb most suitable for the operation as indicated in RFC 7231
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+        quote: the POST method is used for sending messages and creating topics / subscriptions and queues;
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-methods-post
+        category: HTTP Methods
+        name: POST
+        description: |
+          The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI. The data POSTed might be, for example, an annotation for existing resources; a message for a bulletin board, newsgroup, mailing list, or comment thread; a block of data that is the result of submitting a web form to a data-handling process; or an item to add to a database.
+        _links:
+          self:
+            href: /design/topics/http-methods-post.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-post/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-post.yaml
+  - references:
+      - name: Directions for use (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#indicazioni-di-utilizzo'
+        quote: The REST service interface must use the HTTP verb most suitable for the operation as indicated in RFC 7231
+      - name: Message broker
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_05.html#message-broker'
+        quote: the DELETE method is used for deleting topics / subscriptions and queues and in some cases to signal the fact that a message has been consumed.
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-methods-delete
+        category: HTTP Methods
+        name: DELETE
+        description: The DELETE method deletes the specified resource.
+        _links:
+          self:
+            href: /design/topics/http-methods-delete.yaml
+          topicGuidelines:
+            href: /design/topics/http-methods-delete/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-methods-delete.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status
+        category: HTTP Protocol
+        name: HTTP Statuses
+        description: General information about HTTP statuses usage
+        _links:
+          self:
+            href: /design/topics/http-status.yaml
+          topicGuidelines:
+            href: /design/topics/http-status/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-200
+        category: HTTP Status Success
+        name: 200 OK
+        description: 'Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request, the response will contain an entity describing or containing the result of the action.'
+        _links:
+          self:
+            href: /design/topics/http-status-200.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-200/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-200.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-201
+        category: HTTP Status Success
+        name: 201 Created
+        description: 'The request has been fulfilled, resulting in the creation of a new resource.'
+        _links:
+          self:
+            href: /design/topics/http-status-201.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-201/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-201.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-204
+        category: HTTP Status Success
+        name: 204 No Content
+        description: The server successfully processed the request and is not returning any content.
+        _links:
+          self:
+            href: /design/topics/http-status-204.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-204/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-204.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-404
+        category: HTTP Status User Error
+        name: 404 Not Found
+        description: The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.
+        _links:
+          self:
+            href: /design/topics/http-status-404.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-404/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-404.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-405
+        category: HTTP Status User Error
+        name: 405 Method Not Allowed
+        description: |
+          A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.
+        _links:
+          self:
+            href: /design/topics/http-status-405.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-405/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-405.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-409
+        category: HTTP Status User Error
+        name: 409 Conflict
+        description: |
+          Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.
+        _links:
+          self:
+            href: /design/topics/http-status-409.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-409/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-409.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: http-status-415
+        category: HTTP Status User Error
+        name: 415 Unsupported Media Type
+        description: 'The request entity has a media type which the server or resource does not support. For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.'
+        _links:
+          self:
+            href: /design/topics/http-status-415.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-415/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-415.yaml
+  - references:
+      - name: Use the Problem JSON scheme for error responses
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#usare-lo-schema-problem-json-per-le-risposte-di-errore'
+        quote: HTTP status 422 if the representation of the request is syntactically correct but semantically non-processable.
+    _embedded:
+      topic:
+        id: http-status-422
+        category: HTTP Status User Error
+        name: 422 Unprocessable Entity
+        description: The request was well-formed but was unable to be followed due to semantic errors.
+        _links:
+          self:
+            href: /design/topics/http-status-422.yaml
+          topicGuidelines:
+            href: /design/topics/http-status-422/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/http-status-422.yaml
+  - references:
+      - name: REST
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#rest'
+        quote: 'According to this approach, by accessing a resource, the server''s response contains hyperlinks to other actions that can be performed on the resource'
+      - name: Use absolute URIs in the results
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#usare-uri-assoluti-nei-risultati'
+    _embedded:
+      topic:
+        id: hypermedia
+        category: Hypermedia
+        name: Hypermedia
+        description: How to use hypermedia
+        _links:
+          self:
+            href: /design/topics/hypermedia.yaml
+          topicGuidelines:
+            href: /design/topics/hypermedia/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/hypermedia.yaml
+  - references:
+      - name: Optimize bandwidth usage and improve responsiveness
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#ottimizzare-l-uso-della-banda-e-migliorare-la-responsivita'
+    _embedded:
+      topic:
+        id: performance
+        category: Miscellaneous
+        name: Performance and bandwidth
+        description: How to deal with high traffic or consumers with low bandwith
+        _links:
+          self:
+            href: /design/topics/performance.yaml
+          topicGuidelines:
+            href: /design/topics/performance/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/performance.yaml
+  - references:
+      - name: The properties of JSON objects must have a consistent naming
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#le-proprieta-degli-oggetti-json-devono-avere-un-naming-consistente'
+        quote: snake_case camelCase
+    _embedded:
+      topic:
+        id: naming-case
+        category: Naming
+        name: Case
+        description: 'Which case (lowercase, camelCase, ...) to use and when'
+        _links:
+          self:
+            href: /design/topics/naming-case.yaml
+          topicGuidelines:
+            href: /design/topics/naming-case/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/naming-case.yaml
+  - references:
+      - name: Uniformity and naming (REST)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#uniformita-e-naming'
+      - name: Uniformity and naming (SOAP)
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_03.html#uniformita-e-naming'
+      - name: Resource collections can use plural names
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#le-collezioni-di-risorse-possono-usare-nomi-al-plurale'
+    _embedded:
+      topic:
+        id: naming
+        category: Naming
+        name: Naming
+        description: How to name things
+        _links:
+          self:
+            href: /design/topics/naming.yaml
+          topicGuidelines:
+            href: /design/topics/naming/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/naming.yaml
+  - references:
+      - name: The concept of service
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_01.html#il-concetto-di-servizio'
+        quote: |
+          We can identify the types of properties, functional property, which expresses "what" we get from service; quality of the service, referring to characteristics (for example, delivery time) that specify benefits or perceived utility associated with the service; non-functional properties, expressing "how" the service is delivered to us.
+      - name: CRUD Access to Resources
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#accesso-crud-a-risorse'
+    _embedded:
+      topic:
+        id: resource
+        category: Resources
+        name: Resource
+        description: General informations about resources
+        _links:
+          self:
+            href: /design/topics/resource.yaml
+          topicGuidelines:
+            href: /design/topics/resource/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource.yaml
+  - references:
+      - name: Optimize bandwidth usage and improve responsiveness
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/regole-comuni-rest-soap.html#ottimizzare-l-uso-della-banda-e-migliorare-la-responsivita'
+        quote: 'GET /resources/123?fields=(name,partner(name))'
+    _embedded:
+      topic:
+        id: resource-retrieve-partial
+        category: Resources
+        name: Retrieve resource partially
+        description: How to retrieve partially a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve-partial.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve-partial/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve-partial.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: resource-retrieve
+        category: Resources
+        name: Retrieve resource
+        description: How to retrieve a resource
+        _links:
+          self:
+            href: /design/topics/resource-retrieve.yaml
+          topicGuidelines:
+            href: /design/topics/resource-retrieve/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-retrieve.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: resource-creation
+        category: Resources
+        name: Create resource
+        description: How to create resources
+        _links:
+          self:
+            href: /design/topics/resource-creation.yaml
+          topicGuidelines:
+            href: /design/topics/resource-creation/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-creation.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: resource-update
+        category: Resources
+        name: Update resource
+        description: How to update a resource
+        _links:
+          self:
+            href: /design/topics/resource-update.yaml
+          topicGuidelines:
+            href: /design/topics/resource-update/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-update.yaml
+  - references:
+      - name: REST interface processing rules
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/profili-di-interazione/accesso-crud-a-risorse.html#regole-di-processamento'
+    _embedded:
+      topic:
+        id: resource-deletion
+        category: Resources
+        name: Delete resource
+        description: How to delete resources
+        _links:
+          self:
+            href: /design/topics/resource-deletion.yaml
+          topicGuidelines:
+            href: /design/topics/resource-deletion/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/resource-deletion.yaml
+  - references:
+      - name: Security concepts
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_02.html'
+        quote: the section focuses on the use of security protocols and techniques based on the manipulation of network messages. The section will also refer to how the security requirements can be variable depending on the application scenario and the use case.
+      - name: Security
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04_cap_00.html'
+        quote: This document describes the security profiles identified by AgID that the providers must use to satisfy the needs expressed through functional and non-functional requirements.
+      - name: Channel security and / or identification of organizations
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/sicurezza-di-canale-eo-autenticazione-delle-organizzazioni.html'
+      - name: User (consumer) access
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/autenticazione-del-soggetto-richiedente.html'
+      - name: Integrity of SOAP message
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/integrita.html#idas03-integrita-della-payload-del-messaggio-soap'
+        quote: 'This profile extends IDAS01 or IDAS02 , adding to the communication between user and provider at the message level integrity of the message payload.'
+      - name: Integrity of REST message
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/integrita.html#idar03-integrita-della-payload-messaggio-rest'
+        quote: 'This profile extends IDAR01 or IDAR02 , adding to the communication between user and provider at the message level integrity of the message payload.'
+      - name: Confidentiality and user (consumer) authentication
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/soluzioni-di-sicurezza.html#soluzione-per-confidenzialita-ed-autenticazione-del-soggetto-fruitore'
+      - name: Non repudiation of transactions
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_04/soluzioni-di-sicurezza.html#soluzioni-per-la-non-ripudiabilita-della-trasmissione'
+      - name: REST API safety
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_04.html#sicurezza'
+        quote: 'JOSE, JWT'
+      - name: SOAP service safety
+        url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/it/bozza/doc/doc_02_cap_03.html#sicurezza'
+        quote: 'The Basic Security Profile 1.1, based on the WS-Security extension, suggests the use of SAML 2.0. As mentioned, with respect to authentication and authorization technologies, there are some application domains for which OAuth2 or OpenID are more appropriate.'
+    _embedded:
+      topic:
+        id: security
+        category: Security
+        name: Security
+        description: Security concerns
+        _links:
+          self:
+            href: /design/topics/security.yaml
+          topicGuidelines:
+            href: /design/topics/security/guidelines.yaml
+    _links:
+      topic:
+        href: /design/topics/security.yaml
+_embedded:
+  guideline:
+    id: italian-public-administration
+    title: Interoperability model for the Public Administration
+    type: website
+    url: 'https://docs.italia.it/italia/piano-triennale-ict/lg-modellointeroperabilita-docs/'
+    company: Agenzia per l'Italia Digital & Team per la trasformazione digital (Italian administration)
+    companyLogoUrl: /media/logos/italianadministration.png
+    companyUrl: 'https://teamdigitale.governo.it/'
+    screenshotUrl: /media/screenshots/agid-interoperability-model.png
+    date: 2017-07-20T00:00:00.000Z
+    language: italian
+    _links:
+      self:
+        href: /design/guidelines/italian-public-administration.yaml
+_links:
+  self:
+    href: /design/guidelines/italian-public-administration/topics.yaml
+  guideline:
+    href: /design/guidelines/italian-public-administration.yaml
